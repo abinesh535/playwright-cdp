@@ -1,0 +1,108 @@
+{
+  "cookies": [
+    {
+      "name": ".AspNetCore.Antiforgery.VyLW6ORzMgk",
+      "value": "CfDJ8PZxArxnyQJIroqYZV2ioP2709pCM45duWKO9w6hk1HoBhWI39u6jNAhNy_cl6gLIMbhbJURdJM83nba-0BTtE9I_TDw44NKwK8_7T45d7U65lSlMonQfw5-r35CeVfjBgFEBmdY35X2AchNgX6gZ64",
+      "domain": "staging.kantimehealth.net",
+      "path": "/identity/v2",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09ABCLyOF3whDx0FYBqIVwsYq9TLJSq0T0DDGgO_tVd28SMatAfaZKKp73kFXhyohTMBSDCepQb2oEjFv_gv6ZR5E",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1781522831.877205,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IdentityV2.Session.Staging",
+      "value": "CfDJ8PZxArxnyQJIroqYZV2ioP3Lp2UIeyql2dfdetYTk2MXSovmNAOSpjGTOtt9uAfEuH8en%2FkX7x3clVsyWx8bjeeu2q%2Fm3Dk%2Bb%2FxOV26dsAkbpyDNkT4RX4obuFrltNWN5tJQxrX%2FsKFHMSprxkafqj2gV6owvAeBWqid%2BYiKKVgA",
+      "domain": "staging.kantimehealth.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "kt_session_id",
+      "value": "e3acf043ecfa4e3590e1877a91ea5d81",
+      "domain": "staging.kantimehealth.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ASP.NET_SessionId",
+      "value": "sxajeyerncolx2yuqxcxlylb",
+      "domain": "staging.kantimehealth.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "access_token",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjQ2NzhGOTY3RUQyQTQwOEYwMzUwNUEwM0M5OUFDRTcyMUE2QTQwMTUiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJhdXRsb2dpbkBwZXRlci5vcmciLCJhbXIiOlsicHdkIl0sImF1ZCI6WyJoY20iLCJoaCIsInBheXJvbGwiXSwicHJvZHVjdF9hY2Nlc3NfdHlwZSI6WyJoY206ZGlyZWN0IiwiaGg6ZGlyZWN0IiwicGF5cm9sbDplbWJlZGRlZCJdLCJmaXJzdG5hbWUiOiJUSE9NQVMiLCJsYXN0bmFtZSI6IkFSRU5UU0VOIiwidWlkIjoiMTA5NTIwOSIsInBpZCI6IjEyNDUiLCJpY29kZSI6IlN0YWdpbmciLCJ1dHlwZSI6ImFnZW5jeV9jbGluaWNpYW4iLCJlbnRpdGllcyI6eyJwcm9kdWN0IjoiaGNtIiwiZW50aXR5X2lkIjoiMTI4MzEzIn0sIm5iZiI6MTc2NTk3MDgzMiwiZXhwIjoxNzY1OTc0NDMyLCJpc3MiOiJodHRwczovL3N0YWdpbmcua2FudGltZWhlYWx0aC5uZXQvaWRlbnRpdHkvdjIifQ.gzweIqbA_Ewpwn4yWGc_DjNj2T45gYq1erkASMe9DFQVLxk15NFfJhIL-eTQrAvDckm5YJovVEJNnCXOoWrLbSCw2h0jqjc_AZXYPg6gIE3Yi64G9wjgwwUkYhG75RaQMidAyapsKYOHA1NzE7w3iPNm-c-oM-zqE_jURC0l6EE-o_GSy4EUKI6YMiniYvGcsGm4JKxa6FRegqsQwv6k4HCuekIMR9W-pJNujn0kap3bqt0KASuV_6Efs7qI1lXdQVvun54sq9kbcyOZmOh9No4M1kBMh-673eWrH_olOAXYEQ8p4-Z5UcMkrLZ5DXRr04pMS4kpETr6w3czXAb0mjAl06CFLrQ0BvhIHWLRL0mbp0L0m8b2H790cQEdCVPIpPBfw-czjWyloyvsSkDm33VAiPI-yUx0Y8g0lY5hRm15FXBCharbmNVGIfPW3RvNHR4qjSDoFLkcbiaUqFQBw2kHz35msGsd2Q45Jtr0hLxvc6tYy_jIotAVmB5kIUQjWSt7LZK9pgl5Pkz5L9_E_wDeeePaZe0kbd1WWf4CJinXTv1GBa2VHmFKDt42_aXnW9OsCMvxPV8wa6-nci5dh3xPLY48-1ETpkSWcn1HG4cV2L7LqJKJilBWrFhMcbdpG6AlD7Di-F6Pz-JTclYQucGCPKM-iCGEFli86D2_gbo",
+      "domain": "staging.kantimehealth.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "refresh_token",
+      "value": "711b658796dca82a32bfd91368f918fd513e49d337f34064f8583a4026fc7ac4",
+      "domain": "staging.kantimehealth.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cookie_UserID",
+      "value": "UserID=305",
+      "domain": "staging.kantimehealth.net",
+      "path": "/",
+      "expires": 1773743235.005448,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://staging.kantimehealth.net",
+      "localStorage": [
+        {
+          "name": "_grecaptcha",
+          "value": "09ABCLyOE9pN6S54O_7oJPShkfTVmUsRS65ZPg6ax70fVMWodwQBrg0TdjNrQde5V7K0HToPjBc5CvJyAVvHQ4_nvHXn7kUBpWs6WVj3j1pDjruKbqscR7bAYkbYt3n-Og"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "cWt5cHdjMXk2cnVxdw=="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aADnWZkFp2YQUMTZorkiuSOI8cZ4SFqqu3J4sSeL5XDG_gsnEjqh4CWzv7ut-ZMLxiowRdl4"
+        }
+      ]
+    }
+  ]
+}
