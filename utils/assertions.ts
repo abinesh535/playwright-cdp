@@ -1,39 +1,98 @@
 import { expect, Page, Locator } from '@playwright/test';
+import { createauth } from '../pages/auth';
+import { faker } from '@faker-js/faker';
 
 
 export class Assert {
 
-    readonly duplicate:Locator;
-    readonly acceptconfirm:Locator;
-    constructor(private page: Page) {
+  readonly duplicate: Locator;
+  readonly acceptconfirm: Locator;
+  readonly auth: createauth;
+  readonly validateauthnumber: Locator
+  readonly validatepayer: Locator
+  readonly validateservice: Locator;
 
-    this.duplicate=page.locator(`//div[contains(@class,'bg-body p-3 !pt-0')]//div[contains(@class,'rounded-sm border')]`)
-    this.acceptconfirm=page.getByRole('dialog');
-}
+
+  constructor(private page: Page) {
+
+    this.duplicate = page.locator(`//div[contains(@class,'bg-body p-3 !pt-0')]//div[contains(@class,'rounded-sm border')]`)
+    this.acceptconfirm = page.getByRole('dialog');
+    this.auth = new createauth(page);
+    this.validateauthnumber = page.locator(`//*[@name='auth_number']`);
+    this.validatepayer = page.locator(`(//*[contains(@class,'whitespace-nowrap rounded-md font-medium ring') and @type='button'])[1]`)
+    this.validateservice = page.locator(`(//*[contains(@class,'whitespace-nowrap rounded-md font-medium ring') and @type='button'])[2]`)
+
+  }
 
   async hasurl() {
+    try {
+      await expect(this.page).toHaveURL(/intake-profile/);
+      console.log("✅URL check PASS — intake-profile present");
+    } catch (error) {
+      console.log("❌ URL check FAIL — intake-profile NOT found");
+    }
+  }
+  async duplicatecheck() {
+    try {
+      await expect(this.duplicate).toBeHidden();
+      console.log("✅ Duplicate check PASS — duplicate element is hidden");
+    } catch (error) {
+      console.log("❌ Duplicate check FAIL — duplicate element is visible");
+    }
+  }
+
+  async acceptintakediv() {
+    try {
+      await expect(this.acceptconfirm).toBeVisible({ timeout: 50000 });
+      console.log("✅ Accept intake confirmation appeared");
+    } catch (error) {
+      console.log(" ❌Accept intake confirmation not appeared");
+    }
+  }
+
+  async authurl() {
+    try {
+      await expect(this.page).toHaveURL(/edit-auth/);
+      console.log("✅ URL check PASS — Edit-manual-authorization page present");
+    } catch (error) {
+      console.log("❌ URL check FAIL — Edit-manual-authorization page NOT found");
+    }
+  }
+
+  async validateauthdata() {
+    const fields = [
+      { locator: this.validateauthnumber, name: 'authorization number' },
+      { locator: this.validatepayer, name: 'payer' },
+      { locator: this.validateservice, name: 'service' },
+      { locator: this.auth.selectstartdate, name: 'start date' },
+      { locator: this.auth.selectenddate, name: 'end date' },
+    ];
+
+    for (const check of fields) {
       try {
-    await expect(this.page).toHaveURL(/intake-profile/);
-    console.log(" URL check PASS — intake-profile present");
-  } catch (error) {
-    console.log(" URL check FAIL — intake-profile NOT found");
+        await expect(check.locator).not.toBeEmpty();
+        console.log(`✅ Auth data check PASS — ${check.name} present`);
+      } catch (error) {
+        console.log(`❌ Auth data check FAIL — ${check.name} NOT found`);
+      }
+
+    }
   }
-  }
- async duplicatecheck() {
-  try {
-    await expect(this.duplicate).toBeHidden();
-    console.log(" Duplicate check PASS — duplicate element is hidden");
-  } catch (error) {
-    console.log(" Duplicate check FAIL — duplicate element is visible");
+    async compareeauthnumber(expectedauth: string) {
+      try{
+        let actualauth=await this.validateauthnumber.inputValue();
+        // console.log(`Actual Auth Number: ${actualauth}`);
+        // console.log(`Expected Auth Number: ${expectedauth}`);
+         expect(actualauth).toBe(expectedauth);
+        console.log("✅Auth number validation PASS — Auth number match");
+      }catch(error){
+        console.log("❌ Auth number validation FAIL — Auth number mismatch");   
+
+    }
   }
 }
 
-async acceptintakediv(){
-    try {
-    await expect(this.acceptconfirm).toBeVisible();
-    console.log(" Accept intake confirmation appeared");
-  } catch (error) {
-    console.log(" Accept intake confirmation not appeared");
-  }
-}
-}
+
+
+// LoginUSERNAME=autlogin@peter.org
+// loginPASSWORD=Test@123

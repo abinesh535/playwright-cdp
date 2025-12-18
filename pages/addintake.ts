@@ -1,4 +1,5 @@
 import {test, expect, Page, Locator} from '@playwright/test'
+import { getCurrentTime } from '../utils/timer';
 
 export class intakepage{
 
@@ -16,6 +17,7 @@ export class intakepage{
 
     constructor (page:Page) {
         this.page = page;
+        this.page.setDefaultTimeout(100000);
         this.location=page.locator(`//*[@name='location_platform_id']`);
         this.selectlocation=page.getByText('WI-IRIS');
         //this.patienttype=page.locator(`//button[@role='checkbox' and @id=':r18:']`);
@@ -39,10 +41,7 @@ export class intakepage{
        await this.lastname.fill(enterlname);
        await this.ssn.fill('834541239');
        await this.proceed.click();
-       const now = new Date();
-    console.log(now.toLocaleString());
-    const time = now.toLocaleTimeString().split(':')
-       await this.proceed.screenshot({ path: 'screenshots/' + 'intake' +  time +'.png' })
+       await this.proceed.screenshot({ path: 'screenshots/' + 'intake' +  getCurrentTime() +'.png' })
     }
     
 }

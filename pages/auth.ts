@@ -1,6 +1,9 @@
 import {test, Locator, Page} from '@playwright/test'
-import { time } from 'console';
+import { assert, time } from 'console';
 import { getCurrentTime } from '../utils/timer';
+import { Assert } from '../utils/assertions';
+import { faker } from '@faker-js/faker';
+
 
 export class createauth{
 
@@ -26,14 +29,18 @@ export class createauth{
     readonly authrule:Locator;
     readonly clicksave:Locator;
     readonly authpagess:Locator;
+    //readonly openauth:Locator;
+
+    
 
     constructor(page:Page){
 
         this.page=page;
+        this.page.setDefaultTimeout(100000);
         this.authnumber=page.locator(`//*[@name='authorization_number']`);
         this.clickpvendorcheckbox=page.locator(`//span[normalize-space()='Vendor']/ancestor::label//button[@role='checkbox']`);
         this.clickvendorlist=  page.getByPlaceholder('Search Vendor');
-        this.selectvendor=page.locator(`//div[@class='h-full w-full rounded-[inherit] max-h-[19rem]']`)
+        this.selectvendor=page.getByText('Alpha Vendor (119119119)');
         this.clickutilization=page.locator(`//span[normalize-space()='Miles']/ancestor::label//button[@role='checkbox']`);
         this.clickpayer=page.getByText('Select Payer');
         this.selectpayer=page.getByText('WI IRIS-IRISW(IRIS-WI)')
@@ -51,19 +58,21 @@ export class createauth{
         this.authrule=page.locator(`//span[normalize-space()='Soft Warning']/ancestor::label//button[@role='checkbox']`);
         this.clicksave=page.getByText('Save as Active');
         this.authpagess=page.locator(`//*[@class='bg-body font-lato text-[#333]']`);
-    }
+        //this.openauth=page.getByText('auth19', { exact: true });
 
-    async publicvendor(){
+    }
+        
+    async publicvendor(enterauth: string){
         await this.authnumber.click();
-        await this.authnumber.fill('auth1');
+        await this.authnumber.fill(enterauth);
         await this.clickpvendorcheckbox.check();
         await this.clickvendorlist.click();
-        await this.selectvendor.filter({ hasText: 'Alpha Vendor (119119119)' }).click();
+        await this.selectvendor.click();
         await this.clickutilization.check();
-        // await this.clickpayer.click();
-        // await this.selectpayer.click();
-        // await this.clickservice.click();
-        // await this.selectservice.click();
+        await this.clickpayer.click();
+        await this.selectpayer.click();     
+        await this.clickservice.click();
+        await this.selectservice.click();
         await this.selectstartdate.fill('12/01/2025');
         await this.selectenddate.fill('01/01/2026')
         await this.clickfrequency.click();
@@ -74,8 +83,14 @@ export class createauth{
         await this.unitrate.fill(`10`)
         await this.totoalunits.fill(`10`)
         await this.authrule.click();
+    }
+    async authsave(){
         await this.clicksave.click();
         await this.authpagess.screenshot({ path: 'screenshots/' + 'auth' + getCurrentTime() +'.png' })
-
+    }
+    async opencreatedauth(enterauth: string):Promise<Assert>{
+        await this.page.getByText(enterauth, { exact: true }).click();
+        const addedauth = await this.page.waitForEvent('popup')
+        return new Assert(addedauth);
     }
 }
