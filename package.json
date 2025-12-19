@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:staging": "cross-env ENV=staging npx playwright test"
+    "test:staging": "cross-env ENV=staging npx playwright test",
+    "test:authorizationfromintake": "npx playwright test authorization.spec.ts --headed --grep @createandadd> terminal.log 2>&1 & npx ts-node utils/mail.ts",
+    "test:authorizationfromclient": "npx playwright test authorization.spec.ts --headed --grep @addfromexist> terminal.log 2>&1 & npx ts-node utils/mail.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,11 +14,13 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
-    "@types/node": "^24.10.1"
+    "@types/node": "^24.10.1",
+    "@types/nodemailer": "^7.0.4"
   },
   "dependencies": {
     "@faker-js/faker": "^10.1.0",
     "cross-env": "^10.1.0",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "nodemailer": "^7.0.11"
   }
 }

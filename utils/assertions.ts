@@ -84,7 +84,7 @@ export class Assert {
         // console.log(`Actual Auth Number: ${actualauth}`);
         // console.log(`Expected Auth Number: ${expectedauth}`);
          expect(actualauth).toBe(expectedauth);
-        console.log("✅Auth number validation PASS — Auth number match");
+        console.log("✅ Auth number validation PASS — Auth number match");
       }catch(error){
         console.log("❌ Auth number validation FAIL — Auth number mismatch");   
 
@@ -92,7 +92,3 @@ export class Assert {
   }
 }
 
-
-
-// LoginUSERNAME=autlogin@peter.org
-// loginPASSWORD=Test@123

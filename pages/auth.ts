@@ -8,6 +8,7 @@ import { faker } from '@faker-js/faker';
 export class createauth{
 
     readonly page: Page;
+    readonly errormessage:Locator;
     readonly authnumber:Locator;
     readonly clickpvendorcheckbox:Locator;
     readonly clickvendorlist:Locator;
@@ -31,12 +32,11 @@ export class createauth{
     readonly authpagess:Locator;
     //readonly openauth:Locator;
 
-    
-
     constructor(page:Page){
 
         this.page=page;
         this.page.setDefaultTimeout(100000);
+        this.errormessage=page.locator(`//*[@class='text-red-500 text-xs']`);
         this.authnumber=page.locator(`//*[@name='authorization_number']`);
         this.clickpvendorcheckbox=page.locator(`//span[normalize-space()='Vendor']/ancestor::label//button[@role='checkbox']`);
         this.clickvendorlist=  page.getByPlaceholder('Search Vendor');
@@ -58,13 +58,20 @@ export class createauth{
         this.authrule=page.locator(`//span[normalize-space()='Soft Warning']/ancestor::label//button[@role='checkbox']`);
         this.clicksave=page.getByText('Save as Active');
         this.authpagess=page.locator(`//*[@class='bg-body font-lato text-[#333]']`);
-        //this.openauth=page.getByText('auth19', { exact: true });
-
     }
         
+    async saveemptyauth(blankauth:string){
+        await this.authnumber.click();
+        await this.authnumber.fill(blankauth);
+        await this.clicksave.click();
+        await this.authpagess.screenshot({ path: 'screenshots/' + 'blankauth' + '_' + getCurrentTime() +'.png' })
+        let error:string[]=await this.errormessage.allInnerTexts();
+        console.log("Error message for blank auth number:\n" + error.join('\n'));
+    }
     async publicvendor(enterauth: string){
         await this.authnumber.click();
         await this.authnumber.fill(enterauth);
+        console.log('Added authorization is: ' +enterauth);
         await this.clickpvendorcheckbox.check();
         await this.clickvendorlist.click();
         await this.selectvendor.click();
@@ -84,9 +91,9 @@ export class createauth{
         await this.totoalunits.fill(`10`)
         await this.authrule.click();
     }
-    async authsave(){
+    async authsave(enterauth: string){
         await this.clicksave.click();
-        await this.authpagess.screenshot({ path: 'screenshots/' + 'auth' + getCurrentTime() +'.png' })
+        await this.authpagess.screenshot({ path: `screenshots/${enterauth}_${getCurrentTime()}.png` })
     }
     async opencreatedauth(enterauth: string):Promise<Assert>{
         await this.page.getByText(enterauth, { exact: true }).click();

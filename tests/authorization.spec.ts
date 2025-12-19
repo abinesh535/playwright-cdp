@@ -9,7 +9,7 @@ import { faker } from '@faker-js/faker';
 
  const fakerauth = faker.word.words(1);
        const enterauth=`auth${faker.number.int({ min: 100, max: 999 })}`;
-    //    console.log(enterauth);
+       //console.log(enterauth);
 
 
 let menus: kantimepage;
@@ -19,7 +19,7 @@ let intakepatient: intakepageedit;
 let publicvendorauth: createauth;
 test.use({ storageState: 'storage/kanTimeAuth.json' });
 
-test.only('Add intake and add auth', async ({ page }) => {
+test('@createandadd Add intake and add auth', async ({ page }) => {
     test.slow();
     test.setTimeout(10 * 60 * 1000);
     await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx')
@@ -51,7 +51,7 @@ test.only('Add intake and add auth', async ({ page }) => {
 })
 
 let clientiris: clientreport;
-test('Add auth from client', async ({ page }) => {
+test('@addfromexist Add auth from client', async ({ page }) => {
     test.slow();
     test.setTimeout(1 * 60 * 1000);
     await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx')
@@ -63,11 +63,11 @@ test('Add auth from client', async ({ page }) => {
     intakepatient=new intakepageedit(page);
     const popupPage = await intakepatient.authfill();
     const newAuth = new createauth(popupPage);
+    await newAuth.saveemptyauth("test");
     await newAuth.publicvendor( enterauth);
-    await newAuth.authsave();
+    await newAuth.authsave(enterauth);
     await page.waitForTimeout(6000);
     await popupPage.close();
-
 
     publicvendorauth = new createauth(page);
     const authPopup = await publicvendorauth.opencreatedauth(enterauth);
