@@ -46,7 +46,7 @@ export class Assert {
       await expect(this.acceptconfirm).toBeVisible({ timeout: 50000 });
       console.log("✅ Accept intake confirmation appeared");
     } catch (error) {
-      console.log(" ❌Accept intake confirmation not appeared");
+      console.log("❌ Accept intake confirmation not appeared");
     }
   }
 

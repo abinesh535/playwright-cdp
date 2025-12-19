@@ -1,83 +1,94 @@
-import {test, Locator, Page} from '@playwright/test'
+import { test, Locator, Page } from '@playwright/test'
 import { assert, time } from 'console';
 import { getCurrentTime } from '../utils/timer';
 import { Assert } from '../utils/assertions';
 import { faker } from '@faker-js/faker';
 
 
-export class createauth{
+export class createauth {
 
     readonly page: Page;
-    readonly errormessage:Locator;
-    readonly authnumber:Locator;
-    readonly clickpvendorcheckbox:Locator;
-    readonly clickvendorlist:Locator;
-    readonly selectvendor:Locator;
-    readonly clickutilization:Locator;
-    readonly clickpayer:Locator;
-    readonly selectpayer:Locator
-    readonly clickservice:Locator;
-    readonly selectservice:Locator;
-    readonly selectstartdate:Locator;
-    readonly selectenddate:Locator;
-    readonly clickfrequency:Locator;
-    readonly selectfrequency:Locator;
-    readonly selectunitsbyfre:Locator;
-    readonly clickunittype:Locator;
-    readonly selectunittype:Locator;
-    readonly unitrate:Locator;
-    readonly totoalunits:Locator;
-    readonly authrule:Locator;
-    readonly clicksave:Locator;
-    readonly authpagess:Locator;
-    //readonly openauth:Locator;
+    readonly errormessage: Locator;
+    readonly authnumber: Locator;
+    readonly clickpvendorcheckbox: Locator;
+    readonly clickvendorlist: Locator;
+    readonly selectvendor: Locator;
+    readonly clickutilization: Locator;
+    readonly clickpayer: Locator;
+    readonly selectpayer: Locator
+    readonly clickservice: Locator;
+    readonly selectservice: Locator;
+    readonly selectstartdate: Locator;
+    readonly selectenddate: Locator;
+    readonly clickfrequency: Locator;
+    readonly selectfrequency: Locator;
+    readonly selectunitsbyfre: Locator;
+    readonly clickunittype: Locator;
+    readonly selectunittype: Locator;
+    readonly unitrate: Locator;
+    readonly totoalunits: Locator;
+    readonly authrule: Locator;
+    readonly clicksave: Locator;
+    readonly authpagess: Locator;
+    readonly summary: Locator;
+    readonly sameauthnumber: Locator;
+    readonly getvalidation: Locator
+    readonly closevalidation: Locator;
+    readonly cancelauth: Locator;
+    readonly getauthnum: Locator;
 
-    constructor(page:Page){
+    constructor(page: Page) {
 
-        this.page=page;
+        this.page = page;
         this.page.setDefaultTimeout(100000);
-        this.errormessage=page.locator(`//*[@class='text-red-500 text-xs']`);
-        this.authnumber=page.locator(`//*[@name='authorization_number']`);
-        this.clickpvendorcheckbox=page.locator(`//span[normalize-space()='Vendor']/ancestor::label//button[@role='checkbox']`);
-        this.clickvendorlist=  page.getByPlaceholder('Search Vendor');
-        this.selectvendor=page.getByText('Alpha Vendor (119119119)');
-        this.clickutilization=page.locator(`//span[normalize-space()='Miles']/ancestor::label//button[@role='checkbox']`);
-        this.clickpayer=page.getByText('Select Payer');
-        this.selectpayer=page.getByText('WI IRIS-IRISW(IRIS-WI)')
-        this.clickservice=page.getByText('Select Service');
-        this.selectservice=page.getByText('00240 Residential Services AFH 1-2 Beds');
-        this.selectstartdate=page.locator(`//*[@for='start_date']/following-sibling::div[@class='flex relative align-center text-sm h-9 w-[150px]']//input`);
-        this.selectenddate=page.locator("//*[@for='end_date']/following-sibling::div[@class='flex relative align-center text-sm h-9 w-[150px]']//input");
-        this.clickfrequency=page.getByText('Select', { exact: true }).first();
-        this.selectfrequency=page.getByText('Monthly');
-        this.selectunitsbyfre=page.locator('//input[@id="units_by_frequency"]');
-        this.clickunittype=page.getByText('Select', { exact: true }).last();
-        this.selectunittype=page.getByText('Day');
-        this.unitrate=page.locator('#unit_rate');
-        this.totoalunits=page.locator('#total_units');
-        this.authrule=page.locator(`//span[normalize-space()='Soft Warning']/ancestor::label//button[@role='checkbox']`);
-        this.clicksave=page.getByText('Save as Active');
-        this.authpagess=page.locator(`//*[@class='bg-body font-lato text-[#333]']`);
+        this.errormessage = page.locator(`//*[@class='text-red-500 text-xs']`);
+        this.authnumber = page.locator(`//*[@name='authorization_number']`);
+        this.clickpvendorcheckbox = page.locator(`//span[normalize-space()='Vendor']/ancestor::label//button[@role='checkbox']`);
+        this.clickvendorlist = page.getByPlaceholder('Search Vendor');
+        this.selectvendor = page.getByText('Alpha Vendor (119119119)');
+        this.clickutilization = page.locator(`//span[normalize-space()='Miles']/ancestor::label//button[@role='checkbox']`);
+        this.clickpayer = page.getByText('Select Payer');
+        this.selectpayer = page.getByText('WI IRIS-IRISW(IRIS-WI)')
+        this.clickservice = page.getByText('Select Service');
+        this.selectservice = page.getByText('00240 Residential Services AFH 1-2 Beds');
+        this.selectstartdate = page.locator(`//*[@for='start_date']/following-sibling::div[@class='flex relative align-center text-sm h-9 w-[150px]']//input`);
+        this.selectenddate = page.locator("//*[@for='end_date']/following-sibling::div[@class='flex relative align-center text-sm h-9 w-[150px]']//input");
+        this.clickfrequency = page.getByText('Select', { exact: true }).first();
+        this.selectfrequency = page.getByText('Monthly');
+        this.selectunitsbyfre = page.locator('//input[@id="units_by_frequency"]');
+        this.clickunittype = page.getByText('Select', { exact: true }).last();
+        this.selectunittype = page.getByText('Day');
+        this.unitrate = page.locator('#unit_rate');
+        this.totoalunits = page.locator('#total_units');
+        this.authrule = page.locator(`//span[normalize-space()='Soft Warning']/ancestor::label//button[@role='checkbox']`);
+        this.clicksave = page.getByText('Save as Active');
+        this.authpagess = page.locator(`//*[@class='bg-body font-lato text-[#333]']`);
+        this.summary = page.locator(`//div[@class='pt-2']`);
+        this.sameauthnumber = page.locator(`//*[@role='dialog']`);
+        this.getvalidation = page.locator(`//td[@class='text-sm py-1 px-4 w-full false']`);
+        this.closevalidation = page.locator(`//button[contains(@class,'h-6 w-6 bg-white absolute right-4 top-4 rounded')]`);
+        this.cancelauth = page.getByText('Cancel');
+        this.getauthnum = page.locator(`//table[@class='w-full caption-bottom text-sm relative']//tbody/tr//td//div//div//span[@class='cursor-pointer w-fit font-semibold text-[#0747a6]']`);
     }
-        
-    async saveemptyauth(blankauth:string){
+
+    async saveemptyauth(blankauth: string) {
         await this.authnumber.click();
         await this.authnumber.fill(blankauth);
         await this.clicksave.click();
-        await this.authpagess.screenshot({ path: 'screenshots/' + 'blankauth' + '_' + getCurrentTime() +'.png' })
-        let error:string[]=await this.errormessage.allInnerTexts();
+        await this.authpagess.screenshot({ path: 'screenshots/' + 'blankauth' + '_' + getCurrentTime() + '.png' })
+        let error: string[] = await this.errormessage.allInnerTexts();
         console.log("Error message for blank auth number:\n" + error.join('\n'));
     }
-    async publicvendor(enterauth: string){
+    async publicvendor(enterauth: string) {
         await this.authnumber.click();
         await this.authnumber.fill(enterauth);
-        console.log('Added authorization is: ' +enterauth);
+        console.log('Added authorization is: ' + enterauth);
         await this.clickpvendorcheckbox.check();
         await this.clickvendorlist.click();
         await this.selectvendor.click();
         await this.clickutilization.check();
         await this.clickpayer.click();
-        await this.selectpayer.click();     
+        await this.selectpayer.click();
         await this.clickservice.click();
         await this.selectservice.click();
         await this.selectstartdate.fill('12/01/2025');
@@ -91,13 +102,39 @@ export class createauth{
         await this.totoalunits.fill(`10`)
         await this.authrule.click();
     }
-    async authsave(enterauth: string){
+    async authsave(enterauth: string) {
         await this.clicksave.click();
         await this.authpagess.screenshot({ path: `screenshots/${enterauth}_${getCurrentTime()}.png` })
+        await this.page.waitForTimeout(3000);
+        if (await this.sameauthnumber.isVisible()) {
+            await this.sameauthnumber.screenshot({ path: `screenshots/duplicateauth_${getCurrentTime()}.png` });
+            let validation: string = await this.getvalidation.innerText();
+            console.log("Validation:\n" + validation);
+            await this.closevalidation.click();
+            await this.cancelauth.click();
+        }
     }
-    async opencreatedauth(enterauth: string):Promise<Assert>{
+
+    async authnumexist(duplicateauth: string) {
+
+        let chkauthnum = await this.getauthnum.allInnerTexts();
+        console.log("Existing auths are :\n" + chkauthnum.join('\n'));
+        for (const auth of chkauthnum) {
+            if (auth.trim() === duplicateauth.trim()) {
+                //console.log(duplicateauth);
+                console.log('❌ Duplicate found:', auth);
+                return; // stop loop once found
+            }
+        }
+
+        console.log('✅ No duplicate found');
+
+
+    }
+    async opencreatedauth(enterauth: string): Promise<Assert> {
         await this.page.getByText(enterauth, { exact: true }).click();
         const addedauth = await this.page.waitForEvent('popup')
         return new Assert(addedauth);
+
     }
 }

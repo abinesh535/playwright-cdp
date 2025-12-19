@@ -7,10 +7,9 @@ import { createauth } from '../pages/auth';
 import { clientreport } from '../pages/clientlist';
 import { faker } from '@faker-js/faker';
 
- const fakerauth = faker.word.words(1);
-       const enterauth=`auth${faker.number.int({ min: 100, max: 999 })}`;
-       //console.log(enterauth);
-
+const fakerauth = faker.word.words(1);
+const enterauth = `auth${faker.number.int({ min: 100, max: 999 })}`;
+//console.log(enterauth);
 
 let menus: kantimepage;
 let newintake: intakepage;
@@ -60,11 +59,11 @@ test('@addfromexist Add auth from client', async ({ page }) => {
     await clientiris.clientlistpage();
     await page.waitForTimeout(7000);
 
-    intakepatient=new intakepageedit(page);
+    intakepatient = new intakepageedit(page);
     const popupPage = await intakepatient.authfill();
     const newAuth = new createauth(popupPage);
     await newAuth.saveemptyauth("test");
-    await newAuth.publicvendor( enterauth);
+    await newAuth.publicvendor(enterauth);
     await newAuth.authsave(enterauth);
     await page.waitForTimeout(6000);
     await popupPage.close();
@@ -80,3 +79,24 @@ test('@addfromexist Add auth from client', async ({ page }) => {
 })
 
 
+let duplicateauth = 'testdupauth';
+test('@addduplicate Dupliacte auth for client', async ({ page }) => {
+    test.slow();
+    test.setTimeout(1 * 60 * 1000);
+    await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx')
+    //await page.goto(`https://working.kantimehealth.net/HH/Z1/UI/Common/DashboardMaster.aspx`);
+    clientiris = new clientreport(page);
+    await clientiris.clientlistpage();
+    await page.waitForTimeout(7000);
+    intakepatient = new intakepageedit(page);
+    const popupPage = await intakepatient.authfill();
+    const newAuth = new createauth(popupPage);
+    await newAuth.publicvendor(duplicateauth);
+    await newAuth.authsave(enterauth);
+    await page.waitForTimeout(7000);
+
+    const authList = new createauth(page);
+    await authList.authnumexist(duplicateauth);
+    //console.log(   `main page:`+ duplicateauth );
+
+})
