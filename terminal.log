@@ -1,37 +1,42 @@
 
 Running 1 test using 1 worker
 
-[1A[2K[1/1] [chromium] › tests\authorization.spec.ts:84:5 › @addduplicate Dupliacte auth for client
-[1A[2K[chromium] › tests\authorization.spec.ts:84:5 › @addduplicate Dupliacte auth for client
-Added authorization is: testdupauth
+[1A[2K[1/1] [chromium] › tests\authorization.spec.ts:17:5 › @addfromexist Add auth from client
+[1A[2K[chromium] › tests\authorization.spec.ts:17:5 › @addfromexist Add auth from client
+30/12/2025, 12:20:32 pm
 
-[1A[2K19/12/2025, 5:54:52 pm
+[1A[2KError message for blank auth number:
+Provider type is required
+Utilization method is required
+Payer is required
+Service is required
+Required
+Required
+Frequency is required
+Units by frequency is required
+Unit type is required
+Unit rate is required
+Total units is required
 
-[1A[2K19/12/2025, 5:54:55 pm
+[1A[2KAdded authorization is: auth349
 
-[1A[2KValidation:
-An Authorization with the same authorization number already exists
+[1A[2K30/12/2025, 12:20:38 pm
 
-[1A[2KExisting auths are :
+[1A[2K✅ URL check PASS — Edit-manual-authorization page present
 
-auth15
-3 auth
-auth146
-auth280
-auth778
-duplicateauth
-testdupauth
-2nd auth
-auth
-E AUTH
+[1A[2K✅ Auth data check PASS — authorization number present
 
-[1A[2Ktestdupauth
+[1A[2K✅ Auth data check PASS — payer present
 
-[1A[2K❌ Duplicate found: testdupauth
+[1A[2K✅ Auth data check PASS — service present
 
-[1A[2Kmain page:testdupauth
+[1A[2K✅ Auth data check PASS — start date present
 
-[1A[2K  1 passed (42.9s)
+[1A[2K✅ Auth data check PASS — end date present
+
+[1A[2K✅ Auth number validation PASS — Auth number match
+
+[1A[2K  1 passed (56.8s)
 
 To open last HTML report run:
 [36m[39m

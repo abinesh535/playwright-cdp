@@ -1,6 +1,7 @@
 import { expect, Page, Locator } from '@playwright/test';
 import { createauth } from '../pages/auth';
 import { faker } from '@faker-js/faker';
+import { importauthactivities } from '../pages/importauth';
 
 
 export class Assert {
@@ -11,6 +12,9 @@ export class Assert {
   readonly validateauthnumber: Locator
   readonly validatepayer: Locator
   readonly validateservice: Locator;
+  readonly importauth:importauthactivities;
+  readonly summaryfileid:Locator
+  readonly importedfileid:Locator;
 
 
   constructor(private page: Page) {
@@ -21,7 +25,9 @@ export class Assert {
     this.validateauthnumber = page.locator(`//*[@name='auth_number']`);
     this.validatepayer = page.locator(`(//*[contains(@class,'whitespace-nowrap rounded-md font-medium ring') and @type='button'])[1]`)
     this.validateservice = page.locator(`(//*[contains(@class,'whitespace-nowrap rounded-md font-medium ring') and @type='button'])[2]`)
-
+    this.importauth=new importauthactivities(page);
+    this.summaryfileid=page.locator(`//button[@class='text-start w-fit font-bold text-[#135cc8]']`);   
+    this.importedfileid=page.locator(`//p[text()='File ID']/following-sibling::div[@class='font-semibold']`);
   }
 
   async hasurl() {
@@ -81,8 +87,6 @@ export class Assert {
     async compareeauthnumber(expectedauth: string) {
       try{
         let actualauth=await this.validateauthnumber.inputValue();
-        // console.log(`Actual Auth Number: ${actualauth}`);
-        // console.log(`Expected Auth Number: ${expectedauth}`);
          expect(actualauth).toBe(expectedauth);
         console.log("✅ Auth number validation PASS — Auth number match");
       }catch(error){
@@ -90,5 +94,15 @@ export class Assert {
 
     }
   }
+      
+  // async validatefileid(){
+  //     try {
+  //    expect().toBe();
+  //     console.log("✅File id matches");
+  //   } catch (error) {
+  //     console.log("❌ File id not matches");
+  //   }
+
+  // }
 }
 

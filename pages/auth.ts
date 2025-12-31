@@ -60,7 +60,7 @@ export class createauth {
         this.selectunittype = page.getByText('Day');
         this.unitrate = page.locator('#unit_rate');
         this.totoalunits = page.locator('#total_units');
-        this.authrule = page.locator(`//span[normalize-space()='Soft Warning']/ancestor::label//button[@role='checkbox']`);
+        this.authrule = page.locator(`//span[normalize-space()='Hard Stop']/ancestor::label//button[@role='checkbox']`);
         this.clicksave = page.getByText('Save as Active');
         this.authpagess = page.locator(`//*[@class='bg-body font-lato text-[#333]']`);
         this.summary = page.locator(`//div[@class='pt-2']`);
@@ -100,7 +100,7 @@ export class createauth {
         await this.selectunittype.click();
         await this.unitrate.fill(`10`)
         await this.totoalunits.fill(`10`)
-        await this.authrule.click();
+        await this.authrule.check();    //enables only if unchecked
     }
     async authsave(enterauth: string) {
         await this.clicksave.click();
@@ -128,7 +128,6 @@ export class createauth {
         }
 
         console.log('✅ No duplicate found');
-
 
     }
     async opencreatedauth(enterauth: string): Promise<Assert> {

@@ -81,8 +81,8 @@ export class intakepageedit{
         await this.demographicdetail.click();
         await this.identifieredit.click();
         await this.page.waitForTimeout(5000);
-        await this.medicaid.fill('124567839439');
-        await this.ssn.fill('987-65-1320');
+        await this.medicaid.fill('124568839439');
+        await this.ssn.fill('967-65-1320');
         await this.identifiersave.click();
         await this.dobedit.click();
         await this.page.waitForTimeout(5000);

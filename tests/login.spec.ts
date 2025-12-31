@@ -16,6 +16,7 @@ test('Login page', async ({ page }) => {
   rolelogin = new klogin(page);
   await rolelogin.signin(process.env.loginUSERNAME!, process.env.loginPASSWORD!);
    await page.waitForTimeout(4000);
+  // await page.getByText('Home Health', { exact: true }).click();
   await page.context().storageState({ path: 'storage/kanTimeAuth.json' })
-  await page.waitForTimeout(6000);
+  await page.waitForTimeout(7000);
 })

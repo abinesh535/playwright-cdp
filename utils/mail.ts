@@ -28,7 +28,7 @@ function extractImportantLogs(rawLog: string): string {
 }
 
 async function sendMail() {
-  const rawLog = fs.existsSync(logFilePath)
+  const rawLog = fs.existsSync(logFilePath)     //If terminal.log exists → read it
     ? fs.readFileSync(logFilePath, 'utf-8')
     : 'No terminal log found';
 
@@ -37,8 +37,8 @@ async function sendMail() {
   const screenshotsDir = path.resolve('screenshots');
   const screenshotAttachments: any[] = [];
   if (fs.existsSync(screenshotsDir)) {
-    const files = fs.readdirSync(screenshotsDir);
-    for (const file of files) {
+    const files = fs.readdirSync(screenshotsDir);              
+    for (const file of files) {              //Reads all files and take only .png files
       if (file.endsWith('.png')) {
         screenshotAttachments.push({
           filename: file,
