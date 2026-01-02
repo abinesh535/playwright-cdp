@@ -12,9 +12,9 @@ export class Assert {
   readonly validateauthnumber: Locator
   readonly validatepayer: Locator
   readonly validateservice: Locator;
-  readonly importauth:importauthactivities;
-  readonly summaryfileid:Locator
-  readonly importedfileid:Locator;
+  readonly importauth: importauthactivities;
+  readonly summaryfileid: Locator
+  readonly importedfileid: Locator;
 
 
   constructor(private page: Page) {
@@ -25,9 +25,9 @@ export class Assert {
     this.validateauthnumber = page.locator(`//*[@name='auth_number']`);
     this.validatepayer = page.locator(`(//*[contains(@class,'whitespace-nowrap rounded-md font-medium ring') and @type='button'])[1]`)
     this.validateservice = page.locator(`(//*[contains(@class,'whitespace-nowrap rounded-md font-medium ring') and @type='button'])[2]`)
-    this.importauth=new importauthactivities(page);
-    this.summaryfileid=page.locator(`//button[@class='text-start w-fit font-bold text-[#135cc8]']`);   
-    this.importedfileid=page.locator(`//p[text()='File ID']/following-sibling::div[@class='font-semibold']`);
+    this.importauth = new importauthactivities(page);
+    this.summaryfileid = page.locator(`//button[@class='text-start w-fit font-bold text-[#135cc8]']`);
+    this.importedfileid = page.locator(`//p[text()='File ID']/following-sibling::div[@class='font-semibold']`);
   }
 
   async hasurl() {
@@ -81,28 +81,17 @@ export class Assert {
       } catch (error) {
         console.log(`❌ Auth data check FAIL — ${check.name} NOT found`);
       }
-
     }
   }
-    async compareeauthnumber(expectedauth: string) {
-      try{
-        let actualauth=await this.validateauthnumber.inputValue();
-         expect(actualauth).toBe(expectedauth);
-        console.log("✅ Auth number validation PASS — Auth number match");
-      }catch(error){
-        console.log("❌ Auth number validation FAIL — Auth number mismatch");   
-
+  async compareeauthnumber(expectedauth: string) {
+    try {
+      let actualauth = await this.validateauthnumber.inputValue();
+      expect(actualauth).toBe(expectedauth);
+      console.log("✅ Auth number validation PASS — Auth number match");
+    } catch (error) {
+      console.log("❌ Auth number validation FAIL — Auth number mismatch");
     }
   }
-      
-  // async validatefileid(){
-  //     try {
-  //    expect().toBe();
-  //     console.log("✅File id matches");
-  //   } catch (error) {
-  //     console.log("❌ File id not matches");
-  //   }
 
-  // }
 }
 

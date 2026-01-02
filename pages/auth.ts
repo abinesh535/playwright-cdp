@@ -1,9 +1,6 @@
 import { test, Locator, Page } from '@playwright/test'
-import { assert, time } from 'console';
 import { getCurrentTime } from '../utils/timer';
 import { Assert } from '../utils/assertions';
-import { faker } from '@faker-js/faker';
-
 
 export class createauth {
 
@@ -114,19 +111,15 @@ export class createauth {
             await this.cancelauth.click();
         }
     }
-
     async authnumexist(duplicateauth: string) {
-
         let chkauthnum = await this.getauthnum.allInnerTexts();
         console.log("Existing auths are :\n" + chkauthnum.join('\n'));
         for (const auth of chkauthnum) {
             if (auth.trim() === duplicateauth.trim()) {
-                //console.log(duplicateauth);
                 console.log('❌ Duplicate found:', auth);
                 return; // stop loop once found
             }
         }
-
         console.log('✅ No duplicate found');
 
     }

@@ -3,7 +3,7 @@ Running 1 test using 1 worker
 
 [1A[2K[1/1] [chromium] › tests\authorization.spec.ts:17:5 › @addfromexist Add auth from client
 [1A[2K[chromium] › tests\authorization.spec.ts:17:5 › @addfromexist Add auth from client
-30/12/2025, 12:20:32 pm
+1/1/2026, 6:41:20 pm
 
 [1A[2KError message for blank auth number:
 Provider type is required
@@ -18,27 +18,52 @@ Unit type is required
 Unit rate is required
 Total units is required
 
-[1A[2KAdded authorization is: auth349
+[1A[2KAdded authorization is: auth376
 
-[1A[2K30/12/2025, 12:20:38 pm
+[1A[2K1/1/2026, 6:41:24 pm
 
-[1A[2K✅ URL check PASS — Edit-manual-authorization page present
+[1A[2K  1) [chromium] › tests\authorization.spec.ts:17:5 › @addfromexist Add auth from client ────────────
 
-[1A[2K✅ Auth data check PASS — authorization number present
+    [31mTest timeout of 60000ms exceeded.[39m
 
-[1A[2K✅ Auth data check PASS — payer present
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+    [2m  - waiting for getByText('auth376', { exact: true })[22m
 
-[1A[2K✅ Auth data check PASS — service present
 
-[1A[2K✅ Auth data check PASS — start date present
+       at ..\pages\auth.ts:134
 
-[1A[2K✅ Auth data check PASS — end date present
+      132 |     }
+      133 |     async opencreatedauth(enterauth: string): Promise<Assert> {
+    > 134 |         await this.page.getByText(enterauth, { exact: true }).click();
+          |                                                               ^
+      135 |         const addedauth = await this.page.waitForEvent('popup')
+      136 |         return new Assert(addedauth);
+      137 |
+        at createauth.opencreatedauth (C:\Users\abineshg\Desktop\playwright cdp\pages\auth.ts:134:63)
+        at C:\Users\abineshg\Desktop\playwright cdp\tests\authorization.spec.ts:36:46
 
-[1A[2K✅ Auth number validation PASS — Auth number match
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    screenshots\authorization--addfromexist-Add-auth-from-client-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
 
-[1A[2K  1 passed (56.8s)
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    screenshots\authorization--addfromexist-Add-auth-from-client-chromium\video-1.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
 
-To open last HTML report run:
-[36m[39m
-[36m  npx playwright show-report[39m
-[36m[39m
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    screenshots\authorization--addfromexist-Add-auth-from-client-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: screenshots\authorization--addfromexist-Add-auth-from-client-chromium\error-context.md
+
+
+[dotenv@17.2.3] injecting env (6) from .env.staging -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+📸 Screenshots found: 3
+✅ Mail sent successfully
+📸 Screenshots folder deleted
+[1A[2K  1 failed
+    [chromium] › tests\authorization.spec.ts:17:5 › @addfromexist Add auth from client ─────────────
+
+[36m  Serving HTML report at http://localhost:9323. Press Ctrl+C to quit.[39m
+^C

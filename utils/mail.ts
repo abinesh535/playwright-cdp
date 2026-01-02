@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer';
 import fs from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
-import  {deleteScreenshots} from '../utils/screenshot';
+import { deleteScreenshots } from '../utils/screenshot';
 
 
 if (!process.env.GITHUB_ACTIONS) {
@@ -27,27 +27,35 @@ function extractImportantLogs(rawLog: string): string {
   return cleaned.trim();
 }
 
-async function sendMail() {
+function collectArtifacts(dir: string, attachments: any[] = []) {
+  if (!fs.existsSync(dir)) return attachments;
+
+  for (const item of fs.readdirSync(dir)) {
+    const fullPath = path.join(dir, item);
+
+    if (fs.statSync(fullPath).isDirectory()) {
+      collectArtifacts(fullPath, attachments);
+    } else if (item.endsWith('.png')) {
+      attachments.push({
+        filename: item,
+        path: fullPath,
+      });
+    }
+  }
+
+  return attachments;
+}
+export async function sendMail() {
   const rawLog = fs.existsSync(logFilePath)     //If terminal.log exists → read it
     ? fs.readFileSync(logFilePath, 'utf-8')
     : 'No terminal log found';
 
   const finalLog = extractImportantLogs(rawLog);
-
   const screenshotsDir = path.resolve('screenshots');
-  const screenshotAttachments: any[] = [];
-  if (fs.existsSync(screenshotsDir)) {
-    const files = fs.readdirSync(screenshotsDir);              
-    for (const file of files) {              //Reads all files and take only .png files
-      if (file.endsWith('.png')) {
-        screenshotAttachments.push({
-          filename: file,
-          path: path.join(screenshotsDir, file),
-        });
-      }
-    }
-  }
-
+  const screenshotAttachments = collectArtifacts(
+    path.resolve('screenshots')
+  );
+  console.log('📸 Screenshots found:', screenshotAttachments.length);
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -66,8 +74,7 @@ async function sendMail() {
         filename: 'terminal.log',
         content: finalLog,
       },
-            ...screenshotAttachments,
-
+      ...screenshotAttachments,
     ]
   });
 
@@ -75,4 +82,3 @@ async function sendMail() {
   deleteScreenshots();
 }
 
-sendMail().catch(console.error);

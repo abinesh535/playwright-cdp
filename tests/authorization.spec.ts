@@ -10,8 +10,6 @@ import { importauthactivities } from '../pages/importauth';
 
 const fakerauth = faker.word.words(1);
 const enterauth = `auth${faker.number.int({ min: 100, max: 999 })}`;
-//console.log(enterauth);
-
 
 let clientiris: clientreport;
 test('@addfromexist Add auth from client', async ({ page }) => {
@@ -48,7 +46,6 @@ let validate: Assert;
 let intakepatient: intakepageedit;
 let publicvendorauth: createauth;
 test.use({ storageState: 'storage/kanTimeAuth.json' });
-
 test('@createandadd Add intake and add auth', async ({ page }) => {
     test.slow();
     test.setTimeout(10 * 60 * 1000);
@@ -97,7 +94,6 @@ test('@addduplicate Dupliacte auth for client', async ({ page }) => {
     await newAuth.publicvendor(duplicateauth);
     await newAuth.authsave(enterauth);
     await page.waitForTimeout(7000);
-
     const authList = new createauth(page);
     await authList.authnumexist(duplicateauth);
 
@@ -112,16 +108,16 @@ test('@addfromimport for client', async ({ page }) => {
     menus = new kantimepage(page);
     await menus.cdsauthmenu();
     await page.waitForTimeout(5000);
-
     const mainImport = new importauthactivities(page);
     //  Popup-1
-    const popupPage1 = await mainImport.importedauthpage();
-    const popupImport1 = new importauthactivities(popupPage1);
-    const idwhileimport = await popupImport1.importpop();
+    const addfilepopup = await mainImport.importedauthpage();
+    await page.waitForTimeout(5000);
+    const popupImport = new importauthactivities(addfilepopup);
+    const idwhileimport = await popupImport.importpop();
     //  Popup-2 (opened by filemanage)
-    const popupPage2 = await mainImport.filemanage(idwhileimport);
+    const openaddedfile = await mainImport.filemanage(idwhileimport);
     //  use popupPage2, NOT page
-    const popupImport2 = new importauthactivities(popupPage2);
-    await popupImport2.importedlist();
+    const popuppage = new importauthactivities(openaddedfile);
+    await popuppage.importedlist();
 
 })
