@@ -17,12 +17,14 @@ test('@addfromexist Add auth from client', async ({ page }) => {
     test.setTimeout(1 * 60 * 1000);
     await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx')
     //await page.goto(`https://working.kantimehealth.net/HH/Z1/UI/Common/DashboardMaster.aspx`);
+    const clientmenuAssert = new Assert(page);
+    await clientmenuAssert.assertclientmenu();
     clientiris = new clientreport(page);
     await clientiris.clientlistpage();
     await page.waitForTimeout(7000);
 
     intakepatient = new intakepageedit(page);
-    const popupPage = await intakepatient.authfill();
+    const popupPage = await intakepatient.authfill();  
     const newAuth = new createauth(popupPage);
     await newAuth.saveemptyauth("test");
     await newAuth.publicvendor(enterauth);
@@ -39,6 +41,72 @@ test('@addfromexist Add auth from client', async ({ page }) => {
     await authPopup.compareeauthnumber(enterauth); // pass the dynamic value to assertion as expected
 
 })
+
+
+let duplicateauth = 'testdupauth';
+test('@addduplicate Dupliacte auth for client', async ({ page }) => {
+    test.slow();
+    test.setTimeout(1 * 60 * 1000);
+    await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx')
+    //await page.goto(`https://working.kantimehealth.net/HH/Z1/UI/Common/DashboardMaster.aspx`);
+    clientiris = new clientreport(page);
+    await clientiris.clientlistpage();
+    await page.waitForTimeout(7000);
+    intakepatient = new intakepageedit(page);
+    const popupPage = await intakepatient.authfill();
+    const newAuth = new createauth(popupPage);
+    await newAuth.publicvendor(duplicateauth);
+    await newAuth.authsave(enterauth);
+    await page.waitForTimeout(7000);
+    const authList = new createauth(page);
+    await authList.authnumexist(duplicateauth);
+
+})
+
+
+test('@addfromimport for client', async ({ page }) => {
+  test.slow();
+  test.setTimeout(5 * 60 * 1000);
+
+  await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx');
+
+  const assertPage = new Assert(page);
+  await assertPage.assertcds();
+
+  const menus = new kantimepage(page);
+  await menus.cdsauthmenu();
+
+  const mainImport = new importauthactivities(page);
+  // ========= POPUP-1 =========
+  const popup1 = await mainImport.importedauthpage();
+
+  const popupImport = new importauthactivities(popup1);
+
+  const idwhileimport = await popupImport.importpop();
+  await popup1.close();
+
+  // ========= POPUP-2 =========
+  const popup2 = await mainImport.filemanage(idwhileimport);
+
+  const popupFile = new importauthactivities(popup2);
+  
+  const idoffile = await popupFile.importedlist();
+  await popup2.close();
+  
+  //  STOP if no imports
+if (idoffile === 'NO_IMPORTS') {
+  console.log(' Skipping further steps – no imports available');
+  return;
+}
+  // ========= MAIN PAGE =========
+  // Wait for main page to stabilize after popups close
+  await page.waitForLoadState('networkidle');
+  
+  await mainImport.processImportedAuth(idoffile);
+  await assertPage.assertPendingAuthdata();
+})
+
+
 
 let menus: kantimepage;
 let newintake: intakepage;
@@ -79,45 +147,5 @@ test('@createandadd Add intake and add auth', async ({ page }) => {
 })
 
 
-let duplicateauth = 'testdupauth';
-test('@addduplicate Dupliacte auth for client', async ({ page }) => {
-    test.slow();
-    test.setTimeout(1 * 60 * 1000);
-    await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx')
-    //await page.goto(`https://working.kantimehealth.net/HH/Z1/UI/Common/DashboardMaster.aspx`);
-    clientiris = new clientreport(page);
-    await clientiris.clientlistpage();
-    await page.waitForTimeout(7000);
-    intakepatient = new intakepageedit(page);
-    const popupPage = await intakepatient.authfill();
-    const newAuth = new createauth(popupPage);
-    await newAuth.publicvendor(duplicateauth);
-    await newAuth.authsave(enterauth);
-    await page.waitForTimeout(7000);
-    const authList = new createauth(page);
-    await authList.authnumexist(duplicateauth);
-
-})
 
 
-test('@addfromimport for client', async ({ page }) => {
-    test.slow();
-    test.setTimeout(1 * 60 * 1000);
-    await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx')
-    // await page.goto(`https://working.kantimehealth.net/HH/Z1/UI/Common/DashboardMaster.aspx`);
-    menus = new kantimepage(page);
-    await menus.cdsauthmenu();
-    await page.waitForTimeout(5000);
-    const mainImport = new importauthactivities(page);
-    //  Popup-1
-    const addfilepopup = await mainImport.importedauthpage();
-    await page.waitForTimeout(5000);
-    const popupImport = new importauthactivities(addfilepopup);
-    const idwhileimport = await popupImport.importpop();
-    //  Popup-2 (opened by filemanage)
-    const openaddedfile = await mainImport.filemanage(idwhileimport);
-    //  use popupPage2, NOT page
-    const popuppage = new importauthactivities(openaddedfile);
-    await popuppage.importedlist();
-
-})

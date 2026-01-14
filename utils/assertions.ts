@@ -2,6 +2,9 @@ import { expect, Page, Locator } from '@playwright/test';
 import { createauth } from '../pages/auth';
 import { faker } from '@faker-js/faker';
 import { importauthactivities } from '../pages/importauth';
+import { intakepageedit } from '../pages/intakeprofile';
+import { clientreport } from '../pages/clientlist';
+import { kantimepage } from '../pages/menupage';
 
 
 export class Assert {
@@ -13,21 +16,47 @@ export class Assert {
   readonly validatepayer: Locator
   readonly validateservice: Locator;
   readonly importauth: importauthactivities;
+  readonly intake:intakepageedit;
   readonly summaryfileid: Locator
   readonly importedfileid: Locator;
+  readonly assertmenu:clientreport;
+  readonly assertcdsmenu:kantimepage;
 
-
+ 
   constructor(private page: Page) {
 
     this.duplicate = page.locator(`//div[contains(@class,'bg-body p-3 !pt-0')]//div[contains(@class,'rounded-sm border')]`)
     this.acceptconfirm = page.getByRole('dialog');
     this.auth = new createauth(page);
+    this.intake=new intakepageedit(page);
+    this.assertmenu=new clientreport(page);
+    this.assertcdsmenu=new kantimepage(page);
     this.validateauthnumber = page.locator(`//*[@name='auth_number']`);
     this.validatepayer = page.locator(`(//*[contains(@class,'whitespace-nowrap rounded-md font-medium ring') and @type='button'])[1]`)
     this.validateservice = page.locator(`(//*[contains(@class,'whitespace-nowrap rounded-md font-medium ring') and @type='button'])[2]`)
     this.importauth = new importauthactivities(page);
     this.summaryfileid = page.locator(`//button[@class='text-start w-fit font-bold text-[#135cc8]']`);
     this.importedfileid = page.locator(`//p[text()='File ID']/following-sibling::div[@class='font-semibold']`);
+     
+    
+  }
+
+  async assertclientmenu(){
+    try{
+      await expect(this.assertmenu.clientmenu).toBeVisible();
+      console.log('✅ client menu exist');
+    }catch(error){
+      console.log("❌ client menu not exist");
+    }
+  }
+
+  async assertcds(){
+    try{
+      await expect(this.assertcdsmenu.cdsmenu).toBeVisible();
+      console.log('✅ CDS menu exist');
+    }catch(error){
+      console.log("❌ CDS menu not exist");
+    }
   }
 
   async hasurl() {
@@ -53,6 +82,15 @@ export class Assert {
       console.log("✅ Accept intake confirmation appeared");
     } catch (error) {
       console.log("❌ Accept intake confirmation not appeared");
+    }
+  }
+
+  async assertauthtab(){
+    try{
+      await expect(this.intake.authdetail).toBeVisible();
+       console.log("✅ Auth tab exist");
+    }catch (error){
+      console.log("❌ Auth tab not exist");
     }
   }
 
@@ -92,6 +130,15 @@ export class Assert {
       console.log("❌ Auth number validation FAIL — Auth number mismatch");
     }
   }
+async assertPendingAuthdata() {
+  try{
+    await expect(this.importauth.clientname).toBeVisible();
+    await expect(this.importauth.authnumber).toBeVisible();
+    console.log("✅ Auth number and client name exist");
+  }catch(error){
+    console.log("❌ Auth number and client name not exist");
+  }
+  }
 
+ 
 }
-

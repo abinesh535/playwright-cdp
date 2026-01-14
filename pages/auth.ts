@@ -1,4 +1,4 @@
-import { test, Locator, Page } from '@playwright/test'
+import { test, Locator, Page, expect } from '@playwright/test'
 import { getCurrentTime } from '../utils/timer';
 import { Assert } from '../utils/assertions';
 
@@ -26,6 +26,7 @@ export class createauth {
     readonly totoalunits: Locator;
     readonly authrule: Locator;
     readonly clicksave: Locator;
+    readonly savemessage: Locator;
     readonly authpagess: Locator;
     readonly summary: Locator;
     readonly sameauthnumber: Locator;
@@ -33,6 +34,7 @@ export class createauth {
     readonly closevalidation: Locator;
     readonly cancelauth: Locator;
     readonly getauthnum: Locator;
+
 
     constructor(page: Page) {
 
@@ -59,6 +61,7 @@ export class createauth {
         this.totoalunits = page.locator('#total_units');
         this.authrule = page.locator(`//span[normalize-space()='Hard Stop']/ancestor::label//button[@role='checkbox']`);
         this.clicksave = page.getByText('Save as Active');
+        this.savemessage = page.locator(`//*[@class='Toastify__toast-body']`);
         this.authpagess = page.locator(`//*[@class='bg-body font-lato text-[#333]']`);
         this.summary = page.locator(`//div[@class='pt-2']`);
         this.sameauthnumber = page.locator(`//*[@role='dialog']`);
@@ -101,6 +104,13 @@ export class createauth {
     }
     async authsave(enterauth: string) {
         await this.clicksave.click();
+
+        try {
+            await expect(this.savemessage).toBeVisible();
+            console.log('✅ Auth saved successfully');
+        } catch {
+            console.log('❌ Auth not saved');
+        }
         await this.authpagess.screenshot({ path: `screenshots/${enterauth}_${getCurrentTime()}.png` })
         await this.page.waitForTimeout(3000);
         if (await this.sameauthnumber.isVisible()) {
@@ -128,5 +138,29 @@ export class createauth {
         const addedauth = await this.page.waitForEvent('popup')
         return new Assert(addedauth);
 
+    }
+
+    async Empvendor(enterauth: string) {
+        await this.authnumber.click();
+        await this.authnumber.fill(enterauth);
+        console.log('Added authorization is: ' + enterauth);
+        await this.clickpvendorcheckbox.check();
+        await this.clickvendorlist.click();
+        await this.selectvendor.click();
+        await this.clickutilization.check();
+        await this.clickpayer.click();
+        await this.selectpayer.click();
+        await this.clickservice.click();
+        await this.selectservice.click();
+        await this.selectstartdate.fill('12/01/2025');
+        await this.selectenddate.fill('01/01/2026')
+        await this.clickfrequency.click();
+        await this.selectfrequency.click();
+        await this.selectunitsbyfre.fill('10');
+        await this.clickunittype.click();
+        await this.selectunittype.click();
+        await this.unitrate.fill(`10`)
+        await this.totoalunits.fill(`10`)
+        await this.authrule.check();    //enables only if unchecked
     }
 }

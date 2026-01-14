@@ -1,4 +1,5 @@
 import { test, Locator, Page, expect } from '@playwright/test';
+import { Assert } from '../utils/assertions';
 
 export class intakepageedit {
 
@@ -144,6 +145,8 @@ export class intakepageedit {
     }
     async authfill(): Promise<Page> {
         await this.authdetail.click();
+        const authtabAssert = new Assert(this.page); //     create assertion object
+        await authtabAssert.assertauthtab();  
         await this.authedit.click()
         await this.clickcreatemanualauth.click();
         const authpopup = await this.page.waitForEvent('popup')

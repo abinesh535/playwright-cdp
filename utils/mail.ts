@@ -27,13 +27,13 @@ function extractImportantLogs(rawLog: string): string {
   return cleaned.trim();
 }
 
-function collectArtifacts(dir: string, attachments: any[] = []) {
-  if (!fs.existsSync(dir)) return attachments;
+function collectArtifacts(dir: string, attachments: any[] = []) {   //dir--path of the folder, attachments-stores the screenshot
+  if (!fs.existsSync(dir)) return attachments;               //checks folder exist
 
-  for (const item of fs.readdirSync(dir)) {
-    const fullPath = path.join(dir, item);
+  for (const item of fs.readdirSync(dir)) {         //Reads all files and folders inside dir
+    const fullPath = path.join(dir, item);         //creates path
 
-    if (fs.statSync(fullPath).isDirectory()) {
+     if (fs.statSync(fullPath).isDirectory()) {    // gives true if folder and enters the folder
       collectArtifacts(fullPath, attachments);
     } else if (item.endsWith('.png')) {
       attachments.push({

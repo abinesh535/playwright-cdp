@@ -36,8 +36,7 @@ export default defineConfig({
   },
 
   outputDir: 'screenshots',
-
-  globalTeardown: './utils/global-teardown.ts',
+  globalTeardown: './utils/global-teardown.ts',    //added by me so send failure mail also
 
   /* Configure projects for major browsers */
   projects: [
