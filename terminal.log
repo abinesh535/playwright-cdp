@@ -1,39 +1,58 @@
 
 Running 1 test using 1 worker
 
-[1A[2K[1/1] [chromium] › tests\authorization.spec.ts:15:5 › @addfromexist Add auth from client
-[1A[2K[chromium] › tests\authorization.spec.ts:15:5 › @addfromexist Add auth from client
-❌ client menu not exist
+[1A[2K[1/1] [chromium] › tests\authorization.spec.ts:15:5 › @addfromexist Add public vendor auth from client
+[1A[2K[chromium] › tests\authorization.spec.ts:15:5 › @addfromexist Add public vendor auth from client
+✅ client menu exist
 
-[1A[2K  1) [chromium] › tests\authorization.spec.ts:15:5 › @addfromexist Add auth from client ────────────
+[1A[2K✅ Auth tab exist
 
-    Error: locator.hover: Target page, context or browser has been closed
-    Call log:
-    [2m  - waiting for locator('//*[@id="2"]')[22m
+[1A[2K15/1/2026, 5:08:21 pm
 
+[1A[2KError message for blank auth number:
+Provider type is required
+Utilization method is required
+Payer is required
+Service is required
+Required
+Required
+Frequency is required
+Units by frequency is required
+Unit type is required
+Unit rate is required
+Total units is required
 
-       at ..\pages\clientlist.ts:26
+[1A[2KAdded authorization is: auth625
 
-      24 |       await this.clientsubmenu.click();
-      25 |       await this.page.waitForTimeout(5000);
-    > 26 |       await this.clicksearch.fill('WIE4375');
-         |                           ^
-      27 |       await this.page.keyboard.press('Enter');
-      28 |       await this.selectclient.click();
-      29 |       await this.clickclienthyperlink.click();
-        at clientreport.clientlistpage (C:\Users\abineshg\Desktop\playwright cdp\pages\clientlist.ts:26:27)
-        at C:\Users\abineshg\Desktop\playwright cdp\tests\authorization.spec.ts:23:22
+[1A[2KTotal client vendors found: 0
 
-    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
-    screenshots\authorization--addfromexist-Add-auth-from-client-chromium\video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
+[1A[2KRandom index selected: [33m0[39m
 
+[1A[2K✅ Auth saved successfully
 
-[dotenv@17.2.3] injecting env (6) from .env.staging -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
-📸 Screenshots found: 0
-[1A[2K  1 failed
-    [chromium] › tests\authorization.spec.ts:15:5 › @addfromexist Add auth from client ─────────────
+[1A[2K15/1/2026, 5:08:27 pm
 
-[36m  Serving HTML report at http://localhost:9323. Press Ctrl+C to quit.[39m
+[1A[2K✅ URL check PASS — Edit-manual-authorization page present
+
+[1A[2K✅ Auth data check PASS — authorization number present
+
+[1A[2K✅ Auth data check PASS — payer present
+
+[1A[2K✅ Auth data check PASS — service present
+
+[1A[2K✅ Auth data check PASS — start date present
+
+[1A[2K✅ Auth data check PASS — end date present
+
+[1A[2K✅ Auth number validation PASS — Auth number match
+
+[dotenv@17.2.3] injecting env (6) from .env.staging -- tip: ⚙️  suppress all logs with { quiet: true }
+📸 Screenshots found: 2
 ✅ Mail sent successfully
 📸 Screenshots folder deleted
+[1A[2K  1 passed (55.3s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m

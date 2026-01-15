@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test:staging": "cross-env ENV=staging npx playwright test",
-    "test:authorizationfromclient": "npx playwright test authorization.spec.ts --headed --grep @addfromexist> terminal.log 2>&1 & npx ts-node utils/mail.ts",
+    "test:addpublicvendorauth": "npx playwright test authorization.spec.ts --headed --grep @publicvendorauth> terminal.log 2>&1 & npx ts-node utils/mail.ts",
     "test:duplicateauthnum": "npx playwright test authorization.spec.ts --headed --grep @addduplicate> terminal.log 2>&1 & npx ts-node utils/mail.ts",
     "test:addfromimport" : "npx playwright test authorization.spec.ts --headed --grep @addfromimport> terminal.log 2>&1 & npx ts-node utils/mail.ts",
-    "test:authorizationfromintake": "npx playwright test authorization.spec.ts --headed --grep @createandadd> terminal.log 2>&1 & npx ts-node utils/mail.ts"
+    "test:authorizationfromintake": "npx playwright test authorization.spec.ts --headed --grep @createandadd> terminal.log 2>&1 & npx ts-node utils/mail.ts",
+    "test:addclientvendorauth": "npx playwright test authorization.spec.ts --headed --grep @clientvendorauth> terminal.log 2>&1 & npx ts-node utils/mail.ts"
   },
   "keywords": [],
   "author": "",

@@ -34,6 +34,9 @@ export class createauth {
     readonly closevalidation: Locator;
     readonly cancelauth: Locator;
     readonly getauthnum: Locator;
+    readonly clickclientvendorcheckbox: Locator;
+    readonly clickclientvendorlist: Locator;
+    readonly selectclientvendor: Locator;
 
 
     constructor(page: Page) {
@@ -44,12 +47,12 @@ export class createauth {
         this.authnumber = page.locator(`//*[@name='authorization_number']`);
         this.clickpvendorcheckbox = page.locator(`//span[normalize-space()='Vendor']/ancestor::label//button[@role='checkbox']`);
         this.clickvendorlist = page.getByPlaceholder('Search Vendor');
-        this.selectvendor = page.getByText('Alpha Vendor (119119119)');
+        this.selectvendor = page.locator(`//*[@class='h-full w-full rounded-[inherit] max-h-[19rem]']//div//div[contains(@class,'relative flex cursor-default select-none items-center')]`);
         this.clickutilization = page.locator(`//span[normalize-space()='Miles']/ancestor::label//button[@role='checkbox']`);
         this.clickpayer = page.getByText('Select Payer');
         this.selectpayer = page.getByText('WI IRIS-IRISW(IRIS-WI)')
         this.clickservice = page.getByText('Select Service');
-        this.selectservice = page.getByText('00240 Residential Services AFH 1-2 Beds');
+        this.selectservice = page.locator(`//*[@class='h-full w-full rounded-[inherit] max-h-40']//div//div`);
         this.selectstartdate = page.locator(`//*[@for='start_date']/following-sibling::div[@class='flex relative align-center text-sm h-9 w-[150px]']//input`);
         this.selectenddate = page.locator("//*[@for='end_date']/following-sibling::div[@class='flex relative align-center text-sm h-9 w-[150px]']//input");
         this.clickfrequency = page.getByText('Select', { exact: true }).first();
@@ -69,6 +72,11 @@ export class createauth {
         this.closevalidation = page.locator(`//button[contains(@class,'h-6 w-6 bg-white absolute right-4 top-4 rounded')]`);
         this.cancelauth = page.getByText('Cancel');
         this.getauthnum = page.locator(`//table[@class='w-full caption-bottom text-sm relative']//tbody/tr//td//div//div//span[@class='cursor-pointer w-fit font-semibold text-[#0747a6]']`);
+        this.clickclientvendorcheckbox = page.locator(`//span[normalize-space()='Client Vendor']/ancestor::label//button[@role='checkbox']`);
+        this.clickclientvendorlist = page.getByPlaceholder('Search client vendor');
+        this.selectclientvendor = page.locator(`//*[@class='h-full w-full rounded-[inherit] max-h-[19rem]']//div//div[contains(@class,'relative flex cursor-default select-none items-center')]`);
+
+
     }
 
     async saveemptyauth(blankauth: string) {
@@ -79,18 +87,32 @@ export class createauth {
         let error: string[] = await this.errormessage.allInnerTexts();
         console.log("Error message for blank auth number:\n" + error.join('\n'));
     }
-    async publicvendor(enterauth: string) {
+    async publicvendor(enterauth: string): Promise<boolean> {
         await this.authnumber.click();
         await this.authnumber.fill(enterauth);
         console.log('Added authorization is: ' + enterauth);
         await this.clickpvendorcheckbox.check();
         await this.clickvendorlist.click();
-        await this.selectvendor.click();
+        if (await this.page.getByText('No results found').count() > 0) {
+            console.log('❌ No Public vendor found');
+            return false;
+        }
+        await this.page.waitForTimeout(4000);
+        let publicvendorcount = await this.selectvendor.count();
+        console.log('Total public vendors found: ' + publicvendorcount);
+        const randomIndex = Math.floor(Math.random() * publicvendorcount);
+        console.log('Public vendor index selected:', randomIndex);
+        await this.selectvendor.nth(randomIndex).click();
         await this.clickutilization.check();
         await this.clickpayer.click();
         await this.selectpayer.click();
         await this.clickservice.click();
-        await this.selectservice.click();
+        await this.page.waitForTimeout(4000);
+        let servicecount = await this.selectservice.count();
+        console.log('Total service found: ' + servicecount);
+        const randomservice = Math.floor(Math.random() * servicecount);
+        console.log('Service index selected:', randomservice);
+        await this.selectservice.nth(randomservice).click();
         await this.selectstartdate.fill('12/01/2025');
         await this.selectenddate.fill('01/01/2026')
         await this.clickfrequency.click();
@@ -112,7 +134,7 @@ export class createauth {
             console.log('❌ Auth not saved');
         }
         await this.authpagess.screenshot({ path: `screenshots/${enterauth}_${getCurrentTime()}.png` })
-        await this.page.waitForTimeout(3000);
+        // await this.page.waitForTimeout(3000);
         if (await this.sameauthnumber.isVisible()) {
             await this.sameauthnumber.screenshot({ path: `screenshots/duplicateauth_${getCurrentTime()}.png` });
             let validation: string = await this.getvalidation.innerText();
@@ -140,18 +162,32 @@ export class createauth {
 
     }
 
-    async Empvendor(enterauth: string) {
+    async clientvendor(enterauth: string): Promise<boolean> {
         await this.authnumber.click();
         await this.authnumber.fill(enterauth);
         console.log('Added authorization is: ' + enterauth);
-        await this.clickpvendorcheckbox.check();
-        await this.clickvendorlist.click();
-        await this.selectvendor.click();
+        await this.clickclientvendorcheckbox.check();
+        await this.clickclientvendorlist.click();
+        await this.page.waitForTimeout(4000);
+        if (await this.page.getByText('No results found').count() > 0) {
+            console.log('❌ No client vendor found');
+            return false;
+        }
+        let clientvendorcount = await this.selectclientvendor.count();
+        console.log('Total client vendors found: ' + clientvendorcount);
+        const randomIndex = Math.floor(Math.random() * clientvendorcount);
+        console.log('client vendor index selected:', randomIndex);
+        await this.selectclientvendor.nth(randomIndex).click();
         await this.clickutilization.check();
         await this.clickpayer.click();
         await this.selectpayer.click();
         await this.clickservice.click();
-        await this.selectservice.click();
+        await this.page.waitForTimeout(4000);
+        let servicecount = await this.selectservice.count();
+        console.log('Total service found: ' + servicecount);
+        const randomservice = Math.floor(Math.random() * servicecount);
+        console.log('service Index selected:', randomservice);
+        await this.selectservice.nth(randomservice).click()
         await this.selectstartdate.fill('12/01/2025');
         await this.selectenddate.fill('01/01/2026')
         await this.clickfrequency.click();
