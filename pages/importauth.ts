@@ -144,7 +144,7 @@ export class importauthactivities {
     await this.page.waitForTimeout(2000);
     await this.page.getByRole('button', { name: 'Filter' }).click();
     await this.page.getByText('CDS').hover();
-    await this.page.getByText('IRIS Auth Import').hover();
+    await this.menuPage.authmenu.hover();
     await this.page.keyboard.press('ArrowRight');
     await this.page.waitForTimeout(1000);
     await this.page.keyboard.press('ArrowDown'); // Imported Authorization Files
@@ -154,10 +154,10 @@ export class importauthactivities {
 
     // Select
     await this.page.keyboard.press('Enter');
-    await this.page.getByRole('button', { name: 'Filter' }).click();
-    await this.page.getByPlaceholder('Search By File ID, File Name').fill(idoffile);
+    await this.pendingauthfilter.click();
+    await this.fileidfilter.fill(idoffile);
     await this.page.waitForTimeout(2000);
-    await this.page.getByRole('button', { name: 'Apply' }).click();
+    await this.clickapply.click();
     await this.page.waitForTimeout(4000);
     const clientnamelist = (await this.clientname.allInnerTexts()).map(name => name.trim())
       .filter(name => name.length > 0);

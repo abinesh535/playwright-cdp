@@ -7,6 +7,7 @@ import { createauth } from '../pages/auth';
 import { clientreport } from '../pages/clientlist';
 import { faker } from '@faker-js/faker';
 import { importauthactivities } from '../pages/importauth';
+import { map } from '../pages/mapping';
 
 const fakerauth = faker.word.words(1);
 const enterauth = `auth${faker.number.int({ min: 100, max: 999 })}`;
@@ -153,7 +154,15 @@ test('@addfromimport Import auth for client', async ({ page }) => {
 })
 
 
-let menus: kantimepage;
+test.only('@mappayer Map payer for auth', async ({ page }) => {
+  test.slow();
+  test.setTimeout(10 * 60 * 1000);
+  await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx');
+  const payer = new map(page);
+  await payer.mappayer();
+})
+
+let menus: kantimepage; 
 let newintake: intakepage;
 let validate: Assert
 let intakepatient: intakepageedit;

@@ -1,0 +1,6830 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e5]
+      - generic [ref=e23]: Home Healthcare Software
+      - group [ref=e30] [cursor=pointer]:
+        - generic [ref=e31]:
+          - img [ref=e32]
+          - combobox [expanded] [ref=e36]
+        - img [ref=e39]
+      - generic [ref=e44]:
+        - generic [ref=e45]: Welcome Tom Cruise
+        - generic [ref=e46]: (mariatesttimezone@peter.org)
+        - generic [ref=e47]: "Last Login: 1/16/2026, 4:32:10 PM"
+    - generic [ref=e49]:
+      - button [ref=e51] [cursor=pointer]
+      - generic [ref=e53]:
+        - button "Referral" [ref=e55] [cursor=pointer]:
+          - button "Referral" [ref=e56]:
+            - generic [ref=e57]: Referral
+            - img [ref=e58]
+        - button "Client" [ref=e61] [cursor=pointer]:
+          - button "Client" [ref=e62]:
+            - generic [ref=e63]: Client
+            - img [ref=e64]
+        - button "CDS" [ref=e67] [cursor=pointer]:
+          - button "CDS" [ref=e68]:
+            - generic [ref=e69]: CDS
+            - img [ref=e70]
+        - button "Timesheet" [ref=e73] [cursor=pointer]:
+          - button "Timesheet" [ref=e74]:
+            - generic [ref=e75]: Timesheet
+            - img [ref=e76]
+        - button "Billing" [ref=e79] [cursor=pointer]:
+          - button "Billing" [ref=e80]:
+            - generic [ref=e81]: Billing
+            - img [ref=e82]
+        - button "Accounts" [ref=e85] [cursor=pointer]:
+          - button "Accounts" [ref=e86]:
+            - generic [ref=e87]: Accounts
+            - img [ref=e88]
+        - button "Reports" [ref=e91] [cursor=pointer]:
+          - button "Reports" [ref=e92]:
+            - generic [ref=e93]: Reports
+            - img [ref=e94]
+        - button "Utilities" [ref=e97] [cursor=pointer]:
+          - button "Utilities" [ref=e98]:
+            - generic [ref=e99]: Utilities
+            - img [ref=e100]
+        - button "Setup" [ref=e103] [cursor=pointer]:
+          - button "Setup" [ref=e104]:
+            - generic [ref=e105]: Setup
+            - img [ref=e106]
+        - button "Logout" [ref=e108] [cursor=pointer]:
+          - generic [ref=e109]: Logout
+    - generic [ref=e110]:
+      - button "Previous" [ref=e111] [cursor=pointer]:
+        - img [ref=e112]
+      - heading "IRIS - Pending Acceptance Records" [level=1] [ref=e114]
+      - button "Access your other Apps" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "Next" [ref=e129] [cursor=pointer]:
+        - img [ref=e130]
+  - main [ref=e132]:
+    - generic [ref=e134]:
+      - tablist [ref=e139]:
+        - tab "New Authorizations 138146" [selected] [ref=e140] [cursor=pointer]:
+          - generic [ref=e143]:
+            - generic [ref=e144]: New Authorizations
+            - generic [ref=e145]: "138146"
+        - tab "Changed Authorizations 116" [ref=e146] [cursor=pointer]:
+          - generic [ref=e149]:
+            - generic [ref=e150]: Changed Authorizations
+            - generic [ref=e151]: "116"
+      - generic [ref=e153]:
+        - generic [ref=e155]:
+          - button "Filter" [ref=e156] [cursor=pointer]:
+            - img [ref=e157]
+            - text: Filter
+          - button "Action" [ref=e158] [cursor=pointer]
+          - button [ref=e159] [cursor=pointer]:
+            - img [ref=e160]
+        - generic [ref=e164]:
+          - generic [ref=e167] [cursor=pointer]:
+            - generic [ref=e168]: Mapping Error +1
+            - button [ref=e169]:
+              - img [ref=e170]
+          - button "Clear all" [ref=e174] [cursor=pointer]
+        - generic [ref=e176]:
+          - button [ref=e177] [cursor=pointer]:
+            - img [ref=e178]
+          - table [ref=e181]:
+            - rowgroup [ref=e182]:
+              - row "Client / Participant Auth# & Auth Period Provider Payer Service Frequency& Unit Type Units By Frequency Unit Rate Total Units & Amount Errors Followup Date Notes" [ref=e183]:
+                - columnheader [ref=e184]:
+                  - button [ref=e185] [cursor=pointer]:
+                    - img [ref=e186]
+                - columnheader [ref=e187]:
+                  - checkbox [ref=e189] [cursor=pointer]
+                - columnheader "Client / Participant" [ref=e190]:
+                  - generic [ref=e193]: Client / Participant
+                - columnheader "Auth# & Auth Period" [ref=e194]:
+                  - generic [ref=e197]: Auth# & Auth Period
+                - columnheader "Provider" [ref=e198]:
+                  - generic [ref=e201]: Provider
+                - columnheader "Payer" [ref=e202]:
+                  - generic [ref=e205]: Payer
+                - columnheader "Service" [ref=e206]:
+                  - generic [ref=e209]: Service
+                - columnheader "Frequency& Unit Type" [ref=e210]:
+                  - generic [ref=e213]: Frequency& Unit Type
+                - columnheader "Units By Frequency" [ref=e214]:
+                  - generic [ref=e217]: Units By Frequency
+                - columnheader "Unit Rate" [ref=e218]:
+                  - generic [ref=e221]: Unit Rate
+                - columnheader "Total Units & Amount" [ref=e222]:
+                  - generic [ref=e225]: Total Units & Amount
+                - columnheader "Errors" [ref=e226]:
+                  - generic [ref=e229]: Errors
+                - columnheader "Followup Date" [ref=e230]:
+                  - generic [ref=e233]: Followup Date
+                - columnheader "Notes" [ref=e234]:
+                  - generic [ref=e237]: Notes
+                - columnheader [ref=e238]
+            - rowgroup
+          - table [ref=e240]:
+            - rowgroup [ref=e241]:
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133119 S: 10/03/2027 E: 10/24/2027 CV: Not Mapped PIR#: 8A31116048 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e242]':
+                - cell [ref=e243]:
+                  - button [ref=e244] [cursor=pointer]:
+                    - img [ref=e245]
+                - cell [ref=e246]:
+                  - checkbox [ref=e249] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e250]':
+                  - generic [ref=e253]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e256] [cursor=pointer]:
+                      - generic [ref=e257]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e258]: "MCI#: 6402509566"
+                    - generic [ref=e259]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133119 S: 10/03/2027 E: 10/24/2027" [ref=e260]':
+                  - generic [ref=e263]:
+                    - generic [ref=e264]: ASWAccepttest133119
+                    - generic [ref=e265]: "S: 10/03/2027"
+                    - generic [ref=e266]: "E: 10/24/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116048" [ref=e267]':
+                  - generic [ref=e271]:
+                    - generic [ref=e272]:
+                      - text: "CV:"
+                      - generic [ref=e273]: Not Mapped
+                    - generic [ref=e274]: "PIR#: 8A31116048"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e275]':
+                  - generic [ref=e279]:
+                    - generic [ref=e280]:
+                      - text: "P:"
+                      - generic [ref=e281]: Not Mapped
+                    - generic [ref=e282]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e283]':
+                  - generic [ref=e287]:
+                    - generic [ref=e288]:
+                      - generic [ref=e289]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e290]:
+                      - generic [ref=e291]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e292]':
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: "F: Monthly"
+                    - generic [ref=e298]:
+                      - text: "U:"
+                      - generic [ref=e299]: hour
+                - cell "10" [ref=e300]:
+                  - generic [ref=e304]: "10"
+                - cell "$10" [ref=e305]:
+                  - generic [ref=e309]: $10
+                - 'cell "T: 100 A: $1000" [ref=e310]':
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: "T: 100"
+                    - generic [ref=e316]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e317]:
+                  - generic [ref=e322]:
+                    - paragraph [ref=e323]: Mapping Error
+                    - list [ref=e324]:
+                      - listitem [ref=e325]: Client Vendor Not Mapped
+                      - listitem [ref=e326]: Payer Not Mapped
+                - cell [ref=e327]:
+                  - generic [ref=e331]:
+                    - textbox "mm/dd/yyyy" [ref=e332]
+                    - img [ref=e334] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e337]:
+                  - paragraph [ref=e339]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e340] [cursor=pointer]:
+                      - img [ref=e341]
+                - cell [ref=e343]:
+                  - button [ref=e344] [cursor=pointer]:
+                    - img [ref=e345]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133118 S: 10/02/2027 E: 10/23/2027 CV: Not Mapped PIR#: 8A31116047 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e349]':
+                - cell [ref=e350]:
+                  - button [ref=e351] [cursor=pointer]:
+                    - img [ref=e352]
+                - cell [ref=e353]:
+                  - checkbox [ref=e356] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e357]':
+                  - generic [ref=e360]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e363] [cursor=pointer]:
+                      - generic [ref=e364]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e365]: "MCI#: 6402509566"
+                    - generic [ref=e366]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133118 S: 10/02/2027 E: 10/23/2027" [ref=e367]':
+                  - generic [ref=e370]:
+                    - generic [ref=e371]: ASWAccepttest133118
+                    - generic [ref=e372]: "S: 10/02/2027"
+                    - generic [ref=e373]: "E: 10/23/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116047" [ref=e374]':
+                  - generic [ref=e378]:
+                    - generic [ref=e379]:
+                      - text: "CV:"
+                      - generic [ref=e380]: Not Mapped
+                    - generic [ref=e381]: "PIR#: 8A31116047"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e382]':
+                  - generic [ref=e386]:
+                    - generic [ref=e387]:
+                      - text: "P:"
+                      - generic [ref=e388]: Not Mapped
+                    - generic [ref=e389]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e390]':
+                  - generic [ref=e394]:
+                    - generic [ref=e395]:
+                      - generic [ref=e396]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e397]:
+                      - generic [ref=e398]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e399]':
+                  - generic [ref=e403]:
+                    - generic [ref=e404]: "F: Monthly"
+                    - generic [ref=e405]:
+                      - text: "U:"
+                      - generic [ref=e406]: hour
+                - cell "10" [ref=e407]:
+                  - generic [ref=e411]: "10"
+                - cell "$10" [ref=e412]:
+                  - generic [ref=e416]: $10
+                - 'cell "T: 100 A: $1000" [ref=e417]':
+                  - generic [ref=e421]:
+                    - generic [ref=e422]: "T: 100"
+                    - generic [ref=e423]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e424]:
+                  - generic [ref=e429]:
+                    - paragraph [ref=e430]: Mapping Error
+                    - list [ref=e431]:
+                      - listitem [ref=e432]: Client Vendor Not Mapped
+                      - listitem [ref=e433]: Payer Not Mapped
+                - cell [ref=e434]:
+                  - generic [ref=e438]:
+                    - textbox "mm/dd/yyyy" [ref=e439]
+                    - img [ref=e441] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e444]:
+                  - paragraph [ref=e446]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e447] [cursor=pointer]:
+                      - img [ref=e448]
+                - cell [ref=e450]:
+                  - button [ref=e451] [cursor=pointer]:
+                    - img [ref=e452]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133117 S: 10/01/2027 E: 10/22/2027 CV: Not Mapped PIR#: 8A31116046 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e456]':
+                - cell [ref=e457]:
+                  - button [ref=e458] [cursor=pointer]:
+                    - img [ref=e459]
+                - cell [ref=e460]:
+                  - checkbox [ref=e463] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e464]':
+                  - generic [ref=e467]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e470] [cursor=pointer]:
+                      - generic [ref=e471]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e472]: "MCI#: 6402509566"
+                    - generic [ref=e473]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133117 S: 10/01/2027 E: 10/22/2027" [ref=e474]':
+                  - generic [ref=e477]:
+                    - generic [ref=e478]: ASWAccepttest133117
+                    - generic [ref=e479]: "S: 10/01/2027"
+                    - generic [ref=e480]: "E: 10/22/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116046" [ref=e481]':
+                  - generic [ref=e485]:
+                    - generic [ref=e486]:
+                      - text: "CV:"
+                      - generic [ref=e487]: Not Mapped
+                    - generic [ref=e488]: "PIR#: 8A31116046"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e489]':
+                  - generic [ref=e493]:
+                    - generic [ref=e494]:
+                      - text: "P:"
+                      - generic [ref=e495]: Not Mapped
+                    - generic [ref=e496]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e497]':
+                  - generic [ref=e501]:
+                    - generic [ref=e502]:
+                      - generic [ref=e503]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e504]:
+                      - generic [ref=e505]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e506]':
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: "F: Monthly"
+                    - generic [ref=e512]:
+                      - text: "U:"
+                      - generic [ref=e513]: hour
+                - cell "10" [ref=e514]:
+                  - generic [ref=e518]: "10"
+                - cell "$10" [ref=e519]:
+                  - generic [ref=e523]: $10
+                - 'cell "T: 100 A: $1000" [ref=e524]':
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: "T: 100"
+                    - generic [ref=e530]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e531]:
+                  - generic [ref=e536]:
+                    - paragraph [ref=e537]: Mapping Error
+                    - list [ref=e538]:
+                      - listitem [ref=e539]: Client Vendor Not Mapped
+                      - listitem [ref=e540]: Payer Not Mapped
+                - cell [ref=e541]:
+                  - generic [ref=e545]:
+                    - textbox "mm/dd/yyyy" [ref=e546]
+                    - img [ref=e548] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e551]:
+                  - paragraph [ref=e553]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e554] [cursor=pointer]:
+                      - img [ref=e555]
+                - cell [ref=e557]:
+                  - button [ref=e558] [cursor=pointer]:
+                    - img [ref=e559]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133116 S: 09/30/2027 E: 10/21/2027 CV: Not Mapped PIR#: 8A31116045 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e563]':
+                - cell [ref=e564]:
+                  - button [ref=e565] [cursor=pointer]:
+                    - img [ref=e566]
+                - cell [ref=e567]:
+                  - checkbox [ref=e570] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e571]':
+                  - generic [ref=e574]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e577] [cursor=pointer]:
+                      - generic [ref=e578]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e579]: "MCI#: 6402509566"
+                    - generic [ref=e580]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133116 S: 09/30/2027 E: 10/21/2027" [ref=e581]':
+                  - generic [ref=e584]:
+                    - generic [ref=e585]: ASWAccepttest133116
+                    - generic [ref=e586]: "S: 09/30/2027"
+                    - generic [ref=e587]: "E: 10/21/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116045" [ref=e588]':
+                  - generic [ref=e592]:
+                    - generic [ref=e593]:
+                      - text: "CV:"
+                      - generic [ref=e594]: Not Mapped
+                    - generic [ref=e595]: "PIR#: 8A31116045"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e596]':
+                  - generic [ref=e600]:
+                    - generic [ref=e601]:
+                      - text: "P:"
+                      - generic [ref=e602]: Not Mapped
+                    - generic [ref=e603]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e604]':
+                  - generic [ref=e608]:
+                    - generic [ref=e609]:
+                      - generic [ref=e610]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e611]:
+                      - generic [ref=e612]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e613]':
+                  - generic [ref=e617]:
+                    - generic [ref=e618]: "F: Monthly"
+                    - generic [ref=e619]:
+                      - text: "U:"
+                      - generic [ref=e620]: hour
+                - cell "10" [ref=e621]:
+                  - generic [ref=e625]: "10"
+                - cell "$10" [ref=e626]:
+                  - generic [ref=e630]: $10
+                - 'cell "T: 100 A: $1000" [ref=e631]':
+                  - generic [ref=e635]:
+                    - generic [ref=e636]: "T: 100"
+                    - generic [ref=e637]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e638]:
+                  - generic [ref=e643]:
+                    - paragraph [ref=e644]: Mapping Error
+                    - list [ref=e645]:
+                      - listitem [ref=e646]: Client Vendor Not Mapped
+                      - listitem [ref=e647]: Payer Not Mapped
+                - cell [ref=e648]:
+                  - generic [ref=e652]:
+                    - textbox "mm/dd/yyyy" [ref=e653]
+                    - img [ref=e655] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e658]:
+                  - paragraph [ref=e660]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e661] [cursor=pointer]:
+                      - img [ref=e662]
+                - cell [ref=e664]:
+                  - button [ref=e665] [cursor=pointer]:
+                    - img [ref=e666]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133115 S: 09/29/2027 E: 10/20/2027 CV: Not Mapped PIR#: 8A31116044 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e670]':
+                - cell [ref=e671]:
+                  - button [ref=e672] [cursor=pointer]:
+                    - img [ref=e673]
+                - cell [ref=e674]:
+                  - checkbox [ref=e677] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e678]':
+                  - generic [ref=e681]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e684] [cursor=pointer]:
+                      - generic [ref=e685]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e686]: "MCI#: 6402509566"
+                    - generic [ref=e687]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133115 S: 09/29/2027 E: 10/20/2027" [ref=e688]':
+                  - generic [ref=e691]:
+                    - generic [ref=e692]: ASWAccepttest133115
+                    - generic [ref=e693]: "S: 09/29/2027"
+                    - generic [ref=e694]: "E: 10/20/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116044" [ref=e695]':
+                  - generic [ref=e699]:
+                    - generic [ref=e700]:
+                      - text: "CV:"
+                      - generic [ref=e701]: Not Mapped
+                    - generic [ref=e702]: "PIR#: 8A31116044"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e703]':
+                  - generic [ref=e707]:
+                    - generic [ref=e708]:
+                      - text: "P:"
+                      - generic [ref=e709]: Not Mapped
+                    - generic [ref=e710]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e711]':
+                  - generic [ref=e715]:
+                    - generic [ref=e716]:
+                      - generic [ref=e717]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e718]:
+                      - generic [ref=e719]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e720]':
+                  - generic [ref=e724]:
+                    - generic [ref=e725]: "F: Monthly"
+                    - generic [ref=e726]:
+                      - text: "U:"
+                      - generic [ref=e727]: hour
+                - cell "10" [ref=e728]:
+                  - generic [ref=e732]: "10"
+                - cell "$10" [ref=e733]:
+                  - generic [ref=e737]: $10
+                - 'cell "T: 100 A: $1000" [ref=e738]':
+                  - generic [ref=e742]:
+                    - generic [ref=e743]: "T: 100"
+                    - generic [ref=e744]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e745]:
+                  - generic [ref=e750]:
+                    - paragraph [ref=e751]: Mapping Error
+                    - list [ref=e752]:
+                      - listitem [ref=e753]: Client Vendor Not Mapped
+                      - listitem [ref=e754]: Payer Not Mapped
+                - cell [ref=e755]:
+                  - generic [ref=e759]:
+                    - textbox "mm/dd/yyyy" [ref=e760]
+                    - img [ref=e762] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e765]:
+                  - paragraph [ref=e767]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e768] [cursor=pointer]:
+                      - img [ref=e769]
+                - cell [ref=e771]:
+                  - button [ref=e772] [cursor=pointer]:
+                    - img [ref=e773]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133114 S: 09/28/2027 E: 10/19/2027 CV: Not Mapped PIR#: 8A31116043 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e777]':
+                - cell [ref=e778]:
+                  - button [ref=e779] [cursor=pointer]:
+                    - img [ref=e780]
+                - cell [ref=e781]:
+                  - checkbox [ref=e784] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e785]':
+                  - generic [ref=e788]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e791] [cursor=pointer]:
+                      - generic [ref=e792]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e793]: "MCI#: 6402509566"
+                    - generic [ref=e794]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133114 S: 09/28/2027 E: 10/19/2027" [ref=e795]':
+                  - generic [ref=e798]:
+                    - generic [ref=e799]: ASWAccepttest133114
+                    - generic [ref=e800]: "S: 09/28/2027"
+                    - generic [ref=e801]: "E: 10/19/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116043" [ref=e802]':
+                  - generic [ref=e806]:
+                    - generic [ref=e807]:
+                      - text: "CV:"
+                      - generic [ref=e808]: Not Mapped
+                    - generic [ref=e809]: "PIR#: 8A31116043"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e810]':
+                  - generic [ref=e814]:
+                    - generic [ref=e815]:
+                      - text: "P:"
+                      - generic [ref=e816]: Not Mapped
+                    - generic [ref=e817]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e818]':
+                  - generic [ref=e822]:
+                    - generic [ref=e823]:
+                      - generic [ref=e824]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e825]:
+                      - generic [ref=e826]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e827]':
+                  - generic [ref=e831]:
+                    - generic [ref=e832]: "F: Monthly"
+                    - generic [ref=e833]:
+                      - text: "U:"
+                      - generic [ref=e834]: hour
+                - cell "10" [ref=e835]:
+                  - generic [ref=e839]: "10"
+                - cell "$10" [ref=e840]:
+                  - generic [ref=e844]: $10
+                - 'cell "T: 100 A: $1000" [ref=e845]':
+                  - generic [ref=e849]:
+                    - generic [ref=e850]: "T: 100"
+                    - generic [ref=e851]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e852]:
+                  - generic [ref=e857]:
+                    - paragraph [ref=e858]: Mapping Error
+                    - list [ref=e859]:
+                      - listitem [ref=e860]: Client Vendor Not Mapped
+                      - listitem [ref=e861]: Payer Not Mapped
+                - cell [ref=e862]:
+                  - generic [ref=e866]:
+                    - textbox "mm/dd/yyyy" [ref=e867]
+                    - img [ref=e869] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e872]:
+                  - paragraph [ref=e874]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e875] [cursor=pointer]:
+                      - img [ref=e876]
+                - cell [ref=e878]:
+                  - button [ref=e879] [cursor=pointer]:
+                    - img [ref=e880]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133113 S: 09/27/2027 E: 10/18/2027 CV: Not Mapped PIR#: 8A31116042 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e884]':
+                - cell [ref=e885]:
+                  - button [ref=e886] [cursor=pointer]:
+                    - img [ref=e887]
+                - cell [ref=e888]:
+                  - checkbox [ref=e891] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e892]':
+                  - generic [ref=e895]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e898] [cursor=pointer]:
+                      - generic [ref=e899]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e900]: "MCI#: 6402509566"
+                    - generic [ref=e901]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133113 S: 09/27/2027 E: 10/18/2027" [ref=e902]':
+                  - generic [ref=e905]:
+                    - generic [ref=e906]: ASWAccepttest133113
+                    - generic [ref=e907]: "S: 09/27/2027"
+                    - generic [ref=e908]: "E: 10/18/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116042" [ref=e909]':
+                  - generic [ref=e913]:
+                    - generic [ref=e914]:
+                      - text: "CV:"
+                      - generic [ref=e915]: Not Mapped
+                    - generic [ref=e916]: "PIR#: 8A31116042"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e917]':
+                  - generic [ref=e921]:
+                    - generic [ref=e922]:
+                      - text: "P:"
+                      - generic [ref=e923]: Not Mapped
+                    - generic [ref=e924]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e925]':
+                  - generic [ref=e929]:
+                    - generic [ref=e930]:
+                      - generic [ref=e931]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e932]:
+                      - generic [ref=e933]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e934]':
+                  - generic [ref=e938]:
+                    - generic [ref=e939]: "F: Monthly"
+                    - generic [ref=e940]:
+                      - text: "U:"
+                      - generic [ref=e941]: hour
+                - cell "10" [ref=e942]:
+                  - generic [ref=e946]: "10"
+                - cell "$10" [ref=e947]:
+                  - generic [ref=e951]: $10
+                - 'cell "T: 100 A: $1000" [ref=e952]':
+                  - generic [ref=e956]:
+                    - generic [ref=e957]: "T: 100"
+                    - generic [ref=e958]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e959]:
+                  - generic [ref=e964]:
+                    - paragraph [ref=e965]: Mapping Error
+                    - list [ref=e966]:
+                      - listitem [ref=e967]: Client Vendor Not Mapped
+                      - listitem [ref=e968]: Payer Not Mapped
+                - cell [ref=e969]:
+                  - generic [ref=e973]:
+                    - textbox "mm/dd/yyyy" [ref=e974]
+                    - img [ref=e976] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e979]:
+                  - paragraph [ref=e981]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e982] [cursor=pointer]:
+                      - img [ref=e983]
+                - cell [ref=e985]:
+                  - button [ref=e986] [cursor=pointer]:
+                    - img [ref=e987]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133112 S: 09/26/2027 E: 10/17/2027 CV: Not Mapped PIR#: 8A31116041 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e991]':
+                - cell [ref=e992]:
+                  - button [ref=e993] [cursor=pointer]:
+                    - img [ref=e994]
+                - cell [ref=e995]:
+                  - checkbox [ref=e998] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e999]':
+                  - generic [ref=e1002]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e1005] [cursor=pointer]:
+                      - generic [ref=e1006]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e1007]: "MCI#: 6402509566"
+                    - generic [ref=e1008]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133112 S: 09/26/2027 E: 10/17/2027" [ref=e1009]':
+                  - generic [ref=e1012]:
+                    - generic [ref=e1013]: ASWAccepttest133112
+                    - generic [ref=e1014]: "S: 09/26/2027"
+                    - generic [ref=e1015]: "E: 10/17/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116041" [ref=e1016]':
+                  - generic [ref=e1020]:
+                    - generic [ref=e1021]:
+                      - text: "CV:"
+                      - generic [ref=e1022]: Not Mapped
+                    - generic [ref=e1023]: "PIR#: 8A31116041"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e1024]':
+                  - generic [ref=e1028]:
+                    - generic [ref=e1029]:
+                      - text: "P:"
+                      - generic [ref=e1030]: Not Mapped
+                    - generic [ref=e1031]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e1032]':
+                  - generic [ref=e1036]:
+                    - generic [ref=e1037]:
+                      - generic [ref=e1038]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e1039]:
+                      - generic [ref=e1040]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e1041]':
+                  - generic [ref=e1045]:
+                    - generic [ref=e1046]: "F: Monthly"
+                    - generic [ref=e1047]:
+                      - text: "U:"
+                      - generic [ref=e1048]: hour
+                - cell "10" [ref=e1049]:
+                  - generic [ref=e1053]: "10"
+                - cell "$10" [ref=e1054]:
+                  - generic [ref=e1058]: $10
+                - 'cell "T: 100 A: $1000" [ref=e1059]':
+                  - generic [ref=e1063]:
+                    - generic [ref=e1064]: "T: 100"
+                    - generic [ref=e1065]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e1066]:
+                  - generic [ref=e1071]:
+                    - paragraph [ref=e1072]: Mapping Error
+                    - list [ref=e1073]:
+                      - listitem [ref=e1074]: Client Vendor Not Mapped
+                      - listitem [ref=e1075]: Payer Not Mapped
+                - cell [ref=e1076]:
+                  - generic [ref=e1080]:
+                    - textbox "mm/dd/yyyy" [ref=e1081]
+                    - img [ref=e1083] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e1086]:
+                  - paragraph [ref=e1088]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e1089] [cursor=pointer]:
+                      - img [ref=e1090]
+                - cell [ref=e1092]:
+                  - button [ref=e1093] [cursor=pointer]:
+                    - img [ref=e1094]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133111 S: 09/25/2027 E: 10/16/2027 CV: Not Mapped PIR#: 8A31116040 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e1098]':
+                - cell [ref=e1099]:
+                  - button [ref=e1100] [cursor=pointer]:
+                    - img [ref=e1101]
+                - cell [ref=e1102]:
+                  - checkbox [ref=e1105] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e1106]':
+                  - generic [ref=e1109]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e1112] [cursor=pointer]:
+                      - generic [ref=e1113]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e1114]: "MCI#: 6402509566"
+                    - generic [ref=e1115]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133111 S: 09/25/2027 E: 10/16/2027" [ref=e1116]':
+                  - generic [ref=e1119]:
+                    - generic [ref=e1120]: ASWAccepttest133111
+                    - generic [ref=e1121]: "S: 09/25/2027"
+                    - generic [ref=e1122]: "E: 10/16/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116040" [ref=e1123]':
+                  - generic [ref=e1127]:
+                    - generic [ref=e1128]:
+                      - text: "CV:"
+                      - generic [ref=e1129]: Not Mapped
+                    - generic [ref=e1130]: "PIR#: 8A31116040"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e1131]':
+                  - generic [ref=e1135]:
+                    - generic [ref=e1136]:
+                      - text: "P:"
+                      - generic [ref=e1137]: Not Mapped
+                    - generic [ref=e1138]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e1139]':
+                  - generic [ref=e1143]:
+                    - generic [ref=e1144]:
+                      - generic [ref=e1145]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e1146]:
+                      - generic [ref=e1147]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e1148]':
+                  - generic [ref=e1152]:
+                    - generic [ref=e1153]: "F: Monthly"
+                    - generic [ref=e1154]:
+                      - text: "U:"
+                      - generic [ref=e1155]: hour
+                - cell "10" [ref=e1156]:
+                  - generic [ref=e1160]: "10"
+                - cell "$10" [ref=e1161]:
+                  - generic [ref=e1165]: $10
+                - 'cell "T: 100 A: $1000" [ref=e1166]':
+                  - generic [ref=e1170]:
+                    - generic [ref=e1171]: "T: 100"
+                    - generic [ref=e1172]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e1173]:
+                  - generic [ref=e1178]:
+                    - paragraph [ref=e1179]: Mapping Error
+                    - list [ref=e1180]:
+                      - listitem [ref=e1181]: Client Vendor Not Mapped
+                      - listitem [ref=e1182]: Payer Not Mapped
+                - cell [ref=e1183]:
+                  - generic [ref=e1187]:
+                    - textbox "mm/dd/yyyy" [ref=e1188]
+                    - img [ref=e1190] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e1193]:
+                  - paragraph [ref=e1195]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e1196] [cursor=pointer]:
+                      - img [ref=e1197]
+                - cell [ref=e1199]:
+                  - button [ref=e1200] [cursor=pointer]:
+                    - img [ref=e1201]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133110 S: 09/24/2027 E: 10/15/2027 CV: Not Mapped PIR#: 8A31116039 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e1205]':
+                - cell [ref=e1206]:
+                  - button [ref=e1207] [cursor=pointer]:
+                    - img [ref=e1208]
+                - cell [ref=e1209]:
+                  - checkbox [ref=e1212] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e1213]':
+                  - generic [ref=e1216]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e1219] [cursor=pointer]:
+                      - generic [ref=e1220]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e1221]: "MCI#: 6402509566"
+                    - generic [ref=e1222]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133110 S: 09/24/2027 E: 10/15/2027" [ref=e1223]':
+                  - generic [ref=e1226]:
+                    - generic [ref=e1227]: ASWAccepttest133110
+                    - generic [ref=e1228]: "S: 09/24/2027"
+                    - generic [ref=e1229]: "E: 10/15/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116039" [ref=e1230]':
+                  - generic [ref=e1234]:
+                    - generic [ref=e1235]:
+                      - text: "CV:"
+                      - generic [ref=e1236]: Not Mapped
+                    - generic [ref=e1237]: "PIR#: 8A31116039"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e1238]':
+                  - generic [ref=e1242]:
+                    - generic [ref=e1243]:
+                      - text: "P:"
+                      - generic [ref=e1244]: Not Mapped
+                    - generic [ref=e1245]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e1246]':
+                  - generic [ref=e1250]:
+                    - generic [ref=e1251]:
+                      - generic [ref=e1252]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e1253]:
+                      - generic [ref=e1254]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e1255]':
+                  - generic [ref=e1259]:
+                    - generic [ref=e1260]: "F: Monthly"
+                    - generic [ref=e1261]:
+                      - text: "U:"
+                      - generic [ref=e1262]: hour
+                - cell "10" [ref=e1263]:
+                  - generic [ref=e1267]: "10"
+                - cell "$10" [ref=e1268]:
+                  - generic [ref=e1272]: $10
+                - 'cell "T: 100 A: $1000" [ref=e1273]':
+                  - generic [ref=e1277]:
+                    - generic [ref=e1278]: "T: 100"
+                    - generic [ref=e1279]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e1280]:
+                  - generic [ref=e1285]:
+                    - paragraph [ref=e1286]: Mapping Error
+                    - list [ref=e1287]:
+                      - listitem [ref=e1288]: Client Vendor Not Mapped
+                      - listitem [ref=e1289]: Payer Not Mapped
+                - cell [ref=e1290]:
+                  - generic [ref=e1294]:
+                    - textbox "mm/dd/yyyy" [ref=e1295]
+                    - img [ref=e1297] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e1300]:
+                  - paragraph [ref=e1302]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e1303] [cursor=pointer]:
+                      - img [ref=e1304]
+                - cell [ref=e1306]:
+                  - button [ref=e1307] [cursor=pointer]:
+                    - img [ref=e1308]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133109 S: 09/23/2027 E: 10/14/2027 CV: Not Mapped PIR#: 8A31116038 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e1312]':
+                - cell [ref=e1313]:
+                  - button [ref=e1314] [cursor=pointer]:
+                    - img [ref=e1315]
+                - cell [ref=e1316]:
+                  - checkbox [ref=e1319] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e1320]':
+                  - generic [ref=e1323]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e1326] [cursor=pointer]:
+                      - generic [ref=e1327]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e1328]: "MCI#: 6402509566"
+                    - generic [ref=e1329]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133109 S: 09/23/2027 E: 10/14/2027" [ref=e1330]':
+                  - generic [ref=e1333]:
+                    - generic [ref=e1334]: ASWAccepttest133109
+                    - generic [ref=e1335]: "S: 09/23/2027"
+                    - generic [ref=e1336]: "E: 10/14/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116038" [ref=e1337]':
+                  - generic [ref=e1341]:
+                    - generic [ref=e1342]:
+                      - text: "CV:"
+                      - generic [ref=e1343]: Not Mapped
+                    - generic [ref=e1344]: "PIR#: 8A31116038"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e1345]':
+                  - generic [ref=e1349]:
+                    - generic [ref=e1350]:
+                      - text: "P:"
+                      - generic [ref=e1351]: Not Mapped
+                    - generic [ref=e1352]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e1353]':
+                  - generic [ref=e1357]:
+                    - generic [ref=e1358]:
+                      - generic [ref=e1359]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e1360]:
+                      - generic [ref=e1361]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e1362]':
+                  - generic [ref=e1366]:
+                    - generic [ref=e1367]: "F: Monthly"
+                    - generic [ref=e1368]:
+                      - text: "U:"
+                      - generic [ref=e1369]: hour
+                - cell "10" [ref=e1370]:
+                  - generic [ref=e1374]: "10"
+                - cell "$10" [ref=e1375]:
+                  - generic [ref=e1379]: $10
+                - 'cell "T: 100 A: $1000" [ref=e1380]':
+                  - generic [ref=e1384]:
+                    - generic [ref=e1385]: "T: 100"
+                    - generic [ref=e1386]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e1387]:
+                  - generic [ref=e1392]:
+                    - paragraph [ref=e1393]: Mapping Error
+                    - list [ref=e1394]:
+                      - listitem [ref=e1395]: Client Vendor Not Mapped
+                      - listitem [ref=e1396]: Payer Not Mapped
+                - cell [ref=e1397]:
+                  - generic [ref=e1401]:
+                    - textbox "mm/dd/yyyy" [ref=e1402]
+                    - img [ref=e1404] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e1407]:
+                  - paragraph [ref=e1409]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e1410] [cursor=pointer]:
+                      - img [ref=e1411]
+                - cell [ref=e1413]:
+                  - button [ref=e1414] [cursor=pointer]:
+                    - img [ref=e1415]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133108 S: 09/22/2027 E: 10/13/2027 CV: Not Mapped PIR#: 8A31116037 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e1419]':
+                - cell [ref=e1420]:
+                  - button [ref=e1421] [cursor=pointer]:
+                    - img [ref=e1422]
+                - cell [ref=e1423]:
+                  - checkbox [ref=e1426] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e1427]':
+                  - generic [ref=e1430]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e1433] [cursor=pointer]:
+                      - generic [ref=e1434]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e1435]: "MCI#: 6402509566"
+                    - generic [ref=e1436]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133108 S: 09/22/2027 E: 10/13/2027" [ref=e1437]':
+                  - generic [ref=e1440]:
+                    - generic [ref=e1441]: ASWAccepttest133108
+                    - generic [ref=e1442]: "S: 09/22/2027"
+                    - generic [ref=e1443]: "E: 10/13/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116037" [ref=e1444]':
+                  - generic [ref=e1448]:
+                    - generic [ref=e1449]:
+                      - text: "CV:"
+                      - generic [ref=e1450]: Not Mapped
+                    - generic [ref=e1451]: "PIR#: 8A31116037"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e1452]':
+                  - generic [ref=e1456]:
+                    - generic [ref=e1457]:
+                      - text: "P:"
+                      - generic [ref=e1458]: Not Mapped
+                    - generic [ref=e1459]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e1460]':
+                  - generic [ref=e1464]:
+                    - generic [ref=e1465]:
+                      - generic [ref=e1466]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e1467]:
+                      - generic [ref=e1468]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e1469]':
+                  - generic [ref=e1473]:
+                    - generic [ref=e1474]: "F: Monthly"
+                    - generic [ref=e1475]:
+                      - text: "U:"
+                      - generic [ref=e1476]: hour
+                - cell "10" [ref=e1477]:
+                  - generic [ref=e1481]: "10"
+                - cell "$10" [ref=e1482]:
+                  - generic [ref=e1486]: $10
+                - 'cell "T: 100 A: $1000" [ref=e1487]':
+                  - generic [ref=e1491]:
+                    - generic [ref=e1492]: "T: 100"
+                    - generic [ref=e1493]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e1494]:
+                  - generic [ref=e1499]:
+                    - paragraph [ref=e1500]: Mapping Error
+                    - list [ref=e1501]:
+                      - listitem [ref=e1502]: Client Vendor Not Mapped
+                      - listitem [ref=e1503]: Payer Not Mapped
+                - cell [ref=e1504]:
+                  - generic [ref=e1508]:
+                    - textbox "mm/dd/yyyy" [ref=e1509]
+                    - img [ref=e1511] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e1514]:
+                  - paragraph [ref=e1516]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e1517] [cursor=pointer]:
+                      - img [ref=e1518]
+                - cell [ref=e1520]:
+                  - button [ref=e1521] [cursor=pointer]:
+                    - img [ref=e1522]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133107 S: 09/21/2027 E: 10/12/2027 CV: Not Mapped PIR#: 8A31116036 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e1526]':
+                - cell [ref=e1527]:
+                  - button [ref=e1528] [cursor=pointer]:
+                    - img [ref=e1529]
+                - cell [ref=e1530]:
+                  - checkbox [ref=e1533] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e1534]':
+                  - generic [ref=e1537]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e1540] [cursor=pointer]:
+                      - generic [ref=e1541]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e1542]: "MCI#: 6402509566"
+                    - generic [ref=e1543]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133107 S: 09/21/2027 E: 10/12/2027" [ref=e1544]':
+                  - generic [ref=e1547]:
+                    - generic [ref=e1548]: ASWAccepttest133107
+                    - generic [ref=e1549]: "S: 09/21/2027"
+                    - generic [ref=e1550]: "E: 10/12/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116036" [ref=e1551]':
+                  - generic [ref=e1555]:
+                    - generic [ref=e1556]:
+                      - text: "CV:"
+                      - generic [ref=e1557]: Not Mapped
+                    - generic [ref=e1558]: "PIR#: 8A31116036"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e1559]':
+                  - generic [ref=e1563]:
+                    - generic [ref=e1564]:
+                      - text: "P:"
+                      - generic [ref=e1565]: Not Mapped
+                    - generic [ref=e1566]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e1567]':
+                  - generic [ref=e1571]:
+                    - generic [ref=e1572]:
+                      - generic [ref=e1573]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e1574]:
+                      - generic [ref=e1575]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e1576]':
+                  - generic [ref=e1580]:
+                    - generic [ref=e1581]: "F: Monthly"
+                    - generic [ref=e1582]:
+                      - text: "U:"
+                      - generic [ref=e1583]: hour
+                - cell "10" [ref=e1584]:
+                  - generic [ref=e1588]: "10"
+                - cell "$10" [ref=e1589]:
+                  - generic [ref=e1593]: $10
+                - 'cell "T: 100 A: $1000" [ref=e1594]':
+                  - generic [ref=e1598]:
+                    - generic [ref=e1599]: "T: 100"
+                    - generic [ref=e1600]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e1601]:
+                  - generic [ref=e1606]:
+                    - paragraph [ref=e1607]: Mapping Error
+                    - list [ref=e1608]:
+                      - listitem [ref=e1609]: Client Vendor Not Mapped
+                      - listitem [ref=e1610]: Payer Not Mapped
+                - cell [ref=e1611]:
+                  - generic [ref=e1615]:
+                    - textbox "mm/dd/yyyy" [ref=e1616]
+                    - img [ref=e1618] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e1621]:
+                  - paragraph [ref=e1623]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e1624] [cursor=pointer]:
+                      - img [ref=e1625]
+                - cell [ref=e1627]:
+                  - button [ref=e1628] [cursor=pointer]:
+                    - img [ref=e1629]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133106 S: 09/20/2027 E: 10/11/2027 CV: Not Mapped PIR#: 8A31116035 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e1633]':
+                - cell [ref=e1634]:
+                  - button [ref=e1635] [cursor=pointer]:
+                    - img [ref=e1636]
+                - cell [ref=e1637]:
+                  - checkbox [ref=e1640] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e1641]':
+                  - generic [ref=e1644]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e1647] [cursor=pointer]:
+                      - generic [ref=e1648]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e1649]: "MCI#: 6402509566"
+                    - generic [ref=e1650]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133106 S: 09/20/2027 E: 10/11/2027" [ref=e1651]':
+                  - generic [ref=e1654]:
+                    - generic [ref=e1655]: ASWAccepttest133106
+                    - generic [ref=e1656]: "S: 09/20/2027"
+                    - generic [ref=e1657]: "E: 10/11/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116035" [ref=e1658]':
+                  - generic [ref=e1662]:
+                    - generic [ref=e1663]:
+                      - text: "CV:"
+                      - generic [ref=e1664]: Not Mapped
+                    - generic [ref=e1665]: "PIR#: 8A31116035"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e1666]':
+                  - generic [ref=e1670]:
+                    - generic [ref=e1671]:
+                      - text: "P:"
+                      - generic [ref=e1672]: Not Mapped
+                    - generic [ref=e1673]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e1674]':
+                  - generic [ref=e1678]:
+                    - generic [ref=e1679]:
+                      - generic [ref=e1680]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e1681]:
+                      - generic [ref=e1682]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e1683]':
+                  - generic [ref=e1687]:
+                    - generic [ref=e1688]: "F: Monthly"
+                    - generic [ref=e1689]:
+                      - text: "U:"
+                      - generic [ref=e1690]: hour
+                - cell "10" [ref=e1691]:
+                  - generic [ref=e1695]: "10"
+                - cell "$10" [ref=e1696]:
+                  - generic [ref=e1700]: $10
+                - 'cell "T: 100 A: $1000" [ref=e1701]':
+                  - generic [ref=e1705]:
+                    - generic [ref=e1706]: "T: 100"
+                    - generic [ref=e1707]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e1708]:
+                  - generic [ref=e1713]:
+                    - paragraph [ref=e1714]: Mapping Error
+                    - list [ref=e1715]:
+                      - listitem [ref=e1716]: Client Vendor Not Mapped
+                      - listitem [ref=e1717]: Payer Not Mapped
+                - cell [ref=e1718]:
+                  - generic [ref=e1722]:
+                    - textbox "mm/dd/yyyy" [ref=e1723]
+                    - img [ref=e1725] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e1728]:
+                  - paragraph [ref=e1730]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e1731] [cursor=pointer]:
+                      - img [ref=e1732]
+                - cell [ref=e1734]:
+                  - button [ref=e1735] [cursor=pointer]:
+                    - img [ref=e1736]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133105 S: 09/19/2027 E: 10/10/2027 CV: Not Mapped PIR#: 8A31116034 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e1740]':
+                - cell [ref=e1741]:
+                  - button [ref=e1742] [cursor=pointer]:
+                    - img [ref=e1743]
+                - cell [ref=e1744]:
+                  - checkbox [ref=e1747] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e1748]':
+                  - generic [ref=e1751]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e1754] [cursor=pointer]:
+                      - generic [ref=e1755]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e1756]: "MCI#: 6402509566"
+                    - generic [ref=e1757]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133105 S: 09/19/2027 E: 10/10/2027" [ref=e1758]':
+                  - generic [ref=e1761]:
+                    - generic [ref=e1762]: ASWAccepttest133105
+                    - generic [ref=e1763]: "S: 09/19/2027"
+                    - generic [ref=e1764]: "E: 10/10/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116034" [ref=e1765]':
+                  - generic [ref=e1769]:
+                    - generic [ref=e1770]:
+                      - text: "CV:"
+                      - generic [ref=e1771]: Not Mapped
+                    - generic [ref=e1772]: "PIR#: 8A31116034"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e1773]':
+                  - generic [ref=e1777]:
+                    - generic [ref=e1778]:
+                      - text: "P:"
+                      - generic [ref=e1779]: Not Mapped
+                    - generic [ref=e1780]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e1781]':
+                  - generic [ref=e1785]:
+                    - generic [ref=e1786]:
+                      - generic [ref=e1787]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e1788]:
+                      - generic [ref=e1789]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e1790]':
+                  - generic [ref=e1794]:
+                    - generic [ref=e1795]: "F: Monthly"
+                    - generic [ref=e1796]:
+                      - text: "U:"
+                      - generic [ref=e1797]: hour
+                - cell "10" [ref=e1798]:
+                  - generic [ref=e1802]: "10"
+                - cell "$10" [ref=e1803]:
+                  - generic [ref=e1807]: $10
+                - 'cell "T: 100 A: $1000" [ref=e1808]':
+                  - generic [ref=e1812]:
+                    - generic [ref=e1813]: "T: 100"
+                    - generic [ref=e1814]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e1815]:
+                  - generic [ref=e1820]:
+                    - paragraph [ref=e1821]: Mapping Error
+                    - list [ref=e1822]:
+                      - listitem [ref=e1823]: Client Vendor Not Mapped
+                      - listitem [ref=e1824]: Payer Not Mapped
+                - cell [ref=e1825]:
+                  - generic [ref=e1829]:
+                    - textbox "mm/dd/yyyy" [ref=e1830]
+                    - img [ref=e1832] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e1835]:
+                  - paragraph [ref=e1837]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e1838] [cursor=pointer]:
+                      - img [ref=e1839]
+                - cell [ref=e1841]:
+                  - button [ref=e1842] [cursor=pointer]:
+                    - img [ref=e1843]
+              - 'row "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped ASWAccepttest133104 S: 09/18/2027 E: 10/09/2027 CV: Not Mapped PIR#: 8A31116033 P: Not Mapped F: IRIS WaiverT SPC: 112.46 Code & Mod.: S8990 : 95 F: Monthly U: hour 10 $10 T: 100 A: $1000 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e1847]':
+                - cell [ref=e1848]:
+                  - button [ref=e1849] [cursor=pointer]:
+                    - img [ref=e1850]
+                - cell [ref=e1851]:
+                  - checkbox [ref=e1854] [cursor=pointer]
+                - 'cell "BURNETT, NICOLE (WIE120135) MCI#: 6402509566 CC: Not Mapped" [ref=e1855]':
+                  - generic [ref=e1858]:
+                    - button "BURNETT, NICOLE (WIE120135)" [ref=e1861] [cursor=pointer]:
+                      - generic [ref=e1862]: BURNETT, NICOLE (WIE120135)
+                    - generic [ref=e1863]: "MCI#: 6402509566"
+                    - generic [ref=e1864]: "CC: Not Mapped"
+                - 'cell "ASWAccepttest133104 S: 09/18/2027 E: 10/09/2027" [ref=e1865]':
+                  - generic [ref=e1868]:
+                    - generic [ref=e1869]: ASWAccepttest133104
+                    - generic [ref=e1870]: "S: 09/18/2027"
+                    - generic [ref=e1871]: "E: 10/09/2027"
+                - 'cell "CV: Not Mapped PIR#: 8A31116033" [ref=e1872]':
+                  - generic [ref=e1876]:
+                    - generic [ref=e1877]:
+                      - text: "CV:"
+                      - generic [ref=e1878]: Not Mapped
+                    - generic [ref=e1879]: "PIR#: 8A31116033"
+                - 'cell "P: Not Mapped F: IRIS WaiverT" [ref=e1880]':
+                  - generic [ref=e1884]:
+                    - generic [ref=e1885]:
+                      - text: "P:"
+                      - generic [ref=e1886]: Not Mapped
+                    - generic [ref=e1887]: "F: IRIS WaiverT"
+                - 'cell "SPC: 112.46 Code & Mod.: S8990 : 95" [ref=e1888]':
+                  - generic [ref=e1892]:
+                    - generic [ref=e1893]:
+                      - generic [ref=e1894]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e1895]:
+                      - generic [ref=e1896]: "Code & Mod.:"
+                      - text: "S8990 : 95"
+                - 'cell "F: Monthly U: hour" [ref=e1897]':
+                  - generic [ref=e1901]:
+                    - generic [ref=e1902]: "F: Monthly"
+                    - generic [ref=e1903]:
+                      - text: "U:"
+                      - generic [ref=e1904]: hour
+                - cell "10" [ref=e1905]:
+                  - generic [ref=e1909]: "10"
+                - cell "$10" [ref=e1910]:
+                  - generic [ref=e1914]: $10
+                - 'cell "T: 100 A: $1000" [ref=e1915]':
+                  - generic [ref=e1919]:
+                    - generic [ref=e1920]: "T: 100"
+                    - generic [ref=e1921]: "A: $1000"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e1922]:
+                  - generic [ref=e1927]:
+                    - paragraph [ref=e1928]: Mapping Error
+                    - list [ref=e1929]:
+                      - listitem [ref=e1930]: Client Vendor Not Mapped
+                      - listitem [ref=e1931]: Payer Not Mapped
+                - cell [ref=e1932]:
+                  - generic [ref=e1936]:
+                    - textbox "mm/dd/yyyy" [ref=e1937]
+                    - img [ref=e1939] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e1942]:
+                  - paragraph [ref=e1944]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e1945] [cursor=pointer]:
+                      - img [ref=e1946]
+                - cell [ref=e1948]:
+                  - button [ref=e1949] [cursor=pointer]:
+                    - img [ref=e1950]
+              - 'row "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped 35358456 S: 02/01/2025 E: 01/31/2026 V: YMCA OF DODGE COUNTY INC Provider#: 390975426 P: Not Mapped F: IRIS Waiver SPC: 403.03 Code & Mod.: S9970: U1 F: Monthly U: Month 1 $9 T: 12 A: $108 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e1954]':
+                - cell [ref=e1955]:
+                  - button [ref=e1956] [cursor=pointer]:
+                    - img [ref=e1957]
+                - cell [ref=e1958]:
+                  - checkbox [ref=e1961] [cursor=pointer]
+                - 'cell "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped" [ref=e1962]':
+                  - generic [ref=e1965]:
+                    - button "HARLSON, HALEY (WIE120487)" [ref=e1968] [cursor=pointer]:
+                      - generic [ref=e1969]: HARLSON, HALEY (WIE120487)
+                    - generic [ref=e1970]: "MCI#: 4423100746"
+                    - generic [ref=e1971]: "CC: Not Mapped"
+                - 'cell "35358456 S: 02/01/2025 E: 01/31/2026" [ref=e1972]':
+                  - generic [ref=e1975]:
+                    - generic [ref=e1976]: "35358456"
+                    - generic [ref=e1977]: "S: 02/01/2025"
+                    - generic [ref=e1978]: "E: 01/31/2026"
+                - 'cell "V: YMCA OF DODGE COUNTY INC Provider#: 390975426" [ref=e1979]':
+                  - generic [ref=e1983]:
+                    - generic [ref=e1984]: "V: YMCA OF DODGE COUNTY INC"
+                    - generic [ref=e1985]: "Provider#: 390975426"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e1986]':
+                  - generic [ref=e1990]:
+                    - generic [ref=e1991]:
+                      - text: "P:"
+                      - generic [ref=e1992]: Not Mapped
+                    - generic [ref=e1993]: "F: IRIS Waiver"
+                - 'cell "SPC: 403.03 Code & Mod.: S9970: U1" [ref=e1994]':
+                  - generic [ref=e1998]:
+                    - generic [ref=e1999]:
+                      - generic [ref=e2000]: "SPC:"
+                      - text: "403.03"
+                    - generic [ref=e2001]:
+                      - generic [ref=e2002]: "Code & Mod.:"
+                      - text: "S9970: U1"
+                - 'cell "F: Monthly U: Month" [ref=e2003]':
+                  - generic [ref=e2007]:
+                    - generic [ref=e2008]: "F: Monthly"
+                    - generic [ref=e2009]:
+                      - text: "U:"
+                      - generic [ref=e2010]: Month
+                - cell "1" [ref=e2011]:
+                  - generic [ref=e2015]: "1"
+                - cell "$9" [ref=e2016]:
+                  - generic [ref=e2020]: $9
+                - 'cell "T: 12 A: $108" [ref=e2021]':
+                  - generic [ref=e2025]:
+                    - generic [ref=e2026]: "T: 12"
+                    - generic [ref=e2027]: "A: $108"
+                - cell "Mapping Error Payer Not Mapped" [ref=e2028]:
+                  - generic [ref=e2033]:
+                    - paragraph [ref=e2034]: Mapping Error
+                    - list [ref=e2035]:
+                      - listitem [ref=e2036]: Payer Not Mapped
+                - cell [ref=e2037]:
+                  - generic [ref=e2041]:
+                    - textbox "mm/dd/yyyy" [ref=e2042]
+                    - img [ref=e2044] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2047]:
+                  - paragraph [ref=e2049]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2050] [cursor=pointer]:
+                      - img [ref=e2051]
+                - cell [ref=e2053]:
+                  - button [active] [ref=e2054] [cursor=pointer]:
+                    - img [ref=e2055]
+              - 'row "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped 35358464 S: 02/01/2025 E: 01/31/2026 E: HARLSON, AMY PHW#: 395905807 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 16 $18 T: 848 A: $16988.83 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e2059]':
+                - cell [ref=e2060]:
+                  - button [ref=e2061] [cursor=pointer]:
+                    - img [ref=e2062]
+                - cell [ref=e2063]:
+                  - checkbox [ref=e2066] [cursor=pointer]
+                - 'cell "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped" [ref=e2067]':
+                  - generic [ref=e2070]:
+                    - button "HARLSON, HALEY (WIE120487)" [ref=e2073] [cursor=pointer]:
+                      - generic [ref=e2074]: HARLSON, HALEY (WIE120487)
+                    - generic [ref=e2075]: "MCI#: 4423100746"
+                    - generic [ref=e2076]: "CC: Not Mapped"
+                - 'cell "35358464 S: 02/01/2025 E: 01/31/2026" [ref=e2077]':
+                  - generic [ref=e2080]:
+                    - generic [ref=e2081]: "35358464"
+                    - generic [ref=e2082]: "S: 02/01/2025"
+                    - generic [ref=e2083]: "E: 01/31/2026"
+                - 'cell "E: HARLSON, AMY PHW#: 395905807" [ref=e2084]':
+                  - generic [ref=e2088]:
+                    - generic [ref=e2089]: "E: HARLSON, AMY"
+                    - generic [ref=e2090]: "PHW#: 395905807"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e2091]':
+                  - generic [ref=e2095]:
+                    - generic [ref=e2096]:
+                      - text: "P:"
+                      - generic [ref=e2097]: Not Mapped
+                    - generic [ref=e2098]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e2099]':
+                  - generic [ref=e2103]:
+                    - generic [ref=e2104]:
+                      - generic [ref=e2105]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e2106]:
+                      - generic [ref=e2107]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e2108]':
+                  - generic [ref=e2112]:
+                    - generic [ref=e2113]: "F: Weekly"
+                    - generic [ref=e2114]:
+                      - text: "U:"
+                      - generic [ref=e2115]: Hour
+                - cell "16" [ref=e2116]:
+                  - generic [ref=e2120]: "16"
+                - cell "$18" [ref=e2121]:
+                  - generic [ref=e2125]: $18
+                - 'cell "T: 848 A: $16988.83" [ref=e2126]':
+                  - generic [ref=e2130]:
+                    - generic [ref=e2131]: "T: 848"
+                    - generic [ref=e2132]: "A: $16988.83"
+                - cell "Mapping Error Payer Not Mapped" [ref=e2133]:
+                  - generic [ref=e2138]:
+                    - paragraph [ref=e2139]: Mapping Error
+                    - list [ref=e2140]:
+                      - listitem [ref=e2141]: Payer Not Mapped
+                - cell [ref=e2142]:
+                  - generic [ref=e2146]:
+                    - textbox "mm/dd/yyyy" [ref=e2147]
+                    - img [ref=e2149] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2152]:
+                  - paragraph [ref=e2154]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2155] [cursor=pointer]:
+                      - img [ref=e2156]
+                - cell [ref=e2158]:
+                  - button [ref=e2159] [cursor=pointer]:
+                    - img [ref=e2160]
+              - 'row "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped 90380301 S: 12/29/2024 E: 12/29/2024 V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338 P: Not Mapped F: IRIS Waiver SPC: 110 Code & Mod.: T2017 F: Weekly U: Hour 2 $48 T: 2 A: $96 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e2164]':
+                - cell [ref=e2165]:
+                  - button [ref=e2166] [cursor=pointer]:
+                    - img [ref=e2167]
+                - cell [ref=e2168]:
+                  - checkbox [ref=e2171] [cursor=pointer]
+                - 'cell "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped" [ref=e2172]':
+                  - generic [ref=e2175]:
+                    - button "Acevedo, Alanis (WIE148440)" [ref=e2178] [cursor=pointer]:
+                      - generic [ref=e2179]: Acevedo, Alanis (WIE148440)
+                    - generic [ref=e2180]: "MCI#: 9418431491"
+                    - generic [ref=e2181]: "CC: Not Mapped"
+                - 'cell "90380301 S: 12/29/2024 E: 12/29/2024" [ref=e2182]':
+                  - generic [ref=e2185]:
+                    - generic [ref=e2186]: "90380301"
+                    - generic [ref=e2187]: "S: 12/29/2024"
+                    - generic [ref=e2188]: "E: 12/29/2024"
+                - 'cell "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338" [ref=e2189]':
+                  - generic [ref=e2193]:
+                    - generic [ref=e2194]: "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC"
+                    - generic [ref=e2195]: "Provider#: 391681338"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e2196]':
+                  - generic [ref=e2200]:
+                    - generic [ref=e2201]:
+                      - text: "P:"
+                      - generic [ref=e2202]: Not Mapped
+                    - generic [ref=e2203]: "F: IRIS Waiver"
+                - 'cell "SPC: 110 Code & Mod.: T2017" [ref=e2204]':
+                  - generic [ref=e2208]:
+                    - generic [ref=e2209]:
+                      - generic [ref=e2210]: "SPC:"
+                      - text: "110"
+                    - generic [ref=e2211]:
+                      - generic [ref=e2212]: "Code & Mod.:"
+                      - text: T2017
+                - 'cell "F: Weekly U: Hour" [ref=e2213]':
+                  - generic [ref=e2217]:
+                    - generic [ref=e2218]: "F: Weekly"
+                    - generic [ref=e2219]:
+                      - text: "U:"
+                      - generic [ref=e2220]: Hour
+                - cell "2" [ref=e2221]:
+                  - generic [ref=e2225]: "2"
+                - cell "$48" [ref=e2226]:
+                  - generic [ref=e2230]: $48
+                - 'cell "T: 2 A: $96" [ref=e2231]':
+                  - generic [ref=e2235]:
+                    - generic [ref=e2236]: "T: 2"
+                    - generic [ref=e2237]: "A: $96"
+                - cell "Mapping Error Payer Not Mapped" [ref=e2238]:
+                  - generic [ref=e2243]:
+                    - paragraph [ref=e2244]: Mapping Error
+                    - list [ref=e2245]:
+                      - listitem [ref=e2246]: Payer Not Mapped
+                - cell [ref=e2247]:
+                  - generic [ref=e2251]:
+                    - textbox "mm/dd/yyyy" [ref=e2252]
+                    - img [ref=e2254] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2257]:
+                  - paragraph [ref=e2259]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2260] [cursor=pointer]:
+                      - img [ref=e2261]
+                - cell [ref=e2263]:
+                  - button [ref=e2264] [cursor=pointer]:
+                    - img [ref=e2265]
+              - 'row "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped 90381687 S: 12/01/2024 E: 12/31/2024 V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338 P: Not Mapped F: IRIS Waiver SPC: 110 Code & Mod.: T2017 F: Weekly U: Hour 2 $48 T: 10 A: $480 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e2269]':
+                - cell [ref=e2270]:
+                  - button [ref=e2271] [cursor=pointer]:
+                    - img [ref=e2272]
+                - cell [ref=e2273]:
+                  - checkbox [ref=e2276] [cursor=pointer]
+                - 'cell "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped" [ref=e2277]':
+                  - generic [ref=e2280]:
+                    - button "Acevedo, Alanis (WIE148440)" [ref=e2283] [cursor=pointer]:
+                      - generic [ref=e2284]: Acevedo, Alanis (WIE148440)
+                    - generic [ref=e2285]: "MCI#: 9418431491"
+                    - generic [ref=e2286]: "CC: Not Mapped"
+                - 'cell "90381687 S: 12/01/2024 E: 12/31/2024" [ref=e2287]':
+                  - generic [ref=e2290]:
+                    - generic [ref=e2291]: "90381687"
+                    - generic [ref=e2292]: "S: 12/01/2024"
+                    - generic [ref=e2293]: "E: 12/31/2024"
+                - 'cell "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338" [ref=e2294]':
+                  - generic [ref=e2298]:
+                    - generic [ref=e2299]: "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC"
+                    - generic [ref=e2300]: "Provider#: 391681338"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e2301]':
+                  - generic [ref=e2305]:
+                    - generic [ref=e2306]:
+                      - text: "P:"
+                      - generic [ref=e2307]: Not Mapped
+                    - generic [ref=e2308]: "F: IRIS Waiver"
+                - 'cell "SPC: 110 Code & Mod.: T2017" [ref=e2309]':
+                  - generic [ref=e2313]:
+                    - generic [ref=e2314]:
+                      - generic [ref=e2315]: "SPC:"
+                      - text: "110"
+                    - generic [ref=e2316]:
+                      - generic [ref=e2317]: "Code & Mod.:"
+                      - text: T2017
+                - 'cell "F: Weekly U: Hour" [ref=e2318]':
+                  - generic [ref=e2322]:
+                    - generic [ref=e2323]: "F: Weekly"
+                    - generic [ref=e2324]:
+                      - text: "U:"
+                      - generic [ref=e2325]: Hour
+                - cell "2" [ref=e2326]:
+                  - generic [ref=e2330]: "2"
+                - cell "$48" [ref=e2331]:
+                  - generic [ref=e2335]: $48
+                - 'cell "T: 10 A: $480" [ref=e2336]':
+                  - generic [ref=e2340]:
+                    - generic [ref=e2341]: "T: 10"
+                    - generic [ref=e2342]: "A: $480"
+                - cell "Mapping Error Payer Not Mapped" [ref=e2343]:
+                  - generic [ref=e2348]:
+                    - paragraph [ref=e2349]: Mapping Error
+                    - list [ref=e2350]:
+                      - listitem [ref=e2351]: Payer Not Mapped
+                - cell [ref=e2352]:
+                  - generic [ref=e2356]:
+                    - textbox "mm/dd/yyyy" [ref=e2357]
+                    - img [ref=e2359] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2362]:
+                  - paragraph [ref=e2364]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2365] [cursor=pointer]:
+                      - img [ref=e2366]
+                - cell [ref=e2368]:
+                  - button [ref=e2369] [cursor=pointer]:
+                    - img [ref=e2370]
+              - 'row "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped 90378782 S: 11/10/2024 E: 11/30/2024 V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338 P: Not Mapped F: IRIS Waiver SPC: 103.26 Code & Mod.: T1005 F: Weekly U: Hour 2 $33 T: 6 A: $198 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e2374]':
+                - cell [ref=e2375]:
+                  - button [ref=e2376] [cursor=pointer]:
+                    - img [ref=e2377]
+                - cell [ref=e2378]:
+                  - checkbox [ref=e2381] [cursor=pointer]
+                - 'cell "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped" [ref=e2382]':
+                  - generic [ref=e2385]:
+                    - button "Acevedo, Alanis (WIE148440)" [ref=e2388] [cursor=pointer]:
+                      - generic [ref=e2389]: Acevedo, Alanis (WIE148440)
+                    - generic [ref=e2390]: "MCI#: 9418431491"
+                    - generic [ref=e2391]: "CC: Not Mapped"
+                - 'cell "90378782 S: 11/10/2024 E: 11/30/2024" [ref=e2392]':
+                  - generic [ref=e2395]:
+                    - generic [ref=e2396]: "90378782"
+                    - generic [ref=e2397]: "S: 11/10/2024"
+                    - generic [ref=e2398]: "E: 11/30/2024"
+                - 'cell "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338" [ref=e2399]':
+                  - generic [ref=e2403]:
+                    - generic [ref=e2404]: "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC"
+                    - generic [ref=e2405]: "Provider#: 391681338"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e2406]':
+                  - generic [ref=e2410]:
+                    - generic [ref=e2411]:
+                      - text: "P:"
+                      - generic [ref=e2412]: Not Mapped
+                    - generic [ref=e2413]: "F: IRIS Waiver"
+                - 'cell "SPC: 103.26 Code & Mod.: T1005" [ref=e2414]':
+                  - generic [ref=e2418]:
+                    - generic [ref=e2419]:
+                      - generic [ref=e2420]: "SPC:"
+                      - text: "103.26"
+                    - generic [ref=e2421]:
+                      - generic [ref=e2422]: "Code & Mod.:"
+                      - text: T1005
+                - 'cell "F: Weekly U: Hour" [ref=e2423]':
+                  - generic [ref=e2427]:
+                    - generic [ref=e2428]: "F: Weekly"
+                    - generic [ref=e2429]:
+                      - text: "U:"
+                      - generic [ref=e2430]: Hour
+                - cell "2" [ref=e2431]:
+                  - generic [ref=e2435]: "2"
+                - cell "$33" [ref=e2436]:
+                  - generic [ref=e2440]: $33
+                - 'cell "T: 6 A: $198" [ref=e2441]':
+                  - generic [ref=e2445]:
+                    - generic [ref=e2446]: "T: 6"
+                    - generic [ref=e2447]: "A: $198"
+                - cell "Mapping Error Payer Not Mapped" [ref=e2448]:
+                  - generic [ref=e2453]:
+                    - paragraph [ref=e2454]: Mapping Error
+                    - list [ref=e2455]:
+                      - listitem [ref=e2456]: Payer Not Mapped
+                - cell [ref=e2457]:
+                  - generic [ref=e2461]:
+                    - textbox "mm/dd/yyyy" [ref=e2462]
+                    - img [ref=e2464] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2467]:
+                  - paragraph [ref=e2469]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2470] [cursor=pointer]:
+                      - img [ref=e2471]
+                - cell [ref=e2473]:
+                  - button [ref=e2474] [cursor=pointer]:
+                    - img [ref=e2475]
+              - 'row "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped 90378789 S: 11/10/2024 E: 12/24/2024 V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338 P: Not Mapped F: IRIS Waiver SPC: 107.2 Code & Mod.: T2003: RI F: Weekly U: Each 2 $28.14 T: 14 A: $393.96 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e2479]':
+                - cell [ref=e2480]:
+                  - button [ref=e2481] [cursor=pointer]:
+                    - img [ref=e2482]
+                - cell [ref=e2483]:
+                  - checkbox [ref=e2486] [cursor=pointer]
+                - 'cell "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped" [ref=e2487]':
+                  - generic [ref=e2490]:
+                    - button "Acevedo, Alanis (WIE148440)" [ref=e2493] [cursor=pointer]:
+                      - generic [ref=e2494]: Acevedo, Alanis (WIE148440)
+                    - generic [ref=e2495]: "MCI#: 9418431491"
+                    - generic [ref=e2496]: "CC: Not Mapped"
+                - 'cell "90378789 S: 11/10/2024 E: 12/24/2024" [ref=e2497]':
+                  - generic [ref=e2500]:
+                    - generic [ref=e2501]: "90378789"
+                    - generic [ref=e2502]: "S: 11/10/2024"
+                    - generic [ref=e2503]: "E: 12/24/2024"
+                - 'cell "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338" [ref=e2504]':
+                  - generic [ref=e2508]:
+                    - generic [ref=e2509]: "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC"
+                    - generic [ref=e2510]: "Provider#: 391681338"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e2511]':
+                  - generic [ref=e2515]:
+                    - generic [ref=e2516]:
+                      - text: "P:"
+                      - generic [ref=e2517]: Not Mapped
+                    - generic [ref=e2518]: "F: IRIS Waiver"
+                - 'cell "SPC: 107.2 Code & Mod.: T2003: RI" [ref=e2519]':
+                  - generic [ref=e2523]:
+                    - generic [ref=e2524]:
+                      - generic [ref=e2525]: "SPC:"
+                      - text: "107.2"
+                    - generic [ref=e2526]:
+                      - generic [ref=e2527]: "Code & Mod.:"
+                      - text: "T2003: RI"
+                - 'cell "F: Weekly U: Each" [ref=e2528]':
+                  - generic [ref=e2532]:
+                    - generic [ref=e2533]: "F: Weekly"
+                    - generic [ref=e2534]:
+                      - text: "U:"
+                      - generic [ref=e2535]: Each
+                - cell "2" [ref=e2536]:
+                  - generic [ref=e2540]: "2"
+                - cell "$28.14" [ref=e2541]:
+                  - generic [ref=e2545]: $28.14
+                - 'cell "T: 14 A: $393.96" [ref=e2546]':
+                  - generic [ref=e2550]:
+                    - generic [ref=e2551]: "T: 14"
+                    - generic [ref=e2552]: "A: $393.96"
+                - cell "Mapping Error Payer Not Mapped" [ref=e2553]:
+                  - generic [ref=e2558]:
+                    - paragraph [ref=e2559]: Mapping Error
+                    - list [ref=e2560]:
+                      - listitem [ref=e2561]: Payer Not Mapped
+                - cell [ref=e2562]:
+                  - generic [ref=e2566]:
+                    - textbox "mm/dd/yyyy" [ref=e2567]
+                    - img [ref=e2569] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2572]:
+                  - paragraph [ref=e2574]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2575] [cursor=pointer]:
+                      - img [ref=e2576]
+                - cell [ref=e2578]:
+                  - button [ref=e2579] [cursor=pointer]:
+                    - img [ref=e2580]
+              - 'row "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped 90378803 S: 11/10/2024 E: 12/24/2024 V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338 P: Not Mapped F: IRIS Waiver SPC: 706 Code & Mod.: T2020: UA F: Weekly U: Day 1 $60 T: 7 A: $420 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e2584]':
+                - cell [ref=e2585]:
+                  - button [ref=e2586] [cursor=pointer]:
+                    - img [ref=e2587]
+                - cell [ref=e2588]:
+                  - checkbox [ref=e2591] [cursor=pointer]
+                - 'cell "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped" [ref=e2592]':
+                  - generic [ref=e2595]:
+                    - button "Acevedo, Alanis (WIE148440)" [ref=e2598] [cursor=pointer]:
+                      - generic [ref=e2599]: Acevedo, Alanis (WIE148440)
+                    - generic [ref=e2600]: "MCI#: 9418431491"
+                    - generic [ref=e2601]: "CC: Not Mapped"
+                - 'cell "90378803 S: 11/10/2024 E: 12/24/2024" [ref=e2602]':
+                  - generic [ref=e2605]:
+                    - generic [ref=e2606]: "90378803"
+                    - generic [ref=e2607]: "S: 11/10/2024"
+                    - generic [ref=e2608]: "E: 12/24/2024"
+                - 'cell "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC Provider#: 391681338" [ref=e2609]':
+                  - generic [ref=e2613]:
+                    - generic [ref=e2614]: "V: DOWN SYNDROME ASSOCIATION OF WISCONSIN INC"
+                    - generic [ref=e2615]: "Provider#: 391681338"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e2616]':
+                  - generic [ref=e2620]:
+                    - generic [ref=e2621]:
+                      - text: "P:"
+                      - generic [ref=e2622]: Not Mapped
+                    - generic [ref=e2623]: "F: IRIS Waiver"
+                - 'cell "SPC: 706 Code & Mod.: T2020: UA" [ref=e2624]':
+                  - generic [ref=e2628]:
+                    - generic [ref=e2629]:
+                      - generic [ref=e2630]: "SPC:"
+                      - text: "706"
+                    - generic [ref=e2631]:
+                      - generic [ref=e2632]: "Code & Mod.:"
+                      - text: "T2020: UA"
+                - 'cell "F: Weekly U: Day" [ref=e2633]':
+                  - generic [ref=e2637]:
+                    - generic [ref=e2638]: "F: Weekly"
+                    - generic [ref=e2639]:
+                      - text: "U:"
+                      - generic [ref=e2640]: Day
+                - cell "1" [ref=e2641]:
+                  - generic [ref=e2645]: "1"
+                - cell "$60" [ref=e2646]:
+                  - generic [ref=e2650]: $60
+                - 'cell "T: 7 A: $420" [ref=e2651]':
+                  - generic [ref=e2655]:
+                    - generic [ref=e2656]: "T: 7"
+                    - generic [ref=e2657]: "A: $420"
+                - cell "Mapping Error Payer Not Mapped" [ref=e2658]:
+                  - generic [ref=e2663]:
+                    - paragraph [ref=e2664]: Mapping Error
+                    - list [ref=e2665]:
+                      - listitem [ref=e2666]: Payer Not Mapped
+                - cell [ref=e2667]:
+                  - generic [ref=e2671]:
+                    - textbox "mm/dd/yyyy" [ref=e2672]
+                    - img [ref=e2674] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2677]:
+                  - paragraph [ref=e2679]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2680] [cursor=pointer]:
+                      - img [ref=e2681]
+                - cell [ref=e2683]:
+                  - button [ref=e2684] [cursor=pointer]:
+                    - img [ref=e2685]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 35309976 S: 11/01/2024 E: 10/31/2025 E: SAUTTER, DANIELLE PHW#: 393175203 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 9 $12 T: 477 A: $6370.81 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e2689]':
+                - cell [ref=e2690]:
+                  - button [ref=e2691] [cursor=pointer]:
+                    - img [ref=e2692]
+                - cell [ref=e2693]:
+                  - checkbox [ref=e2696] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e2697]':
+                  - generic [ref=e2700]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e2703] [cursor=pointer]:
+                      - generic [ref=e2704]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e2705]: "MCI#: 3452257134"
+                    - generic [ref=e2706]: "CC: Not Mapped"
+                - 'cell "35309976 S: 11/01/2024 E: 10/31/2025" [ref=e2707]':
+                  - generic [ref=e2710]:
+                    - generic [ref=e2711]: "35309976"
+                    - generic [ref=e2712]: "S: 11/01/2024"
+                    - generic [ref=e2713]: "E: 10/31/2025"
+                - 'cell "E: SAUTTER, DANIELLE PHW#: 393175203" [ref=e2714]':
+                  - generic [ref=e2718]:
+                    - generic [ref=e2719]: "E: SAUTTER, DANIELLE"
+                    - generic [ref=e2720]: "PHW#: 393175203"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e2721]':
+                  - generic [ref=e2725]:
+                    - generic [ref=e2726]:
+                      - text: "P:"
+                      - generic [ref=e2727]: Not Mapped
+                    - generic [ref=e2728]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e2729]':
+                  - generic [ref=e2733]:
+                    - generic [ref=e2734]:
+                      - generic [ref=e2735]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e2736]:
+                      - generic [ref=e2737]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e2738]':
+                  - generic [ref=e2742]:
+                    - generic [ref=e2743]: "F: Weekly"
+                    - generic [ref=e2744]:
+                      - text: "U:"
+                      - generic [ref=e2745]: Hour
+                - cell "9" [ref=e2746]:
+                  - generic [ref=e2750]: "9"
+                - cell "$12" [ref=e2751]:
+                  - generic [ref=e2755]: $12
+                - 'cell "T: 477 A: $6370.81" [ref=e2756]':
+                  - generic [ref=e2760]:
+                    - generic [ref=e2761]: "T: 477"
+                    - generic [ref=e2762]: "A: $6370.81"
+                - cell "Mapping Error Payer Not Mapped" [ref=e2763]:
+                  - generic [ref=e2768]:
+                    - paragraph [ref=e2769]: Mapping Error
+                    - list [ref=e2770]:
+                      - listitem [ref=e2771]: Payer Not Mapped
+                - cell [ref=e2772]:
+                  - generic [ref=e2776]:
+                    - textbox "mm/dd/yyyy" [ref=e2777]
+                    - img [ref=e2779] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2782]:
+                  - paragraph [ref=e2784]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2785] [cursor=pointer]:
+                      - img [ref=e2786]
+                - cell [ref=e2788]:
+                  - button [ref=e2789] [cursor=pointer]:
+                    - img [ref=e2790]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 35309984 S: 11/01/2024 E: 10/31/2025 E: SAUTTER, MARY PHW#: 398688837 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 9 $12 T: 477 A: $6370.81 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e2794]':
+                - cell [ref=e2795]:
+                  - button [ref=e2796] [cursor=pointer]:
+                    - img [ref=e2797]
+                - cell [ref=e2798]:
+                  - checkbox [ref=e2801] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e2802]':
+                  - generic [ref=e2805]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e2808] [cursor=pointer]:
+                      - generic [ref=e2809]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e2810]: "MCI#: 3452257134"
+                    - generic [ref=e2811]: "CC: Not Mapped"
+                - 'cell "35309984 S: 11/01/2024 E: 10/31/2025" [ref=e2812]':
+                  - generic [ref=e2815]:
+                    - generic [ref=e2816]: "35309984"
+                    - generic [ref=e2817]: "S: 11/01/2024"
+                    - generic [ref=e2818]: "E: 10/31/2025"
+                - 'cell "E: SAUTTER, MARY PHW#: 398688837" [ref=e2819]':
+                  - generic [ref=e2823]:
+                    - generic [ref=e2824]: "E: SAUTTER, MARY"
+                    - generic [ref=e2825]: "PHW#: 398688837"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e2826]':
+                  - generic [ref=e2830]:
+                    - generic [ref=e2831]:
+                      - text: "P:"
+                      - generic [ref=e2832]: Not Mapped
+                    - generic [ref=e2833]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e2834]':
+                  - generic [ref=e2838]:
+                    - generic [ref=e2839]:
+                      - generic [ref=e2840]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e2841]:
+                      - generic [ref=e2842]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e2843]':
+                  - generic [ref=e2847]:
+                    - generic [ref=e2848]: "F: Weekly"
+                    - generic [ref=e2849]:
+                      - text: "U:"
+                      - generic [ref=e2850]: Hour
+                - cell "9" [ref=e2851]:
+                  - generic [ref=e2855]: "9"
+                - cell "$12" [ref=e2856]:
+                  - generic [ref=e2860]: $12
+                - 'cell "T: 477 A: $6370.81" [ref=e2861]':
+                  - generic [ref=e2865]:
+                    - generic [ref=e2866]: "T: 477"
+                    - generic [ref=e2867]: "A: $6370.81"
+                - cell "Mapping Error Payer Not Mapped" [ref=e2868]:
+                  - generic [ref=e2873]:
+                    - paragraph [ref=e2874]: Mapping Error
+                    - list [ref=e2875]:
+                      - listitem [ref=e2876]: Payer Not Mapped
+                - cell [ref=e2877]:
+                  - generic [ref=e2881]:
+                    - textbox "mm/dd/yyyy" [ref=e2882]
+                    - img [ref=e2884] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2887]:
+                  - paragraph [ref=e2889]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2890] [cursor=pointer]:
+                      - img [ref=e2891]
+                - cell [ref=e2893]:
+                  - button [ref=e2894] [cursor=pointer]:
+                    - img [ref=e2895]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 35667997 S: 11/01/2024 E: 10/31/2025 E: Not Mapped PHW#: 388580778 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 10 $12 T: 530 A: $7078.68 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e2899]':
+                - cell [ref=e2900]:
+                  - button [ref=e2901] [cursor=pointer]:
+                    - img [ref=e2902]
+                - cell [ref=e2903]:
+                  - checkbox [ref=e2906] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e2907]':
+                  - generic [ref=e2910]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e2913] [cursor=pointer]:
+                      - generic [ref=e2914]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e2915]: "MCI#: 3452257134"
+                    - generic [ref=e2916]: "CC: Not Mapped"
+                - 'cell "35667997 S: 11/01/2024 E: 10/31/2025" [ref=e2917]':
+                  - generic [ref=e2920]:
+                    - generic [ref=e2921]: "35667997"
+                    - generic [ref=e2922]: "S: 11/01/2024"
+                    - generic [ref=e2923]: "E: 10/31/2025"
+                - 'cell "E: Not Mapped PHW#: 388580778" [ref=e2924]':
+                  - generic [ref=e2928]:
+                    - generic [ref=e2929]:
+                      - text: "E:"
+                      - generic [ref=e2930]: Not Mapped
+                    - generic [ref=e2931]: "PHW#: 388580778"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e2932]':
+                  - generic [ref=e2936]:
+                    - generic [ref=e2937]:
+                      - text: "P:"
+                      - generic [ref=e2938]: Not Mapped
+                    - generic [ref=e2939]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e2940]':
+                  - generic [ref=e2944]:
+                    - generic [ref=e2945]:
+                      - generic [ref=e2946]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e2947]:
+                      - generic [ref=e2948]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e2949]':
+                  - generic [ref=e2953]:
+                    - generic [ref=e2954]: "F: Weekly"
+                    - generic [ref=e2955]:
+                      - text: "U:"
+                      - generic [ref=e2956]: Hour
+                - cell "10" [ref=e2957]:
+                  - generic [ref=e2961]: "10"
+                - cell "$12" [ref=e2962]:
+                  - generic [ref=e2966]: $12
+                - 'cell "T: 530 A: $7078.68" [ref=e2967]':
+                  - generic [ref=e2971]:
+                    - generic [ref=e2972]: "T: 530"
+                    - generic [ref=e2973]: "A: $7078.68"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e2974]:
+                  - generic [ref=e2979]:
+                    - paragraph [ref=e2980]: Mapping Error
+                    - list [ref=e2981]:
+                      - listitem [ref=e2982]: Employee Not Mapped
+                      - listitem [ref=e2983]: Payer Not Mapped
+                - cell [ref=e2984]:
+                  - generic [ref=e2988]:
+                    - textbox "mm/dd/yyyy" [ref=e2989]
+                    - img [ref=e2991] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e2994]:
+                  - paragraph [ref=e2996]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e2997] [cursor=pointer]:
+                      - img [ref=e2998]
+                - cell [ref=e3000]:
+                  - button [ref=e3001] [cursor=pointer]:
+                    - img [ref=e3002]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 35668002 S: 11/01/2024 E: 10/31/2025 E: SAUTTER, MARY PHW#: 398688837 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 10 $12 T: 530 A: $7078.68 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e3006]':
+                - cell [ref=e3007]:
+                  - button [ref=e3008] [cursor=pointer]:
+                    - img [ref=e3009]
+                - cell [ref=e3010]:
+                  - checkbox [ref=e3013] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e3014]':
+                  - generic [ref=e3017]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e3020] [cursor=pointer]:
+                      - generic [ref=e3021]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e3022]: "MCI#: 3452257134"
+                    - generic [ref=e3023]: "CC: Not Mapped"
+                - 'cell "35668002 S: 11/01/2024 E: 10/31/2025" [ref=e3024]':
+                  - generic [ref=e3027]:
+                    - generic [ref=e3028]: "35668002"
+                    - generic [ref=e3029]: "S: 11/01/2024"
+                    - generic [ref=e3030]: "E: 10/31/2025"
+                - 'cell "E: SAUTTER, MARY PHW#: 398688837" [ref=e3031]':
+                  - generic [ref=e3035]:
+                    - generic [ref=e3036]: "E: SAUTTER, MARY"
+                    - generic [ref=e3037]: "PHW#: 398688837"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3038]':
+                  - generic [ref=e3042]:
+                    - generic [ref=e3043]:
+                      - text: "P:"
+                      - generic [ref=e3044]: Not Mapped
+                    - generic [ref=e3045]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e3046]':
+                  - generic [ref=e3050]:
+                    - generic [ref=e3051]:
+                      - generic [ref=e3052]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e3053]:
+                      - generic [ref=e3054]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e3055]':
+                  - generic [ref=e3059]:
+                    - generic [ref=e3060]: "F: Weekly"
+                    - generic [ref=e3061]:
+                      - text: "U:"
+                      - generic [ref=e3062]: Hour
+                - cell "10" [ref=e3063]:
+                  - generic [ref=e3067]: "10"
+                - cell "$12" [ref=e3068]:
+                  - generic [ref=e3072]: $12
+                - 'cell "T: 530 A: $7078.68" [ref=e3073]':
+                  - generic [ref=e3077]:
+                    - generic [ref=e3078]: "T: 530"
+                    - generic [ref=e3079]: "A: $7078.68"
+                - cell "Mapping Error Payer Not Mapped" [ref=e3080]:
+                  - generic [ref=e3085]:
+                    - paragraph [ref=e3086]: Mapping Error
+                    - list [ref=e3087]:
+                      - listitem [ref=e3088]: Payer Not Mapped
+                - cell [ref=e3089]:
+                  - generic [ref=e3093]:
+                    - textbox "mm/dd/yyyy" [ref=e3094]
+                    - img [ref=e3096] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e3099]:
+                  - paragraph [ref=e3101]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e3102] [cursor=pointer]:
+                      - img [ref=e3103]
+                - cell [ref=e3105]:
+                  - button [ref=e3106] [cursor=pointer]:
+                    - img [ref=e3107]
+              - 'row "Apkarian, Kelly (WIE168770) MCI#: 8416759880 CC: Not Mapped 35679637 S: 11/01/2024 E: 10/31/2025 E: GILLON, JOURNEI PHW#: 392277443 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 10 $15 T: 530 A: $7950 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e3111]':
+                - cell [ref=e3112]:
+                  - button [ref=e3113] [cursor=pointer]:
+                    - img [ref=e3114]
+                - cell [ref=e3115]:
+                  - checkbox [ref=e3118] [cursor=pointer]
+                - 'cell "Apkarian, Kelly (WIE168770) MCI#: 8416759880 CC: Not Mapped" [ref=e3119]':
+                  - generic [ref=e3122]:
+                    - button "Apkarian, Kelly (WIE168770)" [ref=e3125] [cursor=pointer]:
+                      - generic [ref=e3126]: Apkarian, Kelly (WIE168770)
+                    - generic [ref=e3127]: "MCI#: 8416759880"
+                    - generic [ref=e3128]: "CC: Not Mapped"
+                - 'cell "35679637 S: 11/01/2024 E: 10/31/2025" [ref=e3129]':
+                  - generic [ref=e3132]:
+                    - generic [ref=e3133]: "35679637"
+                    - generic [ref=e3134]: "S: 11/01/2024"
+                    - generic [ref=e3135]: "E: 10/31/2025"
+                - 'cell "E: GILLON, JOURNEI PHW#: 392277443" [ref=e3136]':
+                  - generic [ref=e3140]:
+                    - generic [ref=e3141]: "E: GILLON, JOURNEI"
+                    - generic [ref=e3142]: "PHW#: 392277443"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3143]':
+                  - generic [ref=e3147]:
+                    - generic [ref=e3148]:
+                      - text: "P:"
+                      - generic [ref=e3149]: Not Mapped
+                    - generic [ref=e3150]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e3151]':
+                  - generic [ref=e3155]:
+                    - generic [ref=e3156]:
+                      - generic [ref=e3157]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e3158]:
+                      - generic [ref=e3159]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e3160]':
+                  - generic [ref=e3164]:
+                    - generic [ref=e3165]: "F: Weekly"
+                    - generic [ref=e3166]:
+                      - text: "U:"
+                      - generic [ref=e3167]: Hour
+                - cell "10" [ref=e3168]:
+                  - generic [ref=e3172]: "10"
+                - cell "$15" [ref=e3173]:
+                  - generic [ref=e3177]: $15
+                - 'cell "T: 530 A: $7950" [ref=e3178]':
+                  - generic [ref=e3182]:
+                    - generic [ref=e3183]: "T: 530"
+                    - generic [ref=e3184]: "A: $7950"
+                - cell "Mapping Error Payer Not Mapped" [ref=e3185]:
+                  - generic [ref=e3190]:
+                    - paragraph [ref=e3191]: Mapping Error
+                    - list [ref=e3192]:
+                      - listitem [ref=e3193]: Payer Not Mapped
+                - cell [ref=e3194]:
+                  - generic [ref=e3198]:
+                    - textbox "mm/dd/yyyy" [ref=e3199]
+                    - img [ref=e3201] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e3204]:
+                  - paragraph [ref=e3206]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e3207] [cursor=pointer]:
+                      - img [ref=e3208]
+                - cell [ref=e3210]:
+                  - button [ref=e3211] [cursor=pointer]:
+                    - img [ref=e3212]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 45474884 S: 11/01/2024 E: 10/31/2025 E: Not Mapped PHW#: 388580778 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 10 $12 T: 530 A: $7078.68 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e3216]':
+                - cell [ref=e3217]:
+                  - button [ref=e3218] [cursor=pointer]:
+                    - img [ref=e3219]
+                - cell [ref=e3220]:
+                  - checkbox [ref=e3223] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e3224]':
+                  - generic [ref=e3227]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e3230] [cursor=pointer]:
+                      - generic [ref=e3231]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e3232]: "MCI#: 3452257134"
+                    - generic [ref=e3233]: "CC: Not Mapped"
+                - 'cell "45474884 S: 11/01/2024 E: 10/31/2025" [ref=e3234]':
+                  - generic [ref=e3237]:
+                    - generic [ref=e3238]: "45474884"
+                    - generic [ref=e3239]: "S: 11/01/2024"
+                    - generic [ref=e3240]: "E: 10/31/2025"
+                - 'cell "E: Not Mapped PHW#: 388580778" [ref=e3241]':
+                  - generic [ref=e3245]:
+                    - generic [ref=e3246]:
+                      - text: "E:"
+                      - generic [ref=e3247]: Not Mapped
+                    - generic [ref=e3248]: "PHW#: 388580778"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3249]':
+                  - generic [ref=e3253]:
+                    - generic [ref=e3254]:
+                      - text: "P:"
+                      - generic [ref=e3255]: Not Mapped
+                    - generic [ref=e3256]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e3257]':
+                  - generic [ref=e3261]:
+                    - generic [ref=e3262]:
+                      - generic [ref=e3263]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e3264]:
+                      - generic [ref=e3265]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e3266]':
+                  - generic [ref=e3270]:
+                    - generic [ref=e3271]: "F: Weekly"
+                    - generic [ref=e3272]:
+                      - text: "U:"
+                      - generic [ref=e3273]: Hour
+                - cell "10" [ref=e3274]:
+                  - generic [ref=e3278]: "10"
+                - cell "$12" [ref=e3279]:
+                  - generic [ref=e3283]: $12
+                - 'cell "T: 530 A: $7078.68" [ref=e3284]':
+                  - generic [ref=e3288]:
+                    - generic [ref=e3289]: "T: 530"
+                    - generic [ref=e3290]: "A: $7078.68"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e3291]:
+                  - generic [ref=e3296]:
+                    - paragraph [ref=e3297]: Mapping Error
+                    - list [ref=e3298]:
+                      - listitem [ref=e3299]: Employee Not Mapped
+                      - listitem [ref=e3300]: Payer Not Mapped
+                - cell [ref=e3301]:
+                  - generic [ref=e3305]:
+                    - textbox "mm/dd/yyyy" [ref=e3306]
+                    - img [ref=e3308] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e3311]:
+                  - paragraph [ref=e3313]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e3314] [cursor=pointer]:
+                      - img [ref=e3315]
+                - cell [ref=e3317]:
+                  - button [ref=e3318] [cursor=pointer]:
+                    - img [ref=e3319]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 45474889 S: 11/01/2024 E: 10/31/2025 E: SAUTTER, MARY PHW#: 398688837 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 10 $12 T: 530 A: $7078.68 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e3323]':
+                - cell [ref=e3324]:
+                  - button [ref=e3325] [cursor=pointer]:
+                    - img [ref=e3326]
+                - cell [ref=e3327]:
+                  - checkbox [ref=e3330] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e3331]':
+                  - generic [ref=e3334]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e3337] [cursor=pointer]:
+                      - generic [ref=e3338]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e3339]: "MCI#: 3452257134"
+                    - generic [ref=e3340]: "CC: Not Mapped"
+                - 'cell "45474889 S: 11/01/2024 E: 10/31/2025" [ref=e3341]':
+                  - generic [ref=e3344]:
+                    - generic [ref=e3345]: "45474889"
+                    - generic [ref=e3346]: "S: 11/01/2024"
+                    - generic [ref=e3347]: "E: 10/31/2025"
+                - 'cell "E: SAUTTER, MARY PHW#: 398688837" [ref=e3348]':
+                  - generic [ref=e3352]:
+                    - generic [ref=e3353]: "E: SAUTTER, MARY"
+                    - generic [ref=e3354]: "PHW#: 398688837"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3355]':
+                  - generic [ref=e3359]:
+                    - generic [ref=e3360]:
+                      - text: "P:"
+                      - generic [ref=e3361]: Not Mapped
+                    - generic [ref=e3362]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e3363]':
+                  - generic [ref=e3367]:
+                    - generic [ref=e3368]:
+                      - generic [ref=e3369]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e3370]:
+                      - generic [ref=e3371]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e3372]':
+                  - generic [ref=e3376]:
+                    - generic [ref=e3377]: "F: Weekly"
+                    - generic [ref=e3378]:
+                      - text: "U:"
+                      - generic [ref=e3379]: Hour
+                - cell "10" [ref=e3380]:
+                  - generic [ref=e3384]: "10"
+                - cell "$12" [ref=e3385]:
+                  - generic [ref=e3389]: $12
+                - 'cell "T: 530 A: $7078.68" [ref=e3390]':
+                  - generic [ref=e3394]:
+                    - generic [ref=e3395]: "T: 530"
+                    - generic [ref=e3396]: "A: $7078.68"
+                - cell "Mapping Error Payer Not Mapped" [ref=e3397]:
+                  - generic [ref=e3402]:
+                    - paragraph [ref=e3403]: Mapping Error
+                    - list [ref=e3404]:
+                      - listitem [ref=e3405]: Payer Not Mapped
+                - cell [ref=e3406]:
+                  - generic [ref=e3410]:
+                    - textbox "mm/dd/yyyy" [ref=e3411]
+                    - img [ref=e3413] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e3416]:
+                  - paragraph [ref=e3418]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e3419] [cursor=pointer]:
+                      - img [ref=e3420]
+                - cell [ref=e3422]:
+                  - button [ref=e3423] [cursor=pointer]:
+                    - img [ref=e3424]
+              - 'row "Apkarian, Kelly (WIE168770) MCI#: 8416759880 CC: Not Mapped 45486524 S: 11/01/2024 E: 10/31/2025 E: GILLON, JOURNEI PHW#: 392277443 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 10 $15 T: 530 A: $7950 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e3428]':
+                - cell [ref=e3429]:
+                  - button [ref=e3430] [cursor=pointer]:
+                    - img [ref=e3431]
+                - cell [ref=e3432]:
+                  - checkbox [ref=e3435] [cursor=pointer]
+                - 'cell "Apkarian, Kelly (WIE168770) MCI#: 8416759880 CC: Not Mapped" [ref=e3436]':
+                  - generic [ref=e3439]:
+                    - button "Apkarian, Kelly (WIE168770)" [ref=e3442] [cursor=pointer]:
+                      - generic [ref=e3443]: Apkarian, Kelly (WIE168770)
+                    - generic [ref=e3444]: "MCI#: 8416759880"
+                    - generic [ref=e3445]: "CC: Not Mapped"
+                - 'cell "45486524 S: 11/01/2024 E: 10/31/2025" [ref=e3446]':
+                  - generic [ref=e3449]:
+                    - generic [ref=e3450]: "45486524"
+                    - generic [ref=e3451]: "S: 11/01/2024"
+                    - generic [ref=e3452]: "E: 10/31/2025"
+                - 'cell "E: GILLON, JOURNEI PHW#: 392277443" [ref=e3453]':
+                  - generic [ref=e3457]:
+                    - generic [ref=e3458]: "E: GILLON, JOURNEI"
+                    - generic [ref=e3459]: "PHW#: 392277443"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3460]':
+                  - generic [ref=e3464]:
+                    - generic [ref=e3465]:
+                      - text: "P:"
+                      - generic [ref=e3466]: Not Mapped
+                    - generic [ref=e3467]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e3468]':
+                  - generic [ref=e3472]:
+                    - generic [ref=e3473]:
+                      - generic [ref=e3474]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e3475]:
+                      - generic [ref=e3476]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e3477]':
+                  - generic [ref=e3481]:
+                    - generic [ref=e3482]: "F: Weekly"
+                    - generic [ref=e3483]:
+                      - text: "U:"
+                      - generic [ref=e3484]: Hour
+                - cell "10" [ref=e3485]:
+                  - generic [ref=e3489]: "10"
+                - cell "$15" [ref=e3490]:
+                  - generic [ref=e3494]: $15
+                - 'cell "T: 530 A: $7950" [ref=e3495]':
+                  - generic [ref=e3499]:
+                    - generic [ref=e3500]: "T: 530"
+                    - generic [ref=e3501]: "A: $7950"
+                - cell "Mapping Error Payer Not Mapped" [ref=e3502]:
+                  - generic [ref=e3507]:
+                    - paragraph [ref=e3508]: Mapping Error
+                    - list [ref=e3509]:
+                      - listitem [ref=e3510]: Payer Not Mapped
+                - cell [ref=e3511]:
+                  - generic [ref=e3515]:
+                    - textbox "mm/dd/yyyy" [ref=e3516]
+                    - img [ref=e3518] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e3521]:
+                  - paragraph [ref=e3523]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e3524] [cursor=pointer]:
+                      - img [ref=e3525]
+                - cell [ref=e3527]:
+                  - button [ref=e3528] [cursor=pointer]:
+                    - img [ref=e3529]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 55697106 S: 11/01/2024 E: 10/31/2025 E: Not Mapped PHW#: 388580778 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 10 $12 T: 530 A: $7078.68 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e3533]':
+                - cell [ref=e3534]:
+                  - button [ref=e3535] [cursor=pointer]:
+                    - img [ref=e3536]
+                - cell [ref=e3537]:
+                  - checkbox [ref=e3540] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e3541]':
+                  - generic [ref=e3544]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e3547] [cursor=pointer]:
+                      - generic [ref=e3548]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e3549]: "MCI#: 3452257134"
+                    - generic [ref=e3550]: "CC: Not Mapped"
+                - 'cell "55697106 S: 11/01/2024 E: 10/31/2025" [ref=e3551]':
+                  - generic [ref=e3554]:
+                    - generic [ref=e3555]: "55697106"
+                    - generic [ref=e3556]: "S: 11/01/2024"
+                    - generic [ref=e3557]: "E: 10/31/2025"
+                - 'cell "E: Not Mapped PHW#: 388580778" [ref=e3558]':
+                  - generic [ref=e3562]:
+                    - generic [ref=e3563]:
+                      - text: "E:"
+                      - generic [ref=e3564]: Not Mapped
+                    - generic [ref=e3565]: "PHW#: 388580778"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3566]':
+                  - generic [ref=e3570]:
+                    - generic [ref=e3571]:
+                      - text: "P:"
+                      - generic [ref=e3572]: Not Mapped
+                    - generic [ref=e3573]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e3574]':
+                  - generic [ref=e3578]:
+                    - generic [ref=e3579]:
+                      - generic [ref=e3580]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e3581]:
+                      - generic [ref=e3582]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e3583]':
+                  - generic [ref=e3587]:
+                    - generic [ref=e3588]: "F: Weekly"
+                    - generic [ref=e3589]:
+                      - text: "U:"
+                      - generic [ref=e3590]: Hour
+                - cell "10" [ref=e3591]:
+                  - generic [ref=e3595]: "10"
+                - cell "$12" [ref=e3596]:
+                  - generic [ref=e3600]: $12
+                - 'cell "T: 530 A: $7078.68" [ref=e3601]':
+                  - generic [ref=e3605]:
+                    - generic [ref=e3606]: "T: 530"
+                    - generic [ref=e3607]: "A: $7078.68"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e3608]:
+                  - generic [ref=e3613]:
+                    - paragraph [ref=e3614]: Mapping Error
+                    - list [ref=e3615]:
+                      - listitem [ref=e3616]: Employee Not Mapped
+                      - listitem [ref=e3617]: Payer Not Mapped
+                - cell [ref=e3618]:
+                  - generic [ref=e3622]:
+                    - textbox "mm/dd/yyyy" [ref=e3623]
+                    - img [ref=e3625] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e3628]:
+                  - paragraph [ref=e3630]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e3631] [cursor=pointer]:
+                      - img [ref=e3632]
+                - cell [ref=e3634]:
+                  - button [ref=e3635] [cursor=pointer]:
+                    - img [ref=e3636]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 55697111 S: 11/01/2024 E: 10/31/2025 E: SAUTTER, MARY PHW#: 398688837 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 10 $12 T: 530 A: $7078.68 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e3640]':
+                - cell [ref=e3641]:
+                  - button [ref=e3642] [cursor=pointer]:
+                    - img [ref=e3643]
+                - cell [ref=e3644]:
+                  - checkbox [ref=e3647] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e3648]':
+                  - generic [ref=e3651]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e3654] [cursor=pointer]:
+                      - generic [ref=e3655]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e3656]: "MCI#: 3452257134"
+                    - generic [ref=e3657]: "CC: Not Mapped"
+                - 'cell "55697111 S: 11/01/2024 E: 10/31/2025" [ref=e3658]':
+                  - generic [ref=e3661]:
+                    - generic [ref=e3662]: "55697111"
+                    - generic [ref=e3663]: "S: 11/01/2024"
+                    - generic [ref=e3664]: "E: 10/31/2025"
+                - 'cell "E: SAUTTER, MARY PHW#: 398688837" [ref=e3665]':
+                  - generic [ref=e3669]:
+                    - generic [ref=e3670]: "E: SAUTTER, MARY"
+                    - generic [ref=e3671]: "PHW#: 398688837"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3672]':
+                  - generic [ref=e3676]:
+                    - generic [ref=e3677]:
+                      - text: "P:"
+                      - generic [ref=e3678]: Not Mapped
+                    - generic [ref=e3679]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e3680]':
+                  - generic [ref=e3684]:
+                    - generic [ref=e3685]:
+                      - generic [ref=e3686]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e3687]:
+                      - generic [ref=e3688]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e3689]':
+                  - generic [ref=e3693]:
+                    - generic [ref=e3694]: "F: Weekly"
+                    - generic [ref=e3695]:
+                      - text: "U:"
+                      - generic [ref=e3696]: Hour
+                - cell "10" [ref=e3697]:
+                  - generic [ref=e3701]: "10"
+                - cell "$12" [ref=e3702]:
+                  - generic [ref=e3706]: $12
+                - 'cell "T: 530 A: $7078.68" [ref=e3707]':
+                  - generic [ref=e3711]:
+                    - generic [ref=e3712]: "T: 530"
+                    - generic [ref=e3713]: "A: $7078.68"
+                - cell "Mapping Error Payer Not Mapped" [ref=e3714]:
+                  - generic [ref=e3719]:
+                    - paragraph [ref=e3720]: Mapping Error
+                    - list [ref=e3721]:
+                      - listitem [ref=e3722]: Payer Not Mapped
+                - cell [ref=e3723]:
+                  - generic [ref=e3727]:
+                    - textbox "mm/dd/yyyy" [ref=e3728]
+                    - img [ref=e3730] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e3733]:
+                  - paragraph [ref=e3735]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e3736] [cursor=pointer]:
+                      - img [ref=e3737]
+                - cell [ref=e3739]:
+                  - button [ref=e3740] [cursor=pointer]:
+                    - img [ref=e3741]
+              - 'row "Apkarian, Kelly (WIE168770) MCI#: 8416759880 CC: Not Mapped 55708746 S: 11/01/2024 E: 10/31/2025 E: GILLON, JOURNEI PHW#: 392277443 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 10 $15 T: 530 A: $7950 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e3745]':
+                - cell [ref=e3746]:
+                  - button [ref=e3747] [cursor=pointer]:
+                    - img [ref=e3748]
+                - cell [ref=e3749]:
+                  - checkbox [ref=e3752] [cursor=pointer]
+                - 'cell "Apkarian, Kelly (WIE168770) MCI#: 8416759880 CC: Not Mapped" [ref=e3753]':
+                  - generic [ref=e3756]:
+                    - button "Apkarian, Kelly (WIE168770)" [ref=e3759] [cursor=pointer]:
+                      - generic [ref=e3760]: Apkarian, Kelly (WIE168770)
+                    - generic [ref=e3761]: "MCI#: 8416759880"
+                    - generic [ref=e3762]: "CC: Not Mapped"
+                - 'cell "55708746 S: 11/01/2024 E: 10/31/2025" [ref=e3763]':
+                  - generic [ref=e3766]:
+                    - generic [ref=e3767]: "55708746"
+                    - generic [ref=e3768]: "S: 11/01/2024"
+                    - generic [ref=e3769]: "E: 10/31/2025"
+                - 'cell "E: GILLON, JOURNEI PHW#: 392277443" [ref=e3770]':
+                  - generic [ref=e3774]:
+                    - generic [ref=e3775]: "E: GILLON, JOURNEI"
+                    - generic [ref=e3776]: "PHW#: 392277443"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3777]':
+                  - generic [ref=e3781]:
+                    - generic [ref=e3782]:
+                      - text: "P:"
+                      - generic [ref=e3783]: Not Mapped
+                    - generic [ref=e3784]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e3785]':
+                  - generic [ref=e3789]:
+                    - generic [ref=e3790]:
+                      - generic [ref=e3791]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e3792]:
+                      - generic [ref=e3793]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e3794]':
+                  - generic [ref=e3798]:
+                    - generic [ref=e3799]: "F: Weekly"
+                    - generic [ref=e3800]:
+                      - text: "U:"
+                      - generic [ref=e3801]: Hour
+                - cell "10" [ref=e3802]:
+                  - generic [ref=e3806]: "10"
+                - cell "$15" [ref=e3807]:
+                  - generic [ref=e3811]: $15
+                - 'cell "T: 530 A: $7950" [ref=e3812]':
+                  - generic [ref=e3816]:
+                    - generic [ref=e3817]: "T: 530"
+                    - generic [ref=e3818]: "A: $7950"
+                - cell "Mapping Error Payer Not Mapped" [ref=e3819]:
+                  - generic [ref=e3824]:
+                    - paragraph [ref=e3825]: Mapping Error
+                    - list [ref=e3826]:
+                      - listitem [ref=e3827]: Payer Not Mapped
+                - cell [ref=e3828]:
+                  - generic [ref=e3832]:
+                    - textbox "mm/dd/yyyy" [ref=e3833]
+                    - img [ref=e3835] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e3838]:
+                  - paragraph [ref=e3840]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e3841] [cursor=pointer]:
+                      - img [ref=e3842]
+                - cell [ref=e3844]:
+                  - button [ref=e3845] [cursor=pointer]:
+                    - img [ref=e3846]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 90034544 S: 11/01/2024 E: 10/31/2025 E: Not Mapped PHW#: 388580778 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 10 $12 T: 530 A: $7078.68 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e3850]':
+                - cell [ref=e3851]:
+                  - button [ref=e3852] [cursor=pointer]:
+                    - img [ref=e3853]
+                - cell [ref=e3854]:
+                  - checkbox [ref=e3857] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e3858]':
+                  - generic [ref=e3861]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e3864] [cursor=pointer]:
+                      - generic [ref=e3865]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e3866]: "MCI#: 3452257134"
+                    - generic [ref=e3867]: "CC: Not Mapped"
+                - 'cell "90034544 S: 11/01/2024 E: 10/31/2025" [ref=e3868]':
+                  - generic [ref=e3871]:
+                    - generic [ref=e3872]: "90034544"
+                    - generic [ref=e3873]: "S: 11/01/2024"
+                    - generic [ref=e3874]: "E: 10/31/2025"
+                - 'cell "E: Not Mapped PHW#: 388580778" [ref=e3875]':
+                  - generic [ref=e3879]:
+                    - generic [ref=e3880]:
+                      - text: "E:"
+                      - generic [ref=e3881]: Not Mapped
+                    - generic [ref=e3882]: "PHW#: 388580778"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3883]':
+                  - generic [ref=e3887]:
+                    - generic [ref=e3888]:
+                      - text: "P:"
+                      - generic [ref=e3889]: Not Mapped
+                    - generic [ref=e3890]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e3891]':
+                  - generic [ref=e3895]:
+                    - generic [ref=e3896]:
+                      - generic [ref=e3897]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e3898]:
+                      - generic [ref=e3899]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e3900]':
+                  - generic [ref=e3904]:
+                    - generic [ref=e3905]: "F: Weekly"
+                    - generic [ref=e3906]:
+                      - text: "U:"
+                      - generic [ref=e3907]: Hour
+                - cell "10" [ref=e3908]:
+                  - generic [ref=e3912]: "10"
+                - cell "$12" [ref=e3913]:
+                  - generic [ref=e3917]: $12
+                - 'cell "T: 530 A: $7078.68" [ref=e3918]':
+                  - generic [ref=e3922]:
+                    - generic [ref=e3923]: "T: 530"
+                    - generic [ref=e3924]: "A: $7078.68"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e3925]:
+                  - generic [ref=e3930]:
+                    - paragraph [ref=e3931]: Mapping Error
+                    - list [ref=e3932]:
+                      - listitem [ref=e3933]: Employee Not Mapped
+                      - listitem [ref=e3934]: Payer Not Mapped
+                - cell [ref=e3935]:
+                  - generic [ref=e3939]:
+                    - textbox "mm/dd/yyyy" [ref=e3940]
+                    - img [ref=e3942] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e3945]:
+                  - paragraph [ref=e3947]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e3948] [cursor=pointer]:
+                      - img [ref=e3949]
+                - cell [ref=e3951]:
+                  - button [ref=e3952] [cursor=pointer]:
+                    - img [ref=e3953]
+              - 'row "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped 90034549 S: 11/01/2024 E: 10/31/2025 E: SAUTTER, MARY PHW#: 398688837 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 10 $12 T: 530 A: $7078.68 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e3957]':
+                - cell [ref=e3958]:
+                  - button [ref=e3959] [cursor=pointer]:
+                    - img [ref=e3960]
+                - cell [ref=e3961]:
+                  - checkbox [ref=e3964] [cursor=pointer]
+                - 'cell "BENSON, SHARON (WIE144394) MCI#: 3452257134 CC: Not Mapped" [ref=e3965]':
+                  - generic [ref=e3968]:
+                    - button "BENSON, SHARON (WIE144394)" [ref=e3971] [cursor=pointer]:
+                      - generic [ref=e3972]: BENSON, SHARON (WIE144394)
+                    - generic [ref=e3973]: "MCI#: 3452257134"
+                    - generic [ref=e3974]: "CC: Not Mapped"
+                - 'cell "90034549 S: 11/01/2024 E: 10/31/2025" [ref=e3975]':
+                  - generic [ref=e3978]:
+                    - generic [ref=e3979]: "90034549"
+                    - generic [ref=e3980]: "S: 11/01/2024"
+                    - generic [ref=e3981]: "E: 10/31/2025"
+                - 'cell "E: SAUTTER, MARY PHW#: 398688837" [ref=e3982]':
+                  - generic [ref=e3986]:
+                    - generic [ref=e3987]: "E: SAUTTER, MARY"
+                    - generic [ref=e3988]: "PHW#: 398688837"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e3989]':
+                  - generic [ref=e3993]:
+                    - generic [ref=e3994]:
+                      - text: "P:"
+                      - generic [ref=e3995]: Not Mapped
+                    - generic [ref=e3996]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e3997]':
+                  - generic [ref=e4001]:
+                    - generic [ref=e4002]:
+                      - generic [ref=e4003]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e4004]:
+                      - generic [ref=e4005]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e4006]':
+                  - generic [ref=e4010]:
+                    - generic [ref=e4011]: "F: Weekly"
+                    - generic [ref=e4012]:
+                      - text: "U:"
+                      - generic [ref=e4013]: Hour
+                - cell "10" [ref=e4014]:
+                  - generic [ref=e4018]: "10"
+                - cell "$12" [ref=e4019]:
+                  - generic [ref=e4023]: $12
+                - 'cell "T: 530 A: $7078.68" [ref=e4024]':
+                  - generic [ref=e4028]:
+                    - generic [ref=e4029]: "T: 530"
+                    - generic [ref=e4030]: "A: $7078.68"
+                - cell "Mapping Error Payer Not Mapped" [ref=e4031]:
+                  - generic [ref=e4036]:
+                    - paragraph [ref=e4037]: Mapping Error
+                    - list [ref=e4038]:
+                      - listitem [ref=e4039]: Payer Not Mapped
+                - cell [ref=e4040]:
+                  - generic [ref=e4044]:
+                    - textbox "mm/dd/yyyy" [ref=e4045]
+                    - img [ref=e4047] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4050]:
+                  - paragraph [ref=e4052]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e4053] [cursor=pointer]:
+                      - img [ref=e4054]
+                - cell [ref=e4056]:
+                  - button [ref=e4057] [cursor=pointer]:
+                    - img [ref=e4058]
+              - 'row "Apkarian, Kelly (WIE168770) MCI#: 8416759880 CC: Not Mapped 90046184 S: 11/01/2024 E: 10/31/2025 E: GILLON, JOURNEI PHW#: 392277443 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 10 $15 T: 530 A: $7950 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e4062]':
+                - cell [ref=e4063]:
+                  - button [ref=e4064] [cursor=pointer]:
+                    - img [ref=e4065]
+                - cell [ref=e4066]:
+                  - checkbox [ref=e4069] [cursor=pointer]
+                - 'cell "Apkarian, Kelly (WIE168770) MCI#: 8416759880 CC: Not Mapped" [ref=e4070]':
+                  - generic [ref=e4073]:
+                    - button "Apkarian, Kelly (WIE168770)" [ref=e4076] [cursor=pointer]:
+                      - generic [ref=e4077]: Apkarian, Kelly (WIE168770)
+                    - generic [ref=e4078]: "MCI#: 8416759880"
+                    - generic [ref=e4079]: "CC: Not Mapped"
+                - 'cell "90046184 S: 11/01/2024 E: 10/31/2025" [ref=e4080]':
+                  - generic [ref=e4083]:
+                    - generic [ref=e4084]: "90046184"
+                    - generic [ref=e4085]: "S: 11/01/2024"
+                    - generic [ref=e4086]: "E: 10/31/2025"
+                - 'cell "E: GILLON, JOURNEI PHW#: 392277443" [ref=e4087]':
+                  - generic [ref=e4091]:
+                    - generic [ref=e4092]: "E: GILLON, JOURNEI"
+                    - generic [ref=e4093]: "PHW#: 392277443"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e4094]':
+                  - generic [ref=e4098]:
+                    - generic [ref=e4099]:
+                      - text: "P:"
+                      - generic [ref=e4100]: Not Mapped
+                    - generic [ref=e4101]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e4102]':
+                  - generic [ref=e4106]:
+                    - generic [ref=e4107]:
+                      - generic [ref=e4108]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e4109]:
+                      - generic [ref=e4110]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e4111]':
+                  - generic [ref=e4115]:
+                    - generic [ref=e4116]: "F: Weekly"
+                    - generic [ref=e4117]:
+                      - text: "U:"
+                      - generic [ref=e4118]: Hour
+                - cell "10" [ref=e4119]:
+                  - generic [ref=e4123]: "10"
+                - cell "$15" [ref=e4124]:
+                  - generic [ref=e4128]: $15
+                - 'cell "T: 530 A: $7950" [ref=e4129]':
+                  - generic [ref=e4133]:
+                    - generic [ref=e4134]: "T: 530"
+                    - generic [ref=e4135]: "A: $7950"
+                - cell "Mapping Error Payer Not Mapped" [ref=e4136]:
+                  - generic [ref=e4141]:
+                    - paragraph [ref=e4142]: Mapping Error
+                    - list [ref=e4143]:
+                      - listitem [ref=e4144]: Payer Not Mapped
+                - cell [ref=e4145]:
+                  - generic [ref=e4149]:
+                    - textbox "mm/dd/yyyy" [ref=e4150]
+                    - img [ref=e4152] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4155]:
+                  - paragraph [ref=e4157]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e4158] [cursor=pointer]:
+                      - img [ref=e4159]
+                - cell [ref=e4161]:
+                  - button [ref=e4162] [cursor=pointer]:
+                    - img [ref=e4163]
+              - 'row "Alpha, Client (3634) MCI#: 123123123123 CC: Not Mapped 5467565644 S: 10/20/2024 E: 12/10/2024 E: Not Mapped PHW#: 385680074 P: Not Mapped F: Fiscal SPC: 105.32 Code & Mod.: T1019: U1, KX F: Weekly U: Hour 28.75 $18.83 T: 230 A: $4820.29 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e4167]':
+                - cell [ref=e4168]:
+                  - button [ref=e4169] [cursor=pointer]:
+                    - img [ref=e4170]
+                - cell [ref=e4171]:
+                  - checkbox [ref=e4174] [cursor=pointer]
+                - 'cell "Alpha, Client (3634) MCI#: 123123123123 CC: Not Mapped" [ref=e4175]':
+                  - generic [ref=e4178]:
+                    - button "Alpha, Client (3634)" [ref=e4181] [cursor=pointer]:
+                      - generic [ref=e4182]: Alpha, Client (3634)
+                    - generic [ref=e4183]: "MCI#: 123123123123"
+                    - generic [ref=e4184]: "CC: Not Mapped"
+                - 'cell "5467565644 S: 10/20/2024 E: 12/10/2024" [ref=e4185]':
+                  - generic [ref=e4188]:
+                    - generic [ref=e4189]: "5467565644"
+                    - generic [ref=e4190]: "S: 10/20/2024"
+                    - generic [ref=e4191]: "E: 12/10/2024"
+                - 'cell "E: Not Mapped PHW#: 385680074" [ref=e4192]':
+                  - generic [ref=e4196]:
+                    - generic [ref=e4197]:
+                      - text: "E:"
+                      - generic [ref=e4198]: Not Mapped
+                    - generic [ref=e4199]: "PHW#: 385680074"
+                - 'cell "P: Not Mapped F: Fiscal" [ref=e4200]':
+                  - generic [ref=e4204]:
+                    - generic [ref=e4205]:
+                      - text: "P:"
+                      - generic [ref=e4206]: Not Mapped
+                    - generic [ref=e4207]: "F: Fiscal"
+                - 'cell "SPC: 105.32 Code & Mod.: T1019: U1, KX" [ref=e4208]':
+                  - generic [ref=e4212]:
+                    - generic [ref=e4213]:
+                      - generic [ref=e4214]: "SPC:"
+                      - text: "105.32"
+                    - generic [ref=e4215]:
+                      - generic [ref=e4216]: "Code & Mod.:"
+                      - text: "T1019: U1, KX"
+                - 'cell "F: Weekly U: Hour" [ref=e4217]':
+                  - generic [ref=e4221]:
+                    - generic [ref=e4222]: "F: Weekly"
+                    - generic [ref=e4223]:
+                      - text: "U:"
+                      - generic [ref=e4224]: Hour
+                - cell "28.75" [ref=e4225]:
+                  - generic [ref=e4229]: "28.75"
+                - cell "$18.83" [ref=e4230]:
+                  - generic [ref=e4234]: $18.83
+                - 'cell "T: 230 A: $4820.29" [ref=e4235]':
+                  - generic [ref=e4239]:
+                    - generic [ref=e4240]: "T: 230"
+                    - generic [ref=e4241]: "A: $4820.29"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e4242]:
+                  - generic [ref=e4247]:
+                    - paragraph [ref=e4248]: Mapping Error
+                    - list [ref=e4249]:
+                      - listitem [ref=e4250]: Employee Not Mapped
+                      - listitem [ref=e4251]: Payer Not Mapped
+                - cell [ref=e4252]:
+                  - generic [ref=e4256]:
+                    - textbox "mm/dd/yyyy" [ref=e4257]
+                    - img [ref=e4259] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4262]:
+                  - paragraph [ref=e4264]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e4265] [cursor=pointer]:
+                      - img [ref=e4266]
+                - cell [ref=e4268]:
+                  - button [ref=e4269] [cursor=pointer]:
+                    - img [ref=e4270]
+              - 'row "Alpha, Client (3634) MCI#: 123123123123 CC: Not Mapped 546756564423 S: 10/20/2024 E: 12/10/2024 E: Not Mapped PHW#: 385680074 P: Not Mapped F: Fiscal SPC: 105.32 Code & Mod.: T1019: U1, KX F: Weekly U: Hour 28.75 $18.83 T: 230 A: $4820.29 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e4274]':
+                - cell [ref=e4275]:
+                  - button [ref=e4276] [cursor=pointer]:
+                    - img [ref=e4277]
+                - cell [ref=e4278]:
+                  - checkbox [ref=e4281] [cursor=pointer]
+                - 'cell "Alpha, Client (3634) MCI#: 123123123123 CC: Not Mapped" [ref=e4282]':
+                  - generic [ref=e4285]:
+                    - button "Alpha, Client (3634)" [ref=e4288] [cursor=pointer]:
+                      - generic [ref=e4289]: Alpha, Client (3634)
+                    - generic [ref=e4290]: "MCI#: 123123123123"
+                    - generic [ref=e4291]: "CC: Not Mapped"
+                - 'cell "546756564423 S: 10/20/2024 E: 12/10/2024" [ref=e4292]':
+                  - generic [ref=e4295]:
+                    - generic [ref=e4296]: "546756564423"
+                    - generic [ref=e4297]: "S: 10/20/2024"
+                    - generic [ref=e4298]: "E: 12/10/2024"
+                - 'cell "E: Not Mapped PHW#: 385680074" [ref=e4299]':
+                  - generic [ref=e4303]:
+                    - generic [ref=e4304]:
+                      - text: "E:"
+                      - generic [ref=e4305]: Not Mapped
+                    - generic [ref=e4306]: "PHW#: 385680074"
+                - 'cell "P: Not Mapped F: Fiscal" [ref=e4307]':
+                  - generic [ref=e4311]:
+                    - generic [ref=e4312]:
+                      - text: "P:"
+                      - generic [ref=e4313]: Not Mapped
+                    - generic [ref=e4314]: "F: Fiscal"
+                - 'cell "SPC: 105.32 Code & Mod.: T1019: U1, KX" [ref=e4315]':
+                  - generic [ref=e4319]:
+                    - generic [ref=e4320]:
+                      - generic [ref=e4321]: "SPC:"
+                      - text: "105.32"
+                    - generic [ref=e4322]:
+                      - generic [ref=e4323]: "Code & Mod.:"
+                      - text: "T1019: U1, KX"
+                - 'cell "F: Weekly U: Hour" [ref=e4324]':
+                  - generic [ref=e4328]:
+                    - generic [ref=e4329]: "F: Weekly"
+                    - generic [ref=e4330]:
+                      - text: "U:"
+                      - generic [ref=e4331]: Hour
+                - cell "28.75" [ref=e4332]:
+                  - generic [ref=e4336]: "28.75"
+                - cell "$18.83" [ref=e4337]:
+                  - generic [ref=e4341]: $18.83
+                - 'cell "T: 230 A: $4820.29" [ref=e4342]':
+                  - generic [ref=e4346]:
+                    - generic [ref=e4347]: "T: 230"
+                    - generic [ref=e4348]: "A: $4820.29"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e4349]:
+                  - generic [ref=e4354]:
+                    - paragraph [ref=e4355]: Mapping Error
+                    - list [ref=e4356]:
+                      - listitem [ref=e4357]: Employee Not Mapped
+                      - listitem [ref=e4358]: Payer Not Mapped
+                - cell [ref=e4359]:
+                  - generic [ref=e4363]:
+                    - textbox "mm/dd/yyyy" [ref=e4364]
+                    - img [ref=e4366] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4369]:
+                  - paragraph [ref=e4371]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e4372] [cursor=pointer]:
+                      - img [ref=e4373]
+                - cell [ref=e4375]:
+                  - button [ref=e4376] [cursor=pointer]:
+                    - img [ref=e4377]
+              - 'row "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped 90376381 S: 10/07/2024 E: 06/30/2025 V: OPPORTUNITIES INC Provider#: 391078133 P: Not Mapped F: IRIS Waiver SPC: 110 Code & Mod.: T2012 F: Weekly U: Day 1 $130 T: 39 A: $5070 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e4381]':
+                - cell [ref=e4382]:
+                  - button [ref=e4383] [cursor=pointer]:
+                    - img [ref=e4384]
+                - cell [ref=e4385]:
+                  - checkbox [ref=e4388] [cursor=pointer]
+                - 'cell "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped" [ref=e4389]':
+                  - generic [ref=e4392]:
+                    - button "PATRYKUS, JOSEPH (WIE148620)" [ref=e4395] [cursor=pointer]:
+                      - generic [ref=e4396]: PATRYKUS, JOSEPH (WIE148620)
+                    - generic [ref=e4397]: "MCI#: 5422629051"
+                    - generic [ref=e4398]: "CC: Not Mapped"
+                - 'cell "90376381 S: 10/07/2024 E: 06/30/2025" [ref=e4399]':
+                  - generic [ref=e4402]:
+                    - generic [ref=e4403]: "90376381"
+                    - generic [ref=e4404]: "S: 10/07/2024"
+                    - generic [ref=e4405]: "E: 06/30/2025"
+                - 'cell "V: OPPORTUNITIES INC Provider#: 391078133" [ref=e4406]':
+                  - generic [ref=e4410]:
+                    - generic [ref=e4411]: "V: OPPORTUNITIES INC"
+                    - generic [ref=e4412]: "Provider#: 391078133"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e4413]':
+                  - generic [ref=e4417]:
+                    - generic [ref=e4418]:
+                      - text: "P:"
+                      - generic [ref=e4419]: Not Mapped
+                    - generic [ref=e4420]: "F: IRIS Waiver"
+                - 'cell "SPC: 110 Code & Mod.: T2012" [ref=e4421]':
+                  - generic [ref=e4425]:
+                    - generic [ref=e4426]:
+                      - generic [ref=e4427]: "SPC:"
+                      - text: "110"
+                    - generic [ref=e4428]:
+                      - generic [ref=e4429]: "Code & Mod.:"
+                      - text: T2012
+                - 'cell "F: Weekly U: Day" [ref=e4430]':
+                  - generic [ref=e4434]:
+                    - generic [ref=e4435]: "F: Weekly"
+                    - generic [ref=e4436]:
+                      - text: "U:"
+                      - generic [ref=e4437]: Day
+                - cell "1" [ref=e4438]:
+                  - generic [ref=e4442]: "1"
+                - cell "$130" [ref=e4443]:
+                  - generic [ref=e4447]: $130
+                - 'cell "T: 39 A: $5070" [ref=e4448]':
+                  - generic [ref=e4452]:
+                    - generic [ref=e4453]: "T: 39"
+                    - generic [ref=e4454]: "A: $5070"
+                - cell "Mapping Error Payer Not Mapped" [ref=e4455]:
+                  - generic [ref=e4460]:
+                    - paragraph [ref=e4461]: Mapping Error
+                    - list [ref=e4462]:
+                      - listitem [ref=e4463]: Payer Not Mapped
+                - cell [ref=e4464]:
+                  - generic [ref=e4468]:
+                    - textbox "mm/dd/yyyy" [ref=e4469]
+                    - img [ref=e4471] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4474]:
+                  - paragraph [ref=e4476]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e4477] [cursor=pointer]:
+                      - img [ref=e4478]
+                - cell [ref=e4480]:
+                  - button [ref=e4481] [cursor=pointer]:
+                    - img [ref=e4482]
+              - 'row "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped 90376619 S: 10/07/2024 E: 06/30/2025 V: OPPORTUNITIES INC Provider#: 391078133 P: Not Mapped F: IRIS Waiver SPC: 107.2 Code & Mod.: T2003: RI F: Weekly U: Each 4 $15 T: 156 A: $2340 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e4486]':
+                - cell [ref=e4487]:
+                  - button [ref=e4488] [cursor=pointer]:
+                    - img [ref=e4489]
+                - cell [ref=e4490]:
+                  - checkbox [ref=e4493] [cursor=pointer]
+                - 'cell "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped" [ref=e4494]':
+                  - generic [ref=e4497]:
+                    - button "PATRYKUS, JOSEPH (WIE148620)" [ref=e4500] [cursor=pointer]:
+                      - generic [ref=e4501]: PATRYKUS, JOSEPH (WIE148620)
+                    - generic [ref=e4502]: "MCI#: 5422629051"
+                    - generic [ref=e4503]: "CC: Not Mapped"
+                - 'cell "90376619 S: 10/07/2024 E: 06/30/2025" [ref=e4504]':
+                  - generic [ref=e4507]:
+                    - generic [ref=e4508]: "90376619"
+                    - generic [ref=e4509]: "S: 10/07/2024"
+                    - generic [ref=e4510]: "E: 06/30/2025"
+                - 'cell "V: OPPORTUNITIES INC Provider#: 391078133" [ref=e4511]':
+                  - generic [ref=e4515]:
+                    - generic [ref=e4516]: "V: OPPORTUNITIES INC"
+                    - generic [ref=e4517]: "Provider#: 391078133"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e4518]':
+                  - generic [ref=e4522]:
+                    - generic [ref=e4523]:
+                      - text: "P:"
+                      - generic [ref=e4524]: Not Mapped
+                    - generic [ref=e4525]: "F: IRIS Waiver"
+                - 'cell "SPC: 107.2 Code & Mod.: T2003: RI" [ref=e4526]':
+                  - generic [ref=e4530]:
+                    - generic [ref=e4531]:
+                      - generic [ref=e4532]: "SPC:"
+                      - text: "107.2"
+                    - generic [ref=e4533]:
+                      - generic [ref=e4534]: "Code & Mod.:"
+                      - text: "T2003: RI"
+                - 'cell "F: Weekly U: Each" [ref=e4535]':
+                  - generic [ref=e4539]:
+                    - generic [ref=e4540]: "F: Weekly"
+                    - generic [ref=e4541]:
+                      - text: "U:"
+                      - generic [ref=e4542]: Each
+                - cell "4" [ref=e4543]:
+                  - generic [ref=e4547]: "4"
+                - cell "$15" [ref=e4548]:
+                  - generic [ref=e4552]: $15
+                - 'cell "T: 156 A: $2340" [ref=e4553]':
+                  - generic [ref=e4557]:
+                    - generic [ref=e4558]: "T: 156"
+                    - generic [ref=e4559]: "A: $2340"
+                - cell "Mapping Error Payer Not Mapped" [ref=e4560]:
+                  - generic [ref=e4565]:
+                    - paragraph [ref=e4566]: Mapping Error
+                    - list [ref=e4567]:
+                      - listitem [ref=e4568]: Payer Not Mapped
+                - cell [ref=e4569]:
+                  - generic [ref=e4573]:
+                    - textbox "mm/dd/yyyy" [ref=e4574]
+                    - img [ref=e4576] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4579]:
+                  - paragraph [ref=e4581]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e4582] [cursor=pointer]:
+                      - img [ref=e4583]
+                - cell [ref=e4585]:
+                  - button [ref=e4586] [cursor=pointer]:
+                    - img [ref=e4587]
+              - 'row "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped 90376836 S: 10/07/2024 E: 06/30/2025 V: OPPORTUNITIES INC Provider#: 391078133 P: Not Mapped F: IRIS Waiver SPC: 107.21 Code & Mod.: S0215: RI F: Monthly U: Mile 64 $1.63 T: 576 A: $938.88 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e4591]':
+                - cell [ref=e4592]:
+                  - button [ref=e4593] [cursor=pointer]:
+                    - img [ref=e4594]
+                - cell [ref=e4595]:
+                  - checkbox [ref=e4598] [cursor=pointer]
+                - 'cell "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped" [ref=e4599]':
+                  - generic [ref=e4602]:
+                    - button "PATRYKUS, JOSEPH (WIE148620)" [ref=e4605] [cursor=pointer]:
+                      - generic [ref=e4606]: PATRYKUS, JOSEPH (WIE148620)
+                    - generic [ref=e4607]: "MCI#: 5422629051"
+                    - generic [ref=e4608]: "CC: Not Mapped"
+                - 'cell "90376836 S: 10/07/2024 E: 06/30/2025" [ref=e4609]':
+                  - generic [ref=e4612]:
+                    - generic [ref=e4613]: "90376836"
+                    - generic [ref=e4614]: "S: 10/07/2024"
+                    - generic [ref=e4615]: "E: 06/30/2025"
+                - 'cell "V: OPPORTUNITIES INC Provider#: 391078133" [ref=e4616]':
+                  - generic [ref=e4620]:
+                    - generic [ref=e4621]: "V: OPPORTUNITIES INC"
+                    - generic [ref=e4622]: "Provider#: 391078133"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e4623]':
+                  - generic [ref=e4627]:
+                    - generic [ref=e4628]:
+                      - text: "P:"
+                      - generic [ref=e4629]: Not Mapped
+                    - generic [ref=e4630]: "F: IRIS Waiver"
+                - 'cell "SPC: 107.21 Code & Mod.: S0215: RI" [ref=e4631]':
+                  - generic [ref=e4635]:
+                    - generic [ref=e4636]:
+                      - generic [ref=e4637]: "SPC:"
+                      - text: "107.21"
+                    - generic [ref=e4638]:
+                      - generic [ref=e4639]: "Code & Mod.:"
+                      - text: "S0215: RI"
+                - 'cell "F: Monthly U: Mile" [ref=e4640]':
+                  - generic [ref=e4644]:
+                    - generic [ref=e4645]: "F: Monthly"
+                    - generic [ref=e4646]:
+                      - text: "U:"
+                      - generic [ref=e4647]: Mile
+                - cell "64" [ref=e4648]:
+                  - generic [ref=e4652]: "64"
+                - cell "$1.63" [ref=e4653]:
+                  - generic [ref=e4657]: $1.63
+                - 'cell "T: 576 A: $938.88" [ref=e4658]':
+                  - generic [ref=e4662]:
+                    - generic [ref=e4663]: "T: 576"
+                    - generic [ref=e4664]: "A: $938.88"
+                - cell "Mapping Error Payer Not Mapped" [ref=e4665]:
+                  - generic [ref=e4670]:
+                    - paragraph [ref=e4671]: Mapping Error
+                    - list [ref=e4672]:
+                      - listitem [ref=e4673]: Payer Not Mapped
+                - cell [ref=e4674]:
+                  - generic [ref=e4678]:
+                    - textbox "mm/dd/yyyy" [ref=e4679]
+                    - img [ref=e4681] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4684]:
+                  - paragraph [ref=e4686]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e4687] [cursor=pointer]:
+                      - img [ref=e4688]
+                - cell [ref=e4690]:
+                  - button [ref=e4691] [cursor=pointer]:
+                    - img [ref=e4692]
+              - 'row "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped 90376374 S: 10/03/2024 E: 06/30/2025 E: PATRYKUS, JENNIE PHW#: 389524038 P: Not Mapped F: IRIS Waiver SPC: 107.21 Code & Mod.: S0215: RI F: Weekly U: Mile 28 $0.62 T: 1092 A: $677.04 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e4696]':
+                - cell [ref=e4697]:
+                  - button [ref=e4698] [cursor=pointer]:
+                    - img [ref=e4699]
+                - cell [ref=e4700]:
+                  - checkbox [ref=e4703] [cursor=pointer]
+                - 'cell "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped" [ref=e4704]':
+                  - generic [ref=e4707]:
+                    - button "PATRYKUS, JOSEPH (WIE148620)" [ref=e4710] [cursor=pointer]:
+                      - generic [ref=e4711]: PATRYKUS, JOSEPH (WIE148620)
+                    - generic [ref=e4712]: "MCI#: 5422629051"
+                    - generic [ref=e4713]: "CC: Not Mapped"
+                - 'cell "90376374 S: 10/03/2024 E: 06/30/2025" [ref=e4714]':
+                  - generic [ref=e4717]:
+                    - generic [ref=e4718]: "90376374"
+                    - generic [ref=e4719]: "S: 10/03/2024"
+                    - generic [ref=e4720]: "E: 06/30/2025"
+                - 'cell "E: PATRYKUS, JENNIE PHW#: 389524038" [ref=e4721]':
+                  - generic [ref=e4725]:
+                    - generic [ref=e4726]: "E: PATRYKUS, JENNIE"
+                    - generic [ref=e4727]: "PHW#: 389524038"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e4728]':
+                  - generic [ref=e4732]:
+                    - generic [ref=e4733]:
+                      - text: "P:"
+                      - generic [ref=e4734]: Not Mapped
+                    - generic [ref=e4735]: "F: IRIS Waiver"
+                - 'cell "SPC: 107.21 Code & Mod.: S0215: RI" [ref=e4736]':
+                  - generic [ref=e4740]:
+                    - generic [ref=e4741]:
+                      - generic [ref=e4742]: "SPC:"
+                      - text: "107.21"
+                    - generic [ref=e4743]:
+                      - generic [ref=e4744]: "Code & Mod.:"
+                      - text: "S0215: RI"
+                - 'cell "F: Weekly U: Mile" [ref=e4745]':
+                  - generic [ref=e4749]:
+                    - generic [ref=e4750]: "F: Weekly"
+                    - generic [ref=e4751]:
+                      - text: "U:"
+                      - generic [ref=e4752]: Mile
+                - cell "28" [ref=e4753]:
+                  - generic [ref=e4757]: "28"
+                - cell "$0.62" [ref=e4758]:
+                  - generic [ref=e4762]: $0.62
+                - 'cell "T: 1092 A: $677.04" [ref=e4763]':
+                  - generic [ref=e4767]:
+                    - generic [ref=e4768]: "T: 1092"
+                    - generic [ref=e4769]: "A: $677.04"
+                - cell "Mapping Error Payer Not Mapped" [ref=e4770]:
+                  - generic [ref=e4775]:
+                    - paragraph [ref=e4776]: Mapping Error
+                    - list [ref=e4777]:
+                      - listitem [ref=e4778]: Payer Not Mapped
+                - cell [ref=e4779]:
+                  - generic [ref=e4783]:
+                    - textbox "mm/dd/yyyy" [ref=e4784]
+                    - img [ref=e4786] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4789]:
+                  - paragraph [ref=e4791]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e4792] [cursor=pointer]:
+                      - img [ref=e4793]
+                - cell [ref=e4795]:
+                  - button [ref=e4796] [cursor=pointer]:
+                    - img [ref=e4797]
+              - 'row "WILLIAMS, MICHAELA (WIE120597) MCI#: 5424591451 CC: Not Mapped 8382503 S: 10/01/2024 E: 11/19/2024 E: WILLIAMS MUIRHEAD, IAN PHW#: 396252381 P: Not Mapped F: IRIS SDPC SPC: 105.32 Code & Mod.: T1019: KX F: Weekly U: Hour 25.25 $18.83 T: 202 A: $4233.47 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e4801]':
+                - cell [ref=e4802]:
+                  - button [ref=e4803] [cursor=pointer]:
+                    - img [ref=e4804]
+                - cell [ref=e4805]:
+                  - checkbox [ref=e4808] [cursor=pointer]
+                - 'cell "WILLIAMS, MICHAELA (WIE120597) MCI#: 5424591451 CC: Not Mapped" [ref=e4809]':
+                  - generic [ref=e4812]:
+                    - button "WILLIAMS, MICHAELA (WIE120597)" [ref=e4815] [cursor=pointer]:
+                      - generic [ref=e4816]: WILLIAMS, MICHAELA (WIE120597)
+                    - generic [ref=e4817]: "MCI#: 5424591451"
+                    - generic [ref=e4818]: "CC: Not Mapped"
+                - 'cell "8382503 S: 10/01/2024 E: 11/19/2024" [ref=e4819]':
+                  - generic [ref=e4822]:
+                    - generic [ref=e4823]: "8382503"
+                    - generic [ref=e4824]: "S: 10/01/2024"
+                    - generic [ref=e4825]: "E: 11/19/2024"
+                - 'cell "E: WILLIAMS MUIRHEAD, IAN PHW#: 396252381" [ref=e4826]':
+                  - generic [ref=e4830]:
+                    - generic [ref=e4831]: "E: WILLIAMS MUIRHEAD, IAN"
+                    - generic [ref=e4832]: "PHW#: 396252381"
+                - 'cell "P: Not Mapped F: IRIS SDPC" [ref=e4833]':
+                  - generic [ref=e4837]:
+                    - generic [ref=e4838]:
+                      - text: "P:"
+                      - generic [ref=e4839]: Not Mapped
+                    - generic [ref=e4840]: "F: IRIS SDPC"
+                - 'cell "SPC: 105.32 Code & Mod.: T1019: KX" [ref=e4841]':
+                  - generic [ref=e4845]:
+                    - generic [ref=e4846]:
+                      - generic [ref=e4847]: "SPC:"
+                      - text: "105.32"
+                    - generic [ref=e4848]:
+                      - generic [ref=e4849]: "Code & Mod.:"
+                      - text: "T1019: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e4850]':
+                  - generic [ref=e4854]:
+                    - generic [ref=e4855]: "F: Weekly"
+                    - generic [ref=e4856]:
+                      - text: "U:"
+                      - generic [ref=e4857]: Hour
+                - cell "25.25" [ref=e4858]:
+                  - generic [ref=e4862]: "25.25"
+                - cell "$18.83" [ref=e4863]:
+                  - generic [ref=e4867]: $18.83
+                - 'cell "T: 202 A: $4233.47" [ref=e4868]':
+                  - generic [ref=e4872]:
+                    - generic [ref=e4873]: "T: 202"
+                    - generic [ref=e4874]: "A: $4233.47"
+                - cell "Mapping Error Payer Not Mapped" [ref=e4875]:
+                  - generic [ref=e4880]:
+                    - paragraph [ref=e4881]: Mapping Error
+                    - list [ref=e4882]:
+                      - listitem [ref=e4883]: Payer Not Mapped
+                - cell [ref=e4884]:
+                  - generic [ref=e4888]:
+                    - textbox "mm/dd/yyyy" [ref=e4889]
+                    - img [ref=e4891] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4894]:
+                  - paragraph [ref=e4896]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e4897] [cursor=pointer]:
+                      - img [ref=e4898]
+                - cell [ref=e4900]:
+                  - button [ref=e4901] [cursor=pointer]:
+                    - img [ref=e4902]
+              - 'row "WILLIAMS, MICHAELA (WIE120597) MCI#: 5424591451 CC: Not Mapped 8382509 S: 10/01/2024 E: 09/30/2025 E: WILLIAMS MUIRHEAD, IAN PHW#: 396252381 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 30 $10 T: 1590 A: $17696.7 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e4906]':
+                - cell [ref=e4907]:
+                  - button [ref=e4908] [cursor=pointer]:
+                    - img [ref=e4909]
+                - cell [ref=e4910]:
+                  - checkbox [ref=e4913] [cursor=pointer]
+                - 'cell "WILLIAMS, MICHAELA (WIE120597) MCI#: 5424591451 CC: Not Mapped" [ref=e4914]':
+                  - generic [ref=e4917]:
+                    - button "WILLIAMS, MICHAELA (WIE120597)" [ref=e4920] [cursor=pointer]:
+                      - generic [ref=e4921]: WILLIAMS, MICHAELA (WIE120597)
+                    - generic [ref=e4922]: "MCI#: 5424591451"
+                    - generic [ref=e4923]: "CC: Not Mapped"
+                - 'cell "8382509 S: 10/01/2024 E: 09/30/2025" [ref=e4924]':
+                  - generic [ref=e4927]:
+                    - generic [ref=e4928]: "8382509"
+                    - generic [ref=e4929]: "S: 10/01/2024"
+                    - generic [ref=e4930]: "E: 09/30/2025"
+                - 'cell "E: WILLIAMS MUIRHEAD, IAN PHW#: 396252381" [ref=e4931]':
+                  - generic [ref=e4935]:
+                    - generic [ref=e4936]: "E: WILLIAMS MUIRHEAD, IAN"
+                    - generic [ref=e4937]: "PHW#: 396252381"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e4938]':
+                  - generic [ref=e4942]:
+                    - generic [ref=e4943]:
+                      - text: "P:"
+                      - generic [ref=e4944]: Not Mapped
+                    - generic [ref=e4945]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e4946]':
+                  - generic [ref=e4950]:
+                    - generic [ref=e4951]:
+                      - generic [ref=e4952]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e4953]:
+                      - generic [ref=e4954]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e4955]':
+                  - generic [ref=e4959]:
+                    - generic [ref=e4960]: "F: Weekly"
+                    - generic [ref=e4961]:
+                      - text: "U:"
+                      - generic [ref=e4962]: Hour
+                - cell "30" [ref=e4963]:
+                  - generic [ref=e4967]: "30"
+                - cell "$10" [ref=e4968]:
+                  - generic [ref=e4972]: $10
+                - 'cell "T: 1590 A: $17696.7" [ref=e4973]':
+                  - generic [ref=e4977]:
+                    - generic [ref=e4978]: "T: 1590"
+                    - generic [ref=e4979]: "A: $17696.7"
+                - cell "Mapping Error Payer Not Mapped" [ref=e4980]:
+                  - generic [ref=e4985]:
+                    - paragraph [ref=e4986]: Mapping Error
+                    - list [ref=e4987]:
+                      - listitem [ref=e4988]: Payer Not Mapped
+                - cell [ref=e4989]:
+                  - generic [ref=e4993]:
+                    - textbox "mm/dd/yyyy" [ref=e4994]
+                    - img [ref=e4996] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e4999]:
+                  - paragraph [ref=e5001]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5002] [cursor=pointer]:
+                      - img [ref=e5003]
+                - cell [ref=e5005]:
+                  - button [ref=e5006] [cursor=pointer]:
+                    - img [ref=e5007]
+              - 'row "Alpha, Client (3634) MCI#: 123123123123 CC: Not Mapped 323432432 S: 08/21/2024 E: 07/31/2025 E: BRANAGAN, CHRISTIE PHW#: 399861003 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 9.5 $14 T: 475 A: $6650 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5011]':
+                - cell [ref=e5012]:
+                  - button [ref=e5013] [cursor=pointer]:
+                    - img [ref=e5014]
+                - cell [ref=e5015]:
+                  - checkbox [ref=e5018] [cursor=pointer]
+                - 'cell "Alpha, Client (3634) MCI#: 123123123123 CC: Not Mapped" [ref=e5019]':
+                  - generic [ref=e5022]:
+                    - button "Alpha, Client (3634)" [ref=e5025] [cursor=pointer]:
+                      - generic [ref=e5026]: Alpha, Client (3634)
+                    - generic [ref=e5027]: "MCI#: 123123123123"
+                    - generic [ref=e5028]: "CC: Not Mapped"
+                - 'cell "323432432 S: 08/21/2024 E: 07/31/2025" [ref=e5029]':
+                  - generic [ref=e5032]:
+                    - generic [ref=e5033]: "323432432"
+                    - generic [ref=e5034]: "S: 08/21/2024"
+                    - generic [ref=e5035]: "E: 07/31/2025"
+                - 'cell "E: BRANAGAN, CHRISTIE PHW#: 399861003" [ref=e5036]':
+                  - generic [ref=e5040]:
+                    - generic [ref=e5041]: "E: BRANAGAN, CHRISTIE"
+                    - generic [ref=e5042]: "PHW#: 399861003"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e5043]':
+                  - generic [ref=e5047]:
+                    - generic [ref=e5048]:
+                      - text: "P:"
+                      - generic [ref=e5049]: Not Mapped
+                    - generic [ref=e5050]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e5051]':
+                  - generic [ref=e5055]:
+                    - generic [ref=e5056]:
+                      - generic [ref=e5057]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e5058]:
+                      - generic [ref=e5059]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e5060]':
+                  - generic [ref=e5064]:
+                    - generic [ref=e5065]: "F: Weekly"
+                    - generic [ref=e5066]:
+                      - text: "U:"
+                      - generic [ref=e5067]: Hour
+                - cell "9.5" [ref=e5068]:
+                  - generic [ref=e5072]: "9.5"
+                - cell "$14" [ref=e5073]:
+                  - generic [ref=e5077]: $14
+                - 'cell "T: 475 A: $6650" [ref=e5078]':
+                  - generic [ref=e5082]:
+                    - generic [ref=e5083]: "T: 475"
+                    - generic [ref=e5084]: "A: $6650"
+                - cell "Mapping Error Payer Not Mapped" [ref=e5085]:
+                  - generic [ref=e5090]:
+                    - paragraph [ref=e5091]: Mapping Error
+                    - list [ref=e5092]:
+                      - listitem [ref=e5093]: Payer Not Mapped
+                - cell [ref=e5094]:
+                  - generic [ref=e5098]:
+                    - textbox "mm/dd/yyyy" [ref=e5099]
+                    - img [ref=e5101] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e5104]:
+                  - paragraph [ref=e5106]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5107] [cursor=pointer]:
+                      - img [ref=e5108]
+                - cell [ref=e5110]:
+                  - button [ref=e5111] [cursor=pointer]:
+                    - img [ref=e5112]
+              - 'row "Alpha, Client (3634) MCI#: 123123123123 CC: Not Mapped 3234324323 S: 08/21/2024 E: 07/31/2025 E: BRANAGAN, CHRISTIE PHW#: 399861003 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 9.5 $14 T: 475 A: $6650 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5116]':
+                - cell [ref=e5117]:
+                  - button [ref=e5118] [cursor=pointer]:
+                    - img [ref=e5119]
+                - cell [ref=e5120]:
+                  - checkbox [ref=e5123] [cursor=pointer]
+                - 'cell "Alpha, Client (3634) MCI#: 123123123123 CC: Not Mapped" [ref=e5124]':
+                  - generic [ref=e5127]:
+                    - button "Alpha, Client (3634)" [ref=e5130] [cursor=pointer]:
+                      - generic [ref=e5131]: Alpha, Client (3634)
+                    - generic [ref=e5132]: "MCI#: 123123123123"
+                    - generic [ref=e5133]: "CC: Not Mapped"
+                - 'cell "3234324323 S: 08/21/2024 E: 07/31/2025" [ref=e5134]':
+                  - generic [ref=e5137]:
+                    - generic [ref=e5138]: "3234324323"
+                    - generic [ref=e5139]: "S: 08/21/2024"
+                    - generic [ref=e5140]: "E: 07/31/2025"
+                - 'cell "E: BRANAGAN, CHRISTIE PHW#: 399861003" [ref=e5141]':
+                  - generic [ref=e5145]:
+                    - generic [ref=e5146]: "E: BRANAGAN, CHRISTIE"
+                    - generic [ref=e5147]: "PHW#: 399861003"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e5148]':
+                  - generic [ref=e5152]:
+                    - generic [ref=e5153]:
+                      - text: "P:"
+                      - generic [ref=e5154]: Not Mapped
+                    - generic [ref=e5155]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e5156]':
+                  - generic [ref=e5160]:
+                    - generic [ref=e5161]:
+                      - generic [ref=e5162]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e5163]:
+                      - generic [ref=e5164]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e5165]':
+                  - generic [ref=e5169]:
+                    - generic [ref=e5170]: "F: Weekly"
+                    - generic [ref=e5171]:
+                      - text: "U:"
+                      - generic [ref=e5172]: Hour
+                - cell "9.5" [ref=e5173]:
+                  - generic [ref=e5177]: "9.5"
+                - cell "$14" [ref=e5178]:
+                  - generic [ref=e5182]: $14
+                - 'cell "T: 475 A: $6650" [ref=e5183]':
+                  - generic [ref=e5187]:
+                    - generic [ref=e5188]: "T: 475"
+                    - generic [ref=e5189]: "A: $6650"
+                - cell "Mapping Error Payer Not Mapped" [ref=e5190]:
+                  - generic [ref=e5195]:
+                    - paragraph [ref=e5196]: Mapping Error
+                    - list [ref=e5197]:
+                      - listitem [ref=e5198]: Payer Not Mapped
+                - cell [ref=e5199]:
+                  - generic [ref=e5203]:
+                    - textbox "mm/dd/yyyy" [ref=e5204]
+                    - img [ref=e5206] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e5209]:
+                  - paragraph [ref=e5211]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5212] [cursor=pointer]:
+                      - img [ref=e5213]
+                - cell [ref=e5215]:
+                  - button [ref=e5216] [cursor=pointer]:
+                    - img [ref=e5217]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35306592 S: 08/01/2024 E: 01/31/2025 V: ADVANCE BEHAVIOR CONSULTING LLC Provider#: 824636348 P: Not Mapped F: IRIS Waiver SPC: 507.03 Code & Mod.: 99429 F: Annually U: Hour 24 $100 T: 24 A: $2400 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5221]':
+                - cell [ref=e5222]:
+                  - button [ref=e5223] [cursor=pointer]:
+                    - img [ref=e5224]
+                - cell [ref=e5225]:
+                  - checkbox [ref=e5228] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e5229]':
+                  - generic [ref=e5232]:
+                    - button "1, test (WIE004029)" [ref=e5235] [cursor=pointer]:
+                      - generic [ref=e5236]: 1, test (WIE004029)
+                    - generic [ref=e5237]: "MCI#: 4424670546"
+                    - generic [ref=e5238]: "CC: Not Mapped"
+                - 'cell "35306592 S: 08/01/2024 E: 01/31/2025" [ref=e5239]':
+                  - generic [ref=e5242]:
+                    - generic [ref=e5243]: "35306592"
+                    - generic [ref=e5244]: "S: 08/01/2024"
+                    - generic [ref=e5245]: "E: 01/31/2025"
+                - 'cell "V: ADVANCE BEHAVIOR CONSULTING LLC Provider#: 824636348" [ref=e5246]':
+                  - generic [ref=e5250]:
+                    - generic [ref=e5251]: "V: ADVANCE BEHAVIOR CONSULTING LLC"
+                    - generic [ref=e5252]: "Provider#: 824636348"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e5253]':
+                  - generic [ref=e5257]:
+                    - generic [ref=e5258]:
+                      - text: "P:"
+                      - generic [ref=e5259]: Not Mapped
+                    - generic [ref=e5260]: "F: IRIS Waiver"
+                - 'cell "SPC: 507.03 Code & Mod.: 99429" [ref=e5261]':
+                  - generic [ref=e5265]:
+                    - generic [ref=e5266]:
+                      - generic [ref=e5267]: "SPC:"
+                      - text: "507.03"
+                    - generic [ref=e5268]:
+                      - generic [ref=e5269]: "Code & Mod.:"
+                      - text: "99429"
+                - 'cell "F: Annually U: Hour" [ref=e5270]':
+                  - generic [ref=e5274]:
+                    - generic [ref=e5275]: "F: Annually"
+                    - generic [ref=e5276]:
+                      - text: "U:"
+                      - generic [ref=e5277]: Hour
+                - cell "24" [ref=e5278]:
+                  - generic [ref=e5282]: "24"
+                - cell "$100" [ref=e5283]:
+                  - generic [ref=e5287]: $100
+                - 'cell "T: 24 A: $2400" [ref=e5288]':
+                  - generic [ref=e5292]:
+                    - generic [ref=e5293]: "T: 24"
+                    - generic [ref=e5294]: "A: $2400"
+                - cell "Mapping Error Payer Not Mapped" [ref=e5295]:
+                  - generic [ref=e5300]:
+                    - paragraph [ref=e5301]: Mapping Error
+                    - list [ref=e5302]:
+                      - listitem [ref=e5303]: Payer Not Mapped
+                - cell [ref=e5304]:
+                  - generic [ref=e5308]:
+                    - textbox "mm/dd/yyyy" [ref=e5309]
+                    - img [ref=e5311] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e5314]:
+                  - paragraph [ref=e5316]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5317] [cursor=pointer]:
+                      - img [ref=e5318]
+                - cell [ref=e5320]:
+                  - button [ref=e5321] [cursor=pointer]:
+                    - img [ref=e5322]
+              - 'row "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped 62132745 S: 07/31/2024 E: 07/31/2024 V: PURFOODS LLC Provider#: 412096639 P: Not Mapped F: WI IRIS-IRISW(IRIS-WI) SPC: 402 Code & Mod.: S5170 F: Weekly U: Each 7 $7.99 T: 7 A: $55.93 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5326]':
+                - cell [ref=e5327]:
+                  - button [ref=e5328] [cursor=pointer]:
+                    - img [ref=e5329]
+                - cell [ref=e5330]:
+                  - checkbox [ref=e5333] [cursor=pointer]
+                - 'cell "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped" [ref=e5334]':
+                  - generic [ref=e5337]:
+                    - button "Sandler, Adam (1468TEST)" [ref=e5340] [cursor=pointer]:
+                      - generic [ref=e5341]: Sandler, Adam (1468TEST)
+                    - generic [ref=e5342]: "MCI#: 1446223418"
+                    - generic [ref=e5343]: "CC: Not Mapped"
+                - 'cell "62132745 S: 07/31/2024 E: 07/31/2024" [ref=e5344]':
+                  - generic [ref=e5347]:
+                    - generic [ref=e5348]: "62132745"
+                    - generic [ref=e5349]: "S: 07/31/2024"
+                    - generic [ref=e5350]: "E: 07/31/2024"
+                - 'cell "V: PURFOODS LLC Provider#: 412096639" [ref=e5351]':
+                  - generic [ref=e5355]:
+                    - generic [ref=e5356]: "V: PURFOODS LLC"
+                    - generic [ref=e5357]: "Provider#: 412096639"
+                - 'cell "P: Not Mapped F: WI IRIS-IRISW(IRIS-WI)" [ref=e5358]':
+                  - generic [ref=e5362]:
+                    - generic [ref=e5363]:
+                      - text: "P:"
+                      - generic [ref=e5364]: Not Mapped
+                    - generic [ref=e5365]: "F: WI IRIS-IRISW(IRIS-WI)"
+                - 'cell "SPC: 402 Code & Mod.: S5170" [ref=e5366]':
+                  - generic [ref=e5370]:
+                    - generic [ref=e5371]:
+                      - generic [ref=e5372]: "SPC:"
+                      - text: "402"
+                    - generic [ref=e5373]:
+                      - generic [ref=e5374]: "Code & Mod.:"
+                      - text: S5170
+                - 'cell "F: Weekly U: Each" [ref=e5375]':
+                  - generic [ref=e5379]:
+                    - generic [ref=e5380]: "F: Weekly"
+                    - generic [ref=e5381]:
+                      - text: "U:"
+                      - generic [ref=e5382]: Each
+                - cell "7" [ref=e5383]:
+                  - generic [ref=e5387]: "7"
+                - cell "$7.99" [ref=e5388]:
+                  - generic [ref=e5392]: $7.99
+                - 'cell "T: 7 A: $55.93" [ref=e5393]':
+                  - generic [ref=e5397]:
+                    - generic [ref=e5398]: "T: 7"
+                    - generic [ref=e5399]: "A: $55.93"
+                - cell "Mapping Error Payer Not Mapped" [ref=e5400]:
+                  - generic [ref=e5405]:
+                    - paragraph [ref=e5406]: Mapping Error
+                    - list [ref=e5407]:
+                      - listitem [ref=e5408]: Payer Not Mapped
+                - cell [ref=e5409]:
+                  - generic [ref=e5413]:
+                    - textbox "mm/dd/yyyy" [ref=e5414]
+                    - img [ref=e5416] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e5419]:
+                  - paragraph [ref=e5421]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5422] [cursor=pointer]:
+                      - img [ref=e5423]
+                - cell [ref=e5425]:
+                  - button [ref=e5426] [cursor=pointer]:
+                    - img [ref=e5427]
+              - 'row "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped 62172745 S: 07/31/2024 E: 07/31/2024 V: PURFOODS LLC Provider#: 412096639 P: Not Mapped F: WI IRIS-IRISW(IRIS-WI) SPC: 402 Code & Mod.: S5170 F: Weekly U: Each 7 $7.99 T: 7 A: $55.93 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5431]':
+                - cell [ref=e5432]:
+                  - button [ref=e5433] [cursor=pointer]:
+                    - img [ref=e5434]
+                - cell [ref=e5435]:
+                  - checkbox [ref=e5438] [cursor=pointer]
+                - 'cell "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped" [ref=e5439]':
+                  - generic [ref=e5442]:
+                    - button "Sandler, Adam (1468TEST)" [ref=e5445] [cursor=pointer]:
+                      - generic [ref=e5446]: Sandler, Adam (1468TEST)
+                    - generic [ref=e5447]: "MCI#: 1446223418"
+                    - generic [ref=e5448]: "CC: Not Mapped"
+                - 'cell "62172745 S: 07/31/2024 E: 07/31/2024" [ref=e5449]':
+                  - generic [ref=e5452]:
+                    - generic [ref=e5453]: "62172745"
+                    - generic [ref=e5454]: "S: 07/31/2024"
+                    - generic [ref=e5455]: "E: 07/31/2024"
+                - 'cell "V: PURFOODS LLC Provider#: 412096639" [ref=e5456]':
+                  - generic [ref=e5460]:
+                    - generic [ref=e5461]: "V: PURFOODS LLC"
+                    - generic [ref=e5462]: "Provider#: 412096639"
+                - 'cell "P: Not Mapped F: WI IRIS-IRISW(IRIS-WI)" [ref=e5463]':
+                  - generic [ref=e5467]:
+                    - generic [ref=e5468]:
+                      - text: "P:"
+                      - generic [ref=e5469]: Not Mapped
+                    - generic [ref=e5470]: "F: WI IRIS-IRISW(IRIS-WI)"
+                - 'cell "SPC: 402 Code & Mod.: S5170" [ref=e5471]':
+                  - generic [ref=e5475]:
+                    - generic [ref=e5476]:
+                      - generic [ref=e5477]: "SPC:"
+                      - text: "402"
+                    - generic [ref=e5478]:
+                      - generic [ref=e5479]: "Code & Mod.:"
+                      - text: S5170
+                - 'cell "F: Weekly U: Each" [ref=e5480]':
+                  - generic [ref=e5484]:
+                    - generic [ref=e5485]: "F: Weekly"
+                    - generic [ref=e5486]:
+                      - text: "U:"
+                      - generic [ref=e5487]: Each
+                - cell "7" [ref=e5488]:
+                  - generic [ref=e5492]: "7"
+                - cell "$7.99" [ref=e5493]:
+                  - generic [ref=e5497]: $7.99
+                - 'cell "T: 7 A: $55.93" [ref=e5498]':
+                  - generic [ref=e5502]:
+                    - generic [ref=e5503]: "T: 7"
+                    - generic [ref=e5504]: "A: $55.93"
+                - cell "Mapping Error Payer Not Mapped" [ref=e5505]:
+                  - generic [ref=e5510]:
+                    - paragraph [ref=e5511]: Mapping Error
+                    - list [ref=e5512]:
+                      - listitem [ref=e5513]: Payer Not Mapped
+                - cell [ref=e5514]:
+                  - generic [ref=e5518]:
+                    - textbox "mm/dd/yyyy" [ref=e5519]
+                    - img [ref=e5521] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e5524]:
+                  - paragraph [ref=e5526]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5527] [cursor=pointer]:
+                      - img [ref=e5528]
+                - cell [ref=e5530]:
+                  - button [ref=e5531] [cursor=pointer]:
+                    - img [ref=e5532]
+              - 'row "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped 73672163 S: 07/31/2024 E: 07/31/2024 V: PROGRESSIVE PERSONAL CARE SERVICES LLC Provider#: 822244093 P: Not Mapped F: Wraparound-FISC(Fiscal-WI) SPC: 104.23 Code & Mod.: S5125 F: Weekly U: Hour 9 $17.85 T: 9 A: $178.8 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5536]':
+                - cell [ref=e5537]:
+                  - button [ref=e5538] [cursor=pointer]:
+                    - img [ref=e5539]
+                - cell [ref=e5540]:
+                  - checkbox [ref=e5543] [cursor=pointer]
+                - 'cell "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped" [ref=e5544]':
+                  - generic [ref=e5547]:
+                    - button "Sandler, Adam (1468TEST)" [ref=e5550] [cursor=pointer]:
+                      - generic [ref=e5551]: Sandler, Adam (1468TEST)
+                    - generic [ref=e5552]: "MCI#: 1446223418"
+                    - generic [ref=e5553]: "CC: Not Mapped"
+                - 'cell "73672163 S: 07/31/2024 E: 07/31/2024" [ref=e5554]':
+                  - generic [ref=e5557]:
+                    - generic [ref=e5558]: "73672163"
+                    - generic [ref=e5559]: "S: 07/31/2024"
+                    - generic [ref=e5560]: "E: 07/31/2024"
+                - 'cell "V: PROGRESSIVE PERSONAL CARE SERVICES LLC Provider#: 822244093" [ref=e5561]':
+                  - generic [ref=e5565]:
+                    - generic [ref=e5566]: "V: PROGRESSIVE PERSONAL CARE SERVICES LLC"
+                    - generic [ref=e5567]: "Provider#: 822244093"
+                - 'cell "P: Not Mapped F: Wraparound-FISC(Fiscal-WI)" [ref=e5568]':
+                  - generic [ref=e5572]:
+                    - generic [ref=e5573]:
+                      - text: "P:"
+                      - generic [ref=e5574]: Not Mapped
+                    - generic [ref=e5575]: "F: Wraparound-FISC(Fiscal-WI)"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125" [ref=e5576]':
+                  - generic [ref=e5580]:
+                    - generic [ref=e5581]:
+                      - generic [ref=e5582]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e5583]:
+                      - generic [ref=e5584]: "Code & Mod.:"
+                      - text: S5125
+                - 'cell "F: Weekly U: Hour" [ref=e5585]':
+                  - generic [ref=e5589]:
+                    - generic [ref=e5590]: "F: Weekly"
+                    - generic [ref=e5591]:
+                      - text: "U:"
+                      - generic [ref=e5592]: Hour
+                - cell "9" [ref=e5593]:
+                  - generic [ref=e5597]: "9"
+                - cell "$17.85" [ref=e5598]:
+                  - generic [ref=e5602]: $17.85
+                - 'cell "T: 9 A: $178.8" [ref=e5603]':
+                  - generic [ref=e5607]:
+                    - generic [ref=e5608]: "T: 9"
+                    - generic [ref=e5609]: "A: $178.8"
+                - cell "Mapping Error Payer Not Mapped" [ref=e5610]:
+                  - generic [ref=e5615]:
+                    - paragraph [ref=e5616]: Mapping Error
+                    - list [ref=e5617]:
+                      - listitem [ref=e5618]: Payer Not Mapped
+                - cell [ref=e5619]:
+                  - generic [ref=e5623]:
+                    - textbox "mm/dd/yyyy" [ref=e5624]
+                    - img [ref=e5626] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e5629]:
+                  - paragraph [ref=e5631]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5632] [cursor=pointer]:
+                      - img [ref=e5633]
+                - cell [ref=e5635]:
+                  - button [ref=e5636] [cursor=pointer]:
+                    - img [ref=e5637]
+              - 'row "ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868) MCI#: 9448633793 CC: Not Mapped 90369514 S: 07/25/2024 E: 06/30/2025 E: AMIR HAMZAH, ZULEKA BINTI PHW#: 297954954 P: Not Mapped F: IRIS SDPC SPC: 105.32 Code & Mod.: T1019: KX F: Weekly U: Hour 26 $18.83 T: 1274 A: $26700.22 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5641]':
+                - cell [ref=e5642]:
+                  - button [ref=e5643] [cursor=pointer]:
+                    - img [ref=e5644]
+                - cell [ref=e5645]:
+                  - checkbox [ref=e5648] [cursor=pointer]
+                - 'cell "ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868) MCI#: 9448633793 CC: Not Mapped" [ref=e5649]':
+                  - generic [ref=e5652]:
+                    - button "ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868)" [ref=e5655] [cursor=pointer]:
+                      - generic [ref=e5656]: ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868)
+                    - generic [ref=e5657]: "MCI#: 9448633793"
+                    - generic [ref=e5658]: "CC: Not Mapped"
+                - 'cell "90369514 S: 07/25/2024 E: 06/30/2025" [ref=e5659]':
+                  - generic [ref=e5662]:
+                    - generic [ref=e5663]: "90369514"
+                    - generic [ref=e5664]: "S: 07/25/2024"
+                    - generic [ref=e5665]: "E: 06/30/2025"
+                - 'cell "E: AMIR HAMZAH, ZULEKA BINTI PHW#: 297954954" [ref=e5666]':
+                  - generic [ref=e5670]:
+                    - generic [ref=e5671]: "E: AMIR HAMZAH, ZULEKA BINTI"
+                    - generic [ref=e5672]: "PHW#: 297954954"
+                - 'cell "P: Not Mapped F: IRIS SDPC" [ref=e5673]':
+                  - generic [ref=e5677]:
+                    - generic [ref=e5678]:
+                      - text: "P:"
+                      - generic [ref=e5679]: Not Mapped
+                    - generic [ref=e5680]: "F: IRIS SDPC"
+                - 'cell "SPC: 105.32 Code & Mod.: T1019: KX" [ref=e5681]':
+                  - generic [ref=e5685]:
+                    - generic [ref=e5686]:
+                      - generic [ref=e5687]: "SPC:"
+                      - text: "105.32"
+                    - generic [ref=e5688]:
+                      - generic [ref=e5689]: "Code & Mod.:"
+                      - text: "T1019: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e5690]':
+                  - generic [ref=e5694]:
+                    - generic [ref=e5695]: "F: Weekly"
+                    - generic [ref=e5696]:
+                      - text: "U:"
+                      - generic [ref=e5697]: Hour
+                - cell "26" [ref=e5698]:
+                  - generic [ref=e5702]: "26"
+                - cell "$18.83" [ref=e5703]:
+                  - generic [ref=e5707]: $18.83
+                - 'cell "T: 1274 A: $26700.22" [ref=e5708]':
+                  - generic [ref=e5712]:
+                    - generic [ref=e5713]: "T: 1274"
+                    - generic [ref=e5714]: "A: $26700.22"
+                - cell "Mapping Error Payer Not Mapped" [ref=e5715]:
+                  - generic [ref=e5720]:
+                    - paragraph [ref=e5721]: Mapping Error
+                    - list [ref=e5722]:
+                      - listitem [ref=e5723]: Payer Not Mapped
+                - cell [ref=e5724]:
+                  - generic [ref=e5728]:
+                    - textbox "mm/dd/yyyy" [ref=e5729]
+                    - img [ref=e5731] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e5734]:
+                  - paragraph [ref=e5736]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5737] [cursor=pointer]:
+                      - img [ref=e5738]
+                - cell [ref=e5740]:
+                  - button [ref=e5741] [cursor=pointer]:
+                    - img [ref=e5742]
+              - 'row "ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868) MCI#: 9448633793 CC: Not Mapped 90369521 S: 07/24/2024 E: 06/30/2025 E: AMIR HAMZAH, ZULEKA BINTI PHW#: 297954954 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 19 $10 T: 931 A: $10362.03 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5746]':
+                - cell [ref=e5747]:
+                  - button [ref=e5748] [cursor=pointer]:
+                    - img [ref=e5749]
+                - cell [ref=e5750]:
+                  - checkbox [ref=e5753] [cursor=pointer]
+                - 'cell "ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868) MCI#: 9448633793 CC: Not Mapped" [ref=e5754]':
+                  - generic [ref=e5757]:
+                    - button "ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868)" [ref=e5760] [cursor=pointer]:
+                      - generic [ref=e5761]: ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868)
+                    - generic [ref=e5762]: "MCI#: 9448633793"
+                    - generic [ref=e5763]: "CC: Not Mapped"
+                - 'cell "90369521 S: 07/24/2024 E: 06/30/2025" [ref=e5764]':
+                  - generic [ref=e5767]:
+                    - generic [ref=e5768]: "90369521"
+                    - generic [ref=e5769]: "S: 07/24/2024"
+                    - generic [ref=e5770]: "E: 06/30/2025"
+                - 'cell "E: AMIR HAMZAH, ZULEKA BINTI PHW#: 297954954" [ref=e5771]':
+                  - generic [ref=e5775]:
+                    - generic [ref=e5776]: "E: AMIR HAMZAH, ZULEKA BINTI"
+                    - generic [ref=e5777]: "PHW#: 297954954"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e5778]':
+                  - generic [ref=e5782]:
+                    - generic [ref=e5783]:
+                      - text: "P:"
+                      - generic [ref=e5784]: Not Mapped
+                    - generic [ref=e5785]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e5786]':
+                  - generic [ref=e5790]:
+                    - generic [ref=e5791]:
+                      - generic [ref=e5792]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e5793]:
+                      - generic [ref=e5794]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e5795]':
+                  - generic [ref=e5799]:
+                    - generic [ref=e5800]: "F: Weekly"
+                    - generic [ref=e5801]:
+                      - text: "U:"
+                      - generic [ref=e5802]: Hour
+                - cell "19" [ref=e5803]:
+                  - generic [ref=e5807]: "19"
+                - cell "$10" [ref=e5808]:
+                  - generic [ref=e5812]: $10
+                - 'cell "T: 931 A: $10362.03" [ref=e5813]':
+                  - generic [ref=e5817]:
+                    - generic [ref=e5818]: "T: 931"
+                    - generic [ref=e5819]: "A: $10362.03"
+                - cell "Mapping Error Payer Not Mapped" [ref=e5820]:
+                  - generic [ref=e5825]:
+                    - paragraph [ref=e5826]: Mapping Error
+                    - list [ref=e5827]:
+                      - listitem [ref=e5828]: Payer Not Mapped
+                - cell [ref=e5829]:
+                  - generic [ref=e5833]:
+                    - textbox "mm/dd/yyyy" [ref=e5834]
+                    - img [ref=e5836] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e5839]:
+                  - paragraph [ref=e5841]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5842] [cursor=pointer]:
+                      - img [ref=e5843]
+                - cell [ref=e5845]:
+                  - button [ref=e5846] [cursor=pointer]:
+                    - img [ref=e5847]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 35661637 S: 07/14/2024 E: 08/31/2024 E: KIMMINAU, BRAD PHW#: 392985957 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 21 $10 T: 147 A: $1470 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5851]':
+                - cell [ref=e5852]:
+                  - button [ref=e5853] [cursor=pointer]:
+                    - img [ref=e5854]
+                - cell [ref=e5855]:
+                  - checkbox [ref=e5858] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e5859]':
+                  - generic [ref=e5862]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e5865] [cursor=pointer]:
+                      - generic [ref=e5866]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e5867]: "MCI#: 7429833071"
+                    - generic [ref=e5868]: "CC: Not Mapped"
+                - 'cell "35661637 S: 07/14/2024 E: 08/31/2024" [ref=e5869]':
+                  - generic [ref=e5872]:
+                    - generic [ref=e5873]: "35661637"
+                    - generic [ref=e5874]: "S: 07/14/2024"
+                    - generic [ref=e5875]: "E: 08/31/2024"
+                - 'cell "E: KIMMINAU, BRAD PHW#: 392985957" [ref=e5876]':
+                  - generic [ref=e5880]:
+                    - generic [ref=e5881]: "E: KIMMINAU, BRAD"
+                    - generic [ref=e5882]: "PHW#: 392985957"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e5883]':
+                  - generic [ref=e5887]:
+                    - generic [ref=e5888]:
+                      - text: "P:"
+                      - generic [ref=e5889]: Not Mapped
+                    - generic [ref=e5890]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e5891]':
+                  - generic [ref=e5895]:
+                    - generic [ref=e5896]:
+                      - generic [ref=e5897]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e5898]:
+                      - generic [ref=e5899]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e5900]':
+                  - generic [ref=e5904]:
+                    - generic [ref=e5905]: "F: Weekly"
+                    - generic [ref=e5906]:
+                      - text: "U:"
+                      - generic [ref=e5907]: Hour
+                - cell "21" [ref=e5908]:
+                  - generic [ref=e5912]: "21"
+                - cell "$10" [ref=e5913]:
+                  - generic [ref=e5917]: $10
+                - 'cell "T: 147 A: $1470" [ref=e5918]':
+                  - generic [ref=e5922]:
+                    - generic [ref=e5923]: "T: 147"
+                    - generic [ref=e5924]: "A: $1470"
+                - cell "Mapping Error Payer Not Mapped" [ref=e5925]:
+                  - generic [ref=e5930]:
+                    - paragraph [ref=e5931]: Mapping Error
+                    - list [ref=e5932]:
+                      - listitem [ref=e5933]: Payer Not Mapped
+                - cell [ref=e5934]:
+                  - generic [ref=e5938]:
+                    - textbox "mm/dd/yyyy" [ref=e5939]
+                    - img [ref=e5941] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e5944]:
+                  - paragraph [ref=e5946]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e5947] [cursor=pointer]:
+                      - img [ref=e5948]
+                - cell [ref=e5950]:
+                  - button [ref=e5951] [cursor=pointer]:
+                    - img [ref=e5952]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 45468524 S: 07/14/2024 E: 08/31/2024 E: KIMMINAU, BRAD PHW#: 392985957 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 21 $10 T: 147 A: $1470 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e5956]':
+                - cell [ref=e5957]:
+                  - button [ref=e5958] [cursor=pointer]:
+                    - img [ref=e5959]
+                - cell [ref=e5960]:
+                  - checkbox [ref=e5963] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e5964]':
+                  - generic [ref=e5967]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e5970] [cursor=pointer]:
+                      - generic [ref=e5971]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e5972]: "MCI#: 7429833071"
+                    - generic [ref=e5973]: "CC: Not Mapped"
+                - 'cell "45468524 S: 07/14/2024 E: 08/31/2024" [ref=e5974]':
+                  - generic [ref=e5977]:
+                    - generic [ref=e5978]: "45468524"
+                    - generic [ref=e5979]: "S: 07/14/2024"
+                    - generic [ref=e5980]: "E: 08/31/2024"
+                - 'cell "E: KIMMINAU, BRAD PHW#: 392985957" [ref=e5981]':
+                  - generic [ref=e5985]:
+                    - generic [ref=e5986]: "E: KIMMINAU, BRAD"
+                    - generic [ref=e5987]: "PHW#: 392985957"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e5988]':
+                  - generic [ref=e5992]:
+                    - generic [ref=e5993]:
+                      - text: "P:"
+                      - generic [ref=e5994]: Not Mapped
+                    - generic [ref=e5995]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e5996]':
+                  - generic [ref=e6000]:
+                    - generic [ref=e6001]:
+                      - generic [ref=e6002]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e6003]:
+                      - generic [ref=e6004]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e6005]':
+                  - generic [ref=e6009]:
+                    - generic [ref=e6010]: "F: Weekly"
+                    - generic [ref=e6011]:
+                      - text: "U:"
+                      - generic [ref=e6012]: Hour
+                - cell "21" [ref=e6013]:
+                  - generic [ref=e6017]: "21"
+                - cell "$10" [ref=e6018]:
+                  - generic [ref=e6022]: $10
+                - 'cell "T: 147 A: $1470" [ref=e6023]':
+                  - generic [ref=e6027]:
+                    - generic [ref=e6028]: "T: 147"
+                    - generic [ref=e6029]: "A: $1470"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6030]:
+                  - generic [ref=e6035]:
+                    - paragraph [ref=e6036]: Mapping Error
+                    - list [ref=e6037]:
+                      - listitem [ref=e6038]: Payer Not Mapped
+                - cell [ref=e6039]:
+                  - generic [ref=e6043]:
+                    - textbox "mm/dd/yyyy" [ref=e6044]
+                    - img [ref=e6046] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6049]:
+                  - paragraph [ref=e6051]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6052] [cursor=pointer]:
+                      - img [ref=e6053]
+                - cell [ref=e6055]:
+                  - button [ref=e6056] [cursor=pointer]:
+                    - img [ref=e6057]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 55690746 S: 07/14/2024 E: 08/31/2024 E: KIMMINAU, BRAD PHW#: 392985957 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 21 $10 T: 147 A: $1470 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e6061]':
+                - cell [ref=e6062]:
+                  - button [ref=e6063] [cursor=pointer]:
+                    - img [ref=e6064]
+                - cell [ref=e6065]:
+                  - checkbox [ref=e6068] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e6069]':
+                  - generic [ref=e6072]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e6075] [cursor=pointer]:
+                      - generic [ref=e6076]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e6077]: "MCI#: 7429833071"
+                    - generic [ref=e6078]: "CC: Not Mapped"
+                - 'cell "55690746 S: 07/14/2024 E: 08/31/2024" [ref=e6079]':
+                  - generic [ref=e6082]:
+                    - generic [ref=e6083]: "55690746"
+                    - generic [ref=e6084]: "S: 07/14/2024"
+                    - generic [ref=e6085]: "E: 08/31/2024"
+                - 'cell "E: KIMMINAU, BRAD PHW#: 392985957" [ref=e6086]':
+                  - generic [ref=e6090]:
+                    - generic [ref=e6091]: "E: KIMMINAU, BRAD"
+                    - generic [ref=e6092]: "PHW#: 392985957"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e6093]':
+                  - generic [ref=e6097]:
+                    - generic [ref=e6098]:
+                      - text: "P:"
+                      - generic [ref=e6099]: Not Mapped
+                    - generic [ref=e6100]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e6101]':
+                  - generic [ref=e6105]:
+                    - generic [ref=e6106]:
+                      - generic [ref=e6107]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e6108]:
+                      - generic [ref=e6109]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e6110]':
+                  - generic [ref=e6114]:
+                    - generic [ref=e6115]: "F: Weekly"
+                    - generic [ref=e6116]:
+                      - text: "U:"
+                      - generic [ref=e6117]: Hour
+                - cell "21" [ref=e6118]:
+                  - generic [ref=e6122]: "21"
+                - cell "$10" [ref=e6123]:
+                  - generic [ref=e6127]: $10
+                - 'cell "T: 147 A: $1470" [ref=e6128]':
+                  - generic [ref=e6132]:
+                    - generic [ref=e6133]: "T: 147"
+                    - generic [ref=e6134]: "A: $1470"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6135]:
+                  - generic [ref=e6140]:
+                    - paragraph [ref=e6141]: Mapping Error
+                    - list [ref=e6142]:
+                      - listitem [ref=e6143]: Payer Not Mapped
+                - cell [ref=e6144]:
+                  - generic [ref=e6148]:
+                    - textbox "mm/dd/yyyy" [ref=e6149]
+                    - img [ref=e6151] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6154]:
+                  - paragraph [ref=e6156]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6157] [cursor=pointer]:
+                      - img [ref=e6158]
+                - cell [ref=e6160]:
+                  - button [ref=e6161] [cursor=pointer]:
+                    - img [ref=e6162]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 90028184 S: 07/14/2024 E: 08/31/2024 E: KIMMINAU, BRAD PHW#: 392985957 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 21 $10 T: 147 A: $1470 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e6166]':
+                - cell [ref=e6167]:
+                  - button [ref=e6168] [cursor=pointer]:
+                    - img [ref=e6169]
+                - cell [ref=e6170]:
+                  - checkbox [ref=e6173] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e6174]':
+                  - generic [ref=e6177]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e6180] [cursor=pointer]:
+                      - generic [ref=e6181]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e6182]: "MCI#: 7429833071"
+                    - generic [ref=e6183]: "CC: Not Mapped"
+                - 'cell "90028184 S: 07/14/2024 E: 08/31/2024" [ref=e6184]':
+                  - generic [ref=e6187]:
+                    - generic [ref=e6188]: "90028184"
+                    - generic [ref=e6189]: "S: 07/14/2024"
+                    - generic [ref=e6190]: "E: 08/31/2024"
+                - 'cell "E: KIMMINAU, BRAD PHW#: 392985957" [ref=e6191]':
+                  - generic [ref=e6195]:
+                    - generic [ref=e6196]: "E: KIMMINAU, BRAD"
+                    - generic [ref=e6197]: "PHW#: 392985957"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e6198]':
+                  - generic [ref=e6202]:
+                    - generic [ref=e6203]:
+                      - text: "P:"
+                      - generic [ref=e6204]: Not Mapped
+                    - generic [ref=e6205]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e6206]':
+                  - generic [ref=e6210]:
+                    - generic [ref=e6211]:
+                      - generic [ref=e6212]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e6213]:
+                      - generic [ref=e6214]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e6215]':
+                  - generic [ref=e6219]:
+                    - generic [ref=e6220]: "F: Weekly"
+                    - generic [ref=e6221]:
+                      - text: "U:"
+                      - generic [ref=e6222]: Hour
+                - cell "21" [ref=e6223]:
+                  - generic [ref=e6227]: "21"
+                - cell "$10" [ref=e6228]:
+                  - generic [ref=e6232]: $10
+                - 'cell "T: 147 A: $1470" [ref=e6233]':
+                  - generic [ref=e6237]:
+                    - generic [ref=e6238]: "T: 147"
+                    - generic [ref=e6239]: "A: $1470"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6240]:
+                  - generic [ref=e6245]:
+                    - paragraph [ref=e6246]: Mapping Error
+                    - list [ref=e6247]:
+                      - listitem [ref=e6248]: Payer Not Mapped
+                - cell [ref=e6249]:
+                  - generic [ref=e6253]:
+                    - textbox "mm/dd/yyyy" [ref=e6254]
+                    - img [ref=e6256] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6259]:
+                  - paragraph [ref=e6261]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6262] [cursor=pointer]:
+                      - img [ref=e6263]
+                - cell [ref=e6265]:
+                  - button [ref=e6266] [cursor=pointer]:
+                    - img [ref=e6267]
+              - 'row "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped 90367862 S: 07/02/2024 E: 10/02/2024 E: PATRYKUS, JENNIE PHW#: 389524038 P: Not Mapped F: IRIS Waiver SPC: 107.21 Code & Mod.: S0215: RI F: Weekly U: Mile 50 $0.56 T: 700 A: $392 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e6271]':
+                - cell [ref=e6272]:
+                  - button [ref=e6273] [cursor=pointer]:
+                    - img [ref=e6274]
+                - cell [ref=e6275]:
+                  - checkbox [ref=e6278] [cursor=pointer]
+                - 'cell "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped" [ref=e6279]':
+                  - generic [ref=e6282]:
+                    - button "PATRYKUS, JOSEPH (WIE148620)" [ref=e6285] [cursor=pointer]:
+                      - generic [ref=e6286]: PATRYKUS, JOSEPH (WIE148620)
+                    - generic [ref=e6287]: "MCI#: 5422629051"
+                    - generic [ref=e6288]: "CC: Not Mapped"
+                - 'cell "90367862 S: 07/02/2024 E: 10/02/2024" [ref=e6289]':
+                  - generic [ref=e6292]:
+                    - generic [ref=e6293]: "90367862"
+                    - generic [ref=e6294]: "S: 07/02/2024"
+                    - generic [ref=e6295]: "E: 10/02/2024"
+                - 'cell "E: PATRYKUS, JENNIE PHW#: 389524038" [ref=e6296]':
+                  - generic [ref=e6300]:
+                    - generic [ref=e6301]: "E: PATRYKUS, JENNIE"
+                    - generic [ref=e6302]: "PHW#: 389524038"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e6303]':
+                  - generic [ref=e6307]:
+                    - generic [ref=e6308]:
+                      - text: "P:"
+                      - generic [ref=e6309]: Not Mapped
+                    - generic [ref=e6310]: "F: IRIS Waiver"
+                - 'cell "SPC: 107.21 Code & Mod.: S0215: RI" [ref=e6311]':
+                  - generic [ref=e6315]:
+                    - generic [ref=e6316]:
+                      - generic [ref=e6317]: "SPC:"
+                      - text: "107.21"
+                    - generic [ref=e6318]:
+                      - generic [ref=e6319]: "Code & Mod.:"
+                      - text: "S0215: RI"
+                - 'cell "F: Weekly U: Mile" [ref=e6320]':
+                  - generic [ref=e6324]:
+                    - generic [ref=e6325]: "F: Weekly"
+                    - generic [ref=e6326]:
+                      - text: "U:"
+                      - generic [ref=e6327]: Mile
+                - cell "50" [ref=e6328]:
+                  - generic [ref=e6332]: "50"
+                - cell "$0.56" [ref=e6333]:
+                  - generic [ref=e6337]: $0.56
+                - 'cell "T: 700 A: $392" [ref=e6338]':
+                  - generic [ref=e6342]:
+                    - generic [ref=e6343]: "T: 700"
+                    - generic [ref=e6344]: "A: $392"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6345]:
+                  - generic [ref=e6350]:
+                    - paragraph [ref=e6351]: Mapping Error
+                    - list [ref=e6352]:
+                      - listitem [ref=e6353]: Payer Not Mapped
+                - cell [ref=e6354]:
+                  - generic [ref=e6358]:
+                    - textbox "mm/dd/yyyy" [ref=e6359]
+                    - img [ref=e6361] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6364]:
+                  - paragraph [ref=e6366]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6367] [cursor=pointer]:
+                      - img [ref=e6368]
+                - cell [ref=e6370]:
+                  - button [ref=e6371] [cursor=pointer]:
+                    - img [ref=e6372]
+              - 'row "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped 90367869 S: 07/02/2024 E: 06/30/2025 E: PATRYKUS, JENNIE PHW#: 389524038 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 15 $13.75 T: 780 A: $11936.92 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e6376]':
+                - cell [ref=e6377]:
+                  - button [ref=e6378] [cursor=pointer]:
+                    - img [ref=e6379]
+                - cell [ref=e6380]:
+                  - checkbox [ref=e6383] [cursor=pointer]
+                - 'cell "PATRYKUS, JOSEPH (WIE148620) MCI#: 5422629051 CC: Not Mapped" [ref=e6384]':
+                  - generic [ref=e6387]:
+                    - button "PATRYKUS, JOSEPH (WIE148620)" [ref=e6390] [cursor=pointer]:
+                      - generic [ref=e6391]: PATRYKUS, JOSEPH (WIE148620)
+                    - generic [ref=e6392]: "MCI#: 5422629051"
+                    - generic [ref=e6393]: "CC: Not Mapped"
+                - 'cell "90367869 S: 07/02/2024 E: 06/30/2025" [ref=e6394]':
+                  - generic [ref=e6397]:
+                    - generic [ref=e6398]: "90367869"
+                    - generic [ref=e6399]: "S: 07/02/2024"
+                    - generic [ref=e6400]: "E: 06/30/2025"
+                - 'cell "E: PATRYKUS, JENNIE PHW#: 389524038" [ref=e6401]':
+                  - generic [ref=e6405]:
+                    - generic [ref=e6406]: "E: PATRYKUS, JENNIE"
+                    - generic [ref=e6407]: "PHW#: 389524038"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e6408]':
+                  - generic [ref=e6412]:
+                    - generic [ref=e6413]:
+                      - text: "P:"
+                      - generic [ref=e6414]: Not Mapped
+                    - generic [ref=e6415]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e6416]':
+                  - generic [ref=e6420]:
+                    - generic [ref=e6421]:
+                      - generic [ref=e6422]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e6423]:
+                      - generic [ref=e6424]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e6425]':
+                  - generic [ref=e6429]:
+                    - generic [ref=e6430]: "F: Weekly"
+                    - generic [ref=e6431]:
+                      - text: "U:"
+                      - generic [ref=e6432]: Hour
+                - cell "15" [ref=e6433]:
+                  - generic [ref=e6437]: "15"
+                - cell "$13.75" [ref=e6438]:
+                  - generic [ref=e6442]: $13.75
+                - 'cell "T: 780 A: $11936.92" [ref=e6443]':
+                  - generic [ref=e6447]:
+                    - generic [ref=e6448]: "T: 780"
+                    - generic [ref=e6449]: "A: $11936.92"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6450]:
+                  - generic [ref=e6455]:
+                    - paragraph [ref=e6456]: Mapping Error
+                    - list [ref=e6457]:
+                      - listitem [ref=e6458]: Payer Not Mapped
+                - cell [ref=e6459]:
+                  - generic [ref=e6463]:
+                    - textbox "mm/dd/yyyy" [ref=e6464]
+                    - img [ref=e6466] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6469]:
+                  - paragraph [ref=e6471]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6472] [cursor=pointer]:
+                      - img [ref=e6473]
+                - cell [ref=e6475]:
+                  - button [ref=e6476] [cursor=pointer]:
+                    - img [ref=e6477]
+              - 'row "ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868) MCI#: 9448633793 CC: Not Mapped 90362626 S: 07/01/2024 E: 07/24/2024 E: AMIR HAMZAH, FARIDAH PHW#: 192967171 P: Not Mapped F: IRIS SDPC SPC: 105.32 Code & Mod.: T1019: KX F: Weekly U: Hour 16.5 $18.83 T: 66 A: $1383.21 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e6481]':
+                - cell [ref=e6482]:
+                  - button [ref=e6483] [cursor=pointer]:
+                    - img [ref=e6484]
+                - cell [ref=e6485]:
+                  - checkbox [ref=e6488] [cursor=pointer]
+                - 'cell "ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868) MCI#: 9448633793 CC: Not Mapped" [ref=e6489]':
+                  - generic [ref=e6492]:
+                    - button "ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868)" [ref=e6495] [cursor=pointer]:
+                      - generic [ref=e6496]: ABDUL RAZAK, AMIR HAMZAH BIN (WIE176868)
+                    - generic [ref=e6497]: "MCI#: 9448633793"
+                    - generic [ref=e6498]: "CC: Not Mapped"
+                - 'cell "90362626 S: 07/01/2024 E: 07/24/2024" [ref=e6499]':
+                  - generic [ref=e6502]:
+                    - generic [ref=e6503]: "90362626"
+                    - generic [ref=e6504]: "S: 07/01/2024"
+                    - generic [ref=e6505]: "E: 07/24/2024"
+                - 'cell "E: AMIR HAMZAH, FARIDAH PHW#: 192967171" [ref=e6506]':
+                  - generic [ref=e6510]:
+                    - generic [ref=e6511]: "E: AMIR HAMZAH, FARIDAH"
+                    - generic [ref=e6512]: "PHW#: 192967171"
+                - 'cell "P: Not Mapped F: IRIS SDPC" [ref=e6513]':
+                  - generic [ref=e6517]:
+                    - generic [ref=e6518]:
+                      - text: "P:"
+                      - generic [ref=e6519]: Not Mapped
+                    - generic [ref=e6520]: "F: IRIS SDPC"
+                - 'cell "SPC: 105.32 Code & Mod.: T1019: KX" [ref=e6521]':
+                  - generic [ref=e6525]:
+                    - generic [ref=e6526]:
+                      - generic [ref=e6527]: "SPC:"
+                      - text: "105.32"
+                    - generic [ref=e6528]:
+                      - generic [ref=e6529]: "Code & Mod.:"
+                      - text: "T1019: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e6530]':
+                  - generic [ref=e6534]:
+                    - generic [ref=e6535]: "F: Weekly"
+                    - generic [ref=e6536]:
+                      - text: "U:"
+                      - generic [ref=e6537]: Hour
+                - cell "16.5" [ref=e6538]:
+                  - generic [ref=e6542]: "16.5"
+                - cell "$18.83" [ref=e6543]:
+                  - generic [ref=e6547]: $18.83
+                - 'cell "T: 66 A: $1383.21" [ref=e6548]':
+                  - generic [ref=e6552]:
+                    - generic [ref=e6553]: "T: 66"
+                    - generic [ref=e6554]: "A: $1383.21"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6555]:
+                  - generic [ref=e6560]:
+                    - paragraph [ref=e6561]: Mapping Error
+                    - list [ref=e6562]:
+                      - listitem [ref=e6563]: Payer Not Mapped
+                - cell [ref=e6564]:
+                  - generic [ref=e6568]:
+                    - textbox "mm/dd/yyyy" [ref=e6569]
+                    - img [ref=e6571] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6574]:
+                  - paragraph [ref=e6576]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6577] [cursor=pointer]:
+                      - img [ref=e6578]
+                - cell [ref=e6580]:
+                  - button [ref=e6581] [cursor=pointer]:
+                    - img [ref=e6582]
+              - 'row "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped 90364257 S: 07/01/2024 E: 06/30/2025 E: ACEVEDO, MIRIAM PHW#: 389707883 P: Not Mapped F: IRIS SDPC SPC: 105.32 Code & Mod.: T1019: KX F: Weekly U: Hour 19.25 $18.83 T: 1020.25 A: $21382.19 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e6586]':
+                - cell [ref=e6587]:
+                  - button [ref=e6588] [cursor=pointer]:
+                    - img [ref=e6589]
+                - cell [ref=e6590]:
+                  - checkbox [ref=e6593] [cursor=pointer]
+                - 'cell "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped" [ref=e6594]':
+                  - generic [ref=e6597]:
+                    - button "Acevedo, Alanis (WIE148440)" [ref=e6600] [cursor=pointer]:
+                      - generic [ref=e6601]: Acevedo, Alanis (WIE148440)
+                    - generic [ref=e6602]: "MCI#: 9418431491"
+                    - generic [ref=e6603]: "CC: Not Mapped"
+                - 'cell "90364257 S: 07/01/2024 E: 06/30/2025" [ref=e6604]':
+                  - generic [ref=e6607]:
+                    - generic [ref=e6608]: "90364257"
+                    - generic [ref=e6609]: "S: 07/01/2024"
+                    - generic [ref=e6610]: "E: 06/30/2025"
+                - 'cell "E: ACEVEDO, MIRIAM PHW#: 389707883" [ref=e6611]':
+                  - generic [ref=e6615]:
+                    - generic [ref=e6616]: "E: ACEVEDO, MIRIAM"
+                    - generic [ref=e6617]: "PHW#: 389707883"
+                - 'cell "P: Not Mapped F: IRIS SDPC" [ref=e6618]':
+                  - generic [ref=e6622]:
+                    - generic [ref=e6623]:
+                      - text: "P:"
+                      - generic [ref=e6624]: Not Mapped
+                    - generic [ref=e6625]: "F: IRIS SDPC"
+                - 'cell "SPC: 105.32 Code & Mod.: T1019: KX" [ref=e6626]':
+                  - generic [ref=e6630]:
+                    - generic [ref=e6631]:
+                      - generic [ref=e6632]: "SPC:"
+                      - text: "105.32"
+                    - generic [ref=e6633]:
+                      - generic [ref=e6634]: "Code & Mod.:"
+                      - text: "T1019: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e6635]':
+                  - generic [ref=e6639]:
+                    - generic [ref=e6640]: "F: Weekly"
+                    - generic [ref=e6641]:
+                      - text: "U:"
+                      - generic [ref=e6642]: Hour
+                - cell "19.25" [ref=e6643]:
+                  - generic [ref=e6647]: "19.25"
+                - cell "$18.83" [ref=e6648]:
+                  - generic [ref=e6652]: $18.83
+                - 'cell "T: 1020.25 A: $21382.19" [ref=e6653]':
+                  - generic [ref=e6657]:
+                    - generic [ref=e6658]: "T: 1020.25"
+                    - generic [ref=e6659]: "A: $21382.19"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6660]:
+                  - generic [ref=e6665]:
+                    - paragraph [ref=e6666]: Mapping Error
+                    - list [ref=e6667]:
+                      - listitem [ref=e6668]: Payer Not Mapped
+                - cell [ref=e6669]:
+                  - generic [ref=e6673]:
+                    - textbox "mm/dd/yyyy" [ref=e6674]
+                    - img [ref=e6676] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6679]:
+                  - paragraph [ref=e6681]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6682] [cursor=pointer]:
+                      - img [ref=e6683]
+                - cell [ref=e6685]:
+                  - button [ref=e6686] [cursor=pointer]:
+                    - img [ref=e6687]
+              - 'row "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped 90364264 S: 07/01/2024 E: 06/30/2025 E: ACEVEDO, MIRIAM PHW#: 389707883 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 30 $15 T: 1590 A: $26545.05 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e6691]':
+                - cell [ref=e6692]:
+                  - button [ref=e6693] [cursor=pointer]:
+                    - img [ref=e6694]
+                - cell [ref=e6695]:
+                  - checkbox [ref=e6698] [cursor=pointer]
+                - 'cell "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped" [ref=e6699]':
+                  - generic [ref=e6702]:
+                    - button "Acevedo, Alanis (WIE148440)" [ref=e6705] [cursor=pointer]:
+                      - generic [ref=e6706]: Acevedo, Alanis (WIE148440)
+                    - generic [ref=e6707]: "MCI#: 9418431491"
+                    - generic [ref=e6708]: "CC: Not Mapped"
+                - 'cell "90364264 S: 07/01/2024 E: 06/30/2025" [ref=e6709]':
+                  - generic [ref=e6712]:
+                    - generic [ref=e6713]: "90364264"
+                    - generic [ref=e6714]: "S: 07/01/2024"
+                    - generic [ref=e6715]: "E: 06/30/2025"
+                - 'cell "E: ACEVEDO, MIRIAM PHW#: 389707883" [ref=e6716]':
+                  - generic [ref=e6720]:
+                    - generic [ref=e6721]: "E: ACEVEDO, MIRIAM"
+                    - generic [ref=e6722]: "PHW#: 389707883"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e6723]':
+                  - generic [ref=e6727]:
+                    - generic [ref=e6728]:
+                      - text: "P:"
+                      - generic [ref=e6729]: Not Mapped
+                    - generic [ref=e6730]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e6731]':
+                  - generic [ref=e6735]:
+                    - generic [ref=e6736]:
+                      - generic [ref=e6737]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e6738]:
+                      - generic [ref=e6739]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e6740]':
+                  - generic [ref=e6744]:
+                    - generic [ref=e6745]: "F: Weekly"
+                    - generic [ref=e6746]:
+                      - text: "U:"
+                      - generic [ref=e6747]: Hour
+                - cell "30" [ref=e6748]:
+                  - generic [ref=e6752]: "30"
+                - cell "$15" [ref=e6753]:
+                  - generic [ref=e6757]: $15
+                - 'cell "T: 1590 A: $26545.05" [ref=e6758]':
+                  - generic [ref=e6762]:
+                    - generic [ref=e6763]: "T: 1590"
+                    - generic [ref=e6764]: "A: $26545.05"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6765]:
+                  - generic [ref=e6770]:
+                    - paragraph [ref=e6771]: Mapping Error
+                    - list [ref=e6772]:
+                      - listitem [ref=e6773]: Payer Not Mapped
+                - cell [ref=e6774]:
+                  - generic [ref=e6778]:
+                    - textbox "mm/dd/yyyy" [ref=e6779]
+                    - img [ref=e6781] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6784]:
+                  - paragraph [ref=e6786]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6787] [cursor=pointer]:
+                      - img [ref=e6788]
+                - cell [ref=e6790]:
+                  - button [ref=e6791] [cursor=pointer]:
+                    - img [ref=e6792]
+              - 'row "WILLIAMS, REBEKAH (WIE157469) MCI#: 2456606825 CC: Not Mapped 68657393 S: 06/01/2024 E: 05/31/2025 V: ST ANN CENTER FOR INTERGENERATIONAL CARE INC Provider#: 391757756 P: Not Mapped F: IRIS Waiver SPC: 102 Code & Mod.: S5102 F: Annually U: Day 265 $60 T: 265 A: $15900 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e6796]':
+                - cell [ref=e6797]:
+                  - button [ref=e6798] [cursor=pointer]:
+                    - img [ref=e6799]
+                - cell [ref=e6800]:
+                  - checkbox [ref=e6803] [cursor=pointer]
+                - 'cell "WILLIAMS, REBEKAH (WIE157469) MCI#: 2456606825 CC: Not Mapped" [ref=e6804]':
+                  - generic [ref=e6807]:
+                    - button "WILLIAMS, REBEKAH (WIE157469)" [ref=e6810] [cursor=pointer]:
+                      - generic [ref=e6811]: WILLIAMS, REBEKAH (WIE157469)
+                    - generic [ref=e6812]: "MCI#: 2456606825"
+                    - generic [ref=e6813]: "CC: Not Mapped"
+                - 'cell "68657393 S: 06/01/2024 E: 05/31/2025" [ref=e6814]':
+                  - generic [ref=e6817]:
+                    - generic [ref=e6818]: "68657393"
+                    - generic [ref=e6819]: "S: 06/01/2024"
+                    - generic [ref=e6820]: "E: 05/31/2025"
+                - 'cell "V: ST ANN CENTER FOR INTERGENERATIONAL CARE INC Provider#: 391757756" [ref=e6821]':
+                  - generic [ref=e6825]:
+                    - generic [ref=e6826]: "V: ST ANN CENTER FOR INTERGENERATIONAL CARE INC"
+                    - generic [ref=e6827]: "Provider#: 391757756"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e6828]':
+                  - generic [ref=e6832]:
+                    - generic [ref=e6833]:
+                      - text: "P:"
+                      - generic [ref=e6834]: Not Mapped
+                    - generic [ref=e6835]: "F: IRIS Waiver"
+                - 'cell "SPC: 102 Code & Mod.: S5102" [ref=e6836]':
+                  - generic [ref=e6840]:
+                    - generic [ref=e6841]:
+                      - generic [ref=e6842]: "SPC:"
+                      - text: "102"
+                    - generic [ref=e6843]:
+                      - generic [ref=e6844]: "Code & Mod.:"
+                      - text: S5102
+                - 'cell "F: Annually U: Day" [ref=e6845]':
+                  - generic [ref=e6849]:
+                    - generic [ref=e6850]: "F: Annually"
+                    - generic [ref=e6851]:
+                      - text: "U:"
+                      - generic [ref=e6852]: Day
+                - cell "265" [ref=e6853]:
+                  - generic [ref=e6857]: "265"
+                - cell "$60" [ref=e6858]:
+                  - generic [ref=e6862]: $60
+                - 'cell "T: 265 A: $15900" [ref=e6863]':
+                  - generic [ref=e6867]:
+                    - generic [ref=e6868]: "T: 265"
+                    - generic [ref=e6869]: "A: $15900"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6870]:
+                  - generic [ref=e6875]:
+                    - paragraph [ref=e6876]: Mapping Error
+                    - list [ref=e6877]:
+                      - listitem [ref=e6878]: Payer Not Mapped
+                - cell [ref=e6879]:
+                  - generic [ref=e6883]:
+                    - textbox "mm/dd/yyyy" [ref=e6884]
+                    - img [ref=e6886] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6889]:
+                  - paragraph [ref=e6891]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6892] [cursor=pointer]:
+                      - img [ref=e6893]
+                - cell [ref=e6895]:
+                  - button [ref=e6896] [cursor=pointer]:
+                    - img [ref=e6897]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 35660892 S: 05/08/2024 E: 07/13/2024 E: MANATA, JACOB PHW#: 356025079 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e6901]':
+                - cell [ref=e6902]:
+                  - button [ref=e6903] [cursor=pointer]:
+                    - img [ref=e6904]
+                - cell [ref=e6905]:
+                  - checkbox [ref=e6908] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e6909]':
+                  - generic [ref=e6912]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e6915] [cursor=pointer]:
+                      - generic [ref=e6916]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e6917]: "MCI#: 7429833071"
+                    - generic [ref=e6918]: "CC: Not Mapped"
+                - 'cell "35660892 S: 05/08/2024 E: 07/13/2024" [ref=e6919]':
+                  - generic [ref=e6922]:
+                    - generic [ref=e6923]: "35660892"
+                    - generic [ref=e6924]: "S: 05/08/2024"
+                    - generic [ref=e6925]: "E: 07/13/2024"
+                - 'cell "E: MANATA, JACOB PHW#: 356025079" [ref=e6926]':
+                  - generic [ref=e6930]:
+                    - generic [ref=e6931]: "E: MANATA, JACOB"
+                    - generic [ref=e6932]: "PHW#: 356025079"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e6933]':
+                  - generic [ref=e6937]:
+                    - generic [ref=e6938]:
+                      - text: "P:"
+                      - generic [ref=e6939]: Not Mapped
+                    - generic [ref=e6940]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e6941]':
+                  - generic [ref=e6945]:
+                    - generic [ref=e6946]:
+                      - generic [ref=e6947]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e6948]:
+                      - generic [ref=e6949]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e6950]':
+                  - generic [ref=e6954]:
+                    - generic [ref=e6955]: "F: Weekly"
+                    - generic [ref=e6956]:
+                      - text: "U:"
+                      - generic [ref=e6957]: Hour
+                - cell "21" [ref=e6958]:
+                  - generic [ref=e6962]: "21"
+                - cell "$10" [ref=e6963]:
+                  - generic [ref=e6967]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e6968]':
+                  - generic [ref=e6972]:
+                    - generic [ref=e6973]: "T: 210"
+                    - generic [ref=e6974]: "A: $2337.3"
+                - cell "Mapping Error Payer Not Mapped" [ref=e6975]:
+                  - generic [ref=e6980]:
+                    - paragraph [ref=e6981]: Mapping Error
+                    - list [ref=e6982]:
+                      - listitem [ref=e6983]: Payer Not Mapped
+                - cell [ref=e6984]:
+                  - generic [ref=e6988]:
+                    - textbox "mm/dd/yyyy" [ref=e6989]
+                    - img [ref=e6991] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e6994]:
+                  - paragraph [ref=e6996]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e6997] [cursor=pointer]:
+                      - img [ref=e6998]
+                - cell [ref=e7000]:
+                  - button [ref=e7001] [cursor=pointer]:
+                    - img [ref=e7002]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 35660897 S: 05/08/2024 E: 07/13/2024 E: Not Mapped PHW#: 389254187 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e7006]':
+                - cell [ref=e7007]:
+                  - button [ref=e7008] [cursor=pointer]:
+                    - img [ref=e7009]
+                - cell [ref=e7010]:
+                  - checkbox [ref=e7013] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7014]':
+                  - generic [ref=e7017]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7020] [cursor=pointer]:
+                      - generic [ref=e7021]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7022]: "MCI#: 7429833071"
+                    - generic [ref=e7023]: "CC: Not Mapped"
+                - 'cell "35660897 S: 05/08/2024 E: 07/13/2024" [ref=e7024]':
+                  - generic [ref=e7027]:
+                    - generic [ref=e7028]: "35660897"
+                    - generic [ref=e7029]: "S: 05/08/2024"
+                    - generic [ref=e7030]: "E: 07/13/2024"
+                - 'cell "E: Not Mapped PHW#: 389254187" [ref=e7031]':
+                  - generic [ref=e7035]:
+                    - generic [ref=e7036]:
+                      - text: "E:"
+                      - generic [ref=e7037]: Not Mapped
+                    - generic [ref=e7038]: "PHW#: 389254187"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7039]':
+                  - generic [ref=e7043]:
+                    - generic [ref=e7044]:
+                      - text: "P:"
+                      - generic [ref=e7045]: Not Mapped
+                    - generic [ref=e7046]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7047]':
+                  - generic [ref=e7051]:
+                    - generic [ref=e7052]:
+                      - generic [ref=e7053]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e7054]:
+                      - generic [ref=e7055]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e7056]':
+                  - generic [ref=e7060]:
+                    - generic [ref=e7061]: "F: Weekly"
+                    - generic [ref=e7062]:
+                      - text: "U:"
+                      - generic [ref=e7063]: Hour
+                - cell "21" [ref=e7064]:
+                  - generic [ref=e7068]: "21"
+                - cell "$10" [ref=e7069]:
+                  - generic [ref=e7073]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e7074]':
+                  - generic [ref=e7078]:
+                    - generic [ref=e7079]: "T: 210"
+                    - generic [ref=e7080]: "A: $2337.3"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e7081]:
+                  - generic [ref=e7086]:
+                    - paragraph [ref=e7087]: Mapping Error
+                    - list [ref=e7088]:
+                      - listitem [ref=e7089]: Employee Not Mapped
+                      - listitem [ref=e7090]: Payer Not Mapped
+                - cell [ref=e7091]:
+                  - generic [ref=e7095]:
+                    - textbox "mm/dd/yyyy" [ref=e7096]
+                    - img [ref=e7098] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e7101]:
+                  - paragraph [ref=e7103]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e7104] [cursor=pointer]:
+                      - img [ref=e7105]
+                - cell [ref=e7107]:
+                  - button [ref=e7108] [cursor=pointer]:
+                    - img [ref=e7109]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 35660902 S: 05/08/2024 E: 07/13/2024 E: FALKNER, EVAN PHW#: 391250744 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e7113]':
+                - cell [ref=e7114]:
+                  - button [ref=e7115] [cursor=pointer]:
+                    - img [ref=e7116]
+                - cell [ref=e7117]:
+                  - checkbox [ref=e7120] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7121]':
+                  - generic [ref=e7124]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7127] [cursor=pointer]:
+                      - generic [ref=e7128]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7129]: "MCI#: 7429833071"
+                    - generic [ref=e7130]: "CC: Not Mapped"
+                - 'cell "35660902 S: 05/08/2024 E: 07/13/2024" [ref=e7131]':
+                  - generic [ref=e7134]:
+                    - generic [ref=e7135]: "35660902"
+                    - generic [ref=e7136]: "S: 05/08/2024"
+                    - generic [ref=e7137]: "E: 07/13/2024"
+                - 'cell "E: FALKNER, EVAN PHW#: 391250744" [ref=e7138]':
+                  - generic [ref=e7142]:
+                    - generic [ref=e7143]: "E: FALKNER, EVAN"
+                    - generic [ref=e7144]: "PHW#: 391250744"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7145]':
+                  - generic [ref=e7149]:
+                    - generic [ref=e7150]:
+                      - text: "P:"
+                      - generic [ref=e7151]: Not Mapped
+                    - generic [ref=e7152]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7153]':
+                  - generic [ref=e7157]:
+                    - generic [ref=e7158]:
+                      - generic [ref=e7159]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e7160]:
+                      - generic [ref=e7161]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e7162]':
+                  - generic [ref=e7166]:
+                    - generic [ref=e7167]: "F: Weekly"
+                    - generic [ref=e7168]:
+                      - text: "U:"
+                      - generic [ref=e7169]: Hour
+                - cell "21" [ref=e7170]:
+                  - generic [ref=e7174]: "21"
+                - cell "$10" [ref=e7175]:
+                  - generic [ref=e7179]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e7180]':
+                  - generic [ref=e7184]:
+                    - generic [ref=e7185]: "T: 210"
+                    - generic [ref=e7186]: "A: $2337.3"
+                - cell "Mapping Error Payer Not Mapped" [ref=e7187]:
+                  - generic [ref=e7192]:
+                    - paragraph [ref=e7193]: Mapping Error
+                    - list [ref=e7194]:
+                      - listitem [ref=e7195]: Payer Not Mapped
+                - cell [ref=e7196]:
+                  - generic [ref=e7200]:
+                    - textbox "mm/dd/yyyy" [ref=e7201]
+                    - img [ref=e7203] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e7206]:
+                  - paragraph [ref=e7208]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e7209] [cursor=pointer]:
+                      - img [ref=e7210]
+                - cell [ref=e7212]:
+                  - button [ref=e7213] [cursor=pointer]:
+                    - img [ref=e7214]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 35660907 S: 05/08/2024 E: 04/30/2025 E: SOIK, LISA PHW#: 388809798 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 8 $15 T: 416 A: $6945.12 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e7218]':
+                - cell [ref=e7219]:
+                  - button [ref=e7220] [cursor=pointer]:
+                    - img [ref=e7221]
+                - cell [ref=e7222]:
+                  - checkbox [ref=e7225] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7226]':
+                  - generic [ref=e7229]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7232] [cursor=pointer]:
+                      - generic [ref=e7233]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7234]: "MCI#: 7429833071"
+                    - generic [ref=e7235]: "CC: Not Mapped"
+                - 'cell "35660907 S: 05/08/2024 E: 04/30/2025" [ref=e7236]':
+                  - generic [ref=e7239]:
+                    - generic [ref=e7240]: "35660907"
+                    - generic [ref=e7241]: "S: 05/08/2024"
+                    - generic [ref=e7242]: "E: 04/30/2025"
+                - 'cell "E: SOIK, LISA PHW#: 388809798" [ref=e7243]':
+                  - generic [ref=e7247]:
+                    - generic [ref=e7248]: "E: SOIK, LISA"
+                    - generic [ref=e7249]: "PHW#: 388809798"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7250]':
+                  - generic [ref=e7254]:
+                    - generic [ref=e7255]:
+                      - text: "P:"
+                      - generic [ref=e7256]: Not Mapped
+                    - generic [ref=e7257]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7258]':
+                  - generic [ref=e7262]:
+                    - generic [ref=e7263]:
+                      - generic [ref=e7264]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e7265]:
+                      - generic [ref=e7266]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e7267]':
+                  - generic [ref=e7271]:
+                    - generic [ref=e7272]: "F: Weekly"
+                    - generic [ref=e7273]:
+                      - text: "U:"
+                      - generic [ref=e7274]: Hour
+                - cell "8" [ref=e7275]:
+                  - generic [ref=e7279]: "8"
+                - cell "$15" [ref=e7280]:
+                  - generic [ref=e7284]: $15
+                - 'cell "T: 416 A: $6945.12" [ref=e7285]':
+                  - generic [ref=e7289]:
+                    - generic [ref=e7290]: "T: 416"
+                    - generic [ref=e7291]: "A: $6945.12"
+                - cell "Mapping Error Payer Not Mapped" [ref=e7292]:
+                  - generic [ref=e7297]:
+                    - paragraph [ref=e7298]: Mapping Error
+                    - list [ref=e7299]:
+                      - listitem [ref=e7300]: Payer Not Mapped
+                - cell [ref=e7301]:
+                  - generic [ref=e7305]:
+                    - textbox "mm/dd/yyyy" [ref=e7306]
+                    - img [ref=e7308] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e7311]:
+                  - paragraph [ref=e7313]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e7314] [cursor=pointer]:
+                      - img [ref=e7315]
+                - cell [ref=e7317]:
+                  - button [ref=e7318] [cursor=pointer]:
+                    - img [ref=e7319]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 45467779 S: 05/08/2024 E: 07/13/2024 E: MANATA, JACOB PHW#: 356025079 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e7323]':
+                - cell [ref=e7324]:
+                  - button [ref=e7325] [cursor=pointer]:
+                    - img [ref=e7326]
+                - cell [ref=e7327]:
+                  - checkbox [ref=e7330] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7331]':
+                  - generic [ref=e7334]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7337] [cursor=pointer]:
+                      - generic [ref=e7338]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7339]: "MCI#: 7429833071"
+                    - generic [ref=e7340]: "CC: Not Mapped"
+                - 'cell "45467779 S: 05/08/2024 E: 07/13/2024" [ref=e7341]':
+                  - generic [ref=e7344]:
+                    - generic [ref=e7345]: "45467779"
+                    - generic [ref=e7346]: "S: 05/08/2024"
+                    - generic [ref=e7347]: "E: 07/13/2024"
+                - 'cell "E: MANATA, JACOB PHW#: 356025079" [ref=e7348]':
+                  - generic [ref=e7352]:
+                    - generic [ref=e7353]: "E: MANATA, JACOB"
+                    - generic [ref=e7354]: "PHW#: 356025079"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7355]':
+                  - generic [ref=e7359]:
+                    - generic [ref=e7360]:
+                      - text: "P:"
+                      - generic [ref=e7361]: Not Mapped
+                    - generic [ref=e7362]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7363]':
+                  - generic [ref=e7367]:
+                    - generic [ref=e7368]:
+                      - generic [ref=e7369]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e7370]:
+                      - generic [ref=e7371]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e7372]':
+                  - generic [ref=e7376]:
+                    - generic [ref=e7377]: "F: Weekly"
+                    - generic [ref=e7378]:
+                      - text: "U:"
+                      - generic [ref=e7379]: Hour
+                - cell "21" [ref=e7380]:
+                  - generic [ref=e7384]: "21"
+                - cell "$10" [ref=e7385]:
+                  - generic [ref=e7389]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e7390]':
+                  - generic [ref=e7394]:
+                    - generic [ref=e7395]: "T: 210"
+                    - generic [ref=e7396]: "A: $2337.3"
+                - cell "Mapping Error Payer Not Mapped" [ref=e7397]:
+                  - generic [ref=e7402]:
+                    - paragraph [ref=e7403]: Mapping Error
+                    - list [ref=e7404]:
+                      - listitem [ref=e7405]: Payer Not Mapped
+                - cell [ref=e7406]:
+                  - generic [ref=e7410]:
+                    - textbox "mm/dd/yyyy" [ref=e7411]
+                    - img [ref=e7413] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e7416]:
+                  - paragraph [ref=e7418]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e7419] [cursor=pointer]:
+                      - img [ref=e7420]
+                - cell [ref=e7422]:
+                  - button [ref=e7423] [cursor=pointer]:
+                    - img [ref=e7424]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 45467784 S: 05/08/2024 E: 07/13/2024 E: Not Mapped PHW#: 389254187 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e7428]':
+                - cell [ref=e7429]:
+                  - button [ref=e7430] [cursor=pointer]:
+                    - img [ref=e7431]
+                - cell [ref=e7432]:
+                  - checkbox [ref=e7435] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7436]':
+                  - generic [ref=e7439]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7442] [cursor=pointer]:
+                      - generic [ref=e7443]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7444]: "MCI#: 7429833071"
+                    - generic [ref=e7445]: "CC: Not Mapped"
+                - 'cell "45467784 S: 05/08/2024 E: 07/13/2024" [ref=e7446]':
+                  - generic [ref=e7449]:
+                    - generic [ref=e7450]: "45467784"
+                    - generic [ref=e7451]: "S: 05/08/2024"
+                    - generic [ref=e7452]: "E: 07/13/2024"
+                - 'cell "E: Not Mapped PHW#: 389254187" [ref=e7453]':
+                  - generic [ref=e7457]:
+                    - generic [ref=e7458]:
+                      - text: "E:"
+                      - generic [ref=e7459]: Not Mapped
+                    - generic [ref=e7460]: "PHW#: 389254187"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7461]':
+                  - generic [ref=e7465]:
+                    - generic [ref=e7466]:
+                      - text: "P:"
+                      - generic [ref=e7467]: Not Mapped
+                    - generic [ref=e7468]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7469]':
+                  - generic [ref=e7473]:
+                    - generic [ref=e7474]:
+                      - generic [ref=e7475]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e7476]:
+                      - generic [ref=e7477]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e7478]':
+                  - generic [ref=e7482]:
+                    - generic [ref=e7483]: "F: Weekly"
+                    - generic [ref=e7484]:
+                      - text: "U:"
+                      - generic [ref=e7485]: Hour
+                - cell "21" [ref=e7486]:
+                  - generic [ref=e7490]: "21"
+                - cell "$10" [ref=e7491]:
+                  - generic [ref=e7495]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e7496]':
+                  - generic [ref=e7500]:
+                    - generic [ref=e7501]: "T: 210"
+                    - generic [ref=e7502]: "A: $2337.3"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e7503]:
+                  - generic [ref=e7508]:
+                    - paragraph [ref=e7509]: Mapping Error
+                    - list [ref=e7510]:
+                      - listitem [ref=e7511]: Employee Not Mapped
+                      - listitem [ref=e7512]: Payer Not Mapped
+                - cell [ref=e7513]:
+                  - generic [ref=e7517]:
+                    - textbox "mm/dd/yyyy" [ref=e7518]
+                    - img [ref=e7520] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e7523]:
+                  - paragraph [ref=e7525]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e7526] [cursor=pointer]:
+                      - img [ref=e7527]
+                - cell [ref=e7529]:
+                  - button [ref=e7530] [cursor=pointer]:
+                    - img [ref=e7531]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 45467789 S: 05/08/2024 E: 07/13/2024 E: FALKNER, EVAN PHW#: 391250744 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e7535]':
+                - cell [ref=e7536]:
+                  - button [ref=e7537] [cursor=pointer]:
+                    - img [ref=e7538]
+                - cell [ref=e7539]:
+                  - checkbox [ref=e7542] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7543]':
+                  - generic [ref=e7546]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7549] [cursor=pointer]:
+                      - generic [ref=e7550]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7551]: "MCI#: 7429833071"
+                    - generic [ref=e7552]: "CC: Not Mapped"
+                - 'cell "45467789 S: 05/08/2024 E: 07/13/2024" [ref=e7553]':
+                  - generic [ref=e7556]:
+                    - generic [ref=e7557]: "45467789"
+                    - generic [ref=e7558]: "S: 05/08/2024"
+                    - generic [ref=e7559]: "E: 07/13/2024"
+                - 'cell "E: FALKNER, EVAN PHW#: 391250744" [ref=e7560]':
+                  - generic [ref=e7564]:
+                    - generic [ref=e7565]: "E: FALKNER, EVAN"
+                    - generic [ref=e7566]: "PHW#: 391250744"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7567]':
+                  - generic [ref=e7571]:
+                    - generic [ref=e7572]:
+                      - text: "P:"
+                      - generic [ref=e7573]: Not Mapped
+                    - generic [ref=e7574]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7575]':
+                  - generic [ref=e7579]:
+                    - generic [ref=e7580]:
+                      - generic [ref=e7581]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e7582]:
+                      - generic [ref=e7583]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e7584]':
+                  - generic [ref=e7588]:
+                    - generic [ref=e7589]: "F: Weekly"
+                    - generic [ref=e7590]:
+                      - text: "U:"
+                      - generic [ref=e7591]: Hour
+                - cell "21" [ref=e7592]:
+                  - generic [ref=e7596]: "21"
+                - cell "$10" [ref=e7597]:
+                  - generic [ref=e7601]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e7602]':
+                  - generic [ref=e7606]:
+                    - generic [ref=e7607]: "T: 210"
+                    - generic [ref=e7608]: "A: $2337.3"
+                - cell "Mapping Error Payer Not Mapped" [ref=e7609]:
+                  - generic [ref=e7614]:
+                    - paragraph [ref=e7615]: Mapping Error
+                    - list [ref=e7616]:
+                      - listitem [ref=e7617]: Payer Not Mapped
+                - cell [ref=e7618]:
+                  - generic [ref=e7622]:
+                    - textbox "mm/dd/yyyy" [ref=e7623]
+                    - img [ref=e7625] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e7628]:
+                  - paragraph [ref=e7630]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e7631] [cursor=pointer]:
+                      - img [ref=e7632]
+                - cell [ref=e7634]:
+                  - button [ref=e7635] [cursor=pointer]:
+                    - img [ref=e7636]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 45467794 S: 05/08/2024 E: 04/30/2025 E: SOIK, LISA PHW#: 388809798 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 8 $15 T: 416 A: $6945.12 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e7640]':
+                - cell [ref=e7641]:
+                  - button [ref=e7642] [cursor=pointer]:
+                    - img [ref=e7643]
+                - cell [ref=e7644]:
+                  - checkbox [ref=e7647] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7648]':
+                  - generic [ref=e7651]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7654] [cursor=pointer]:
+                      - generic [ref=e7655]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7656]: "MCI#: 7429833071"
+                    - generic [ref=e7657]: "CC: Not Mapped"
+                - 'cell "45467794 S: 05/08/2024 E: 04/30/2025" [ref=e7658]':
+                  - generic [ref=e7661]:
+                    - generic [ref=e7662]: "45467794"
+                    - generic [ref=e7663]: "S: 05/08/2024"
+                    - generic [ref=e7664]: "E: 04/30/2025"
+                - 'cell "E: SOIK, LISA PHW#: 388809798" [ref=e7665]':
+                  - generic [ref=e7669]:
+                    - generic [ref=e7670]: "E: SOIK, LISA"
+                    - generic [ref=e7671]: "PHW#: 388809798"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7672]':
+                  - generic [ref=e7676]:
+                    - generic [ref=e7677]:
+                      - text: "P:"
+                      - generic [ref=e7678]: Not Mapped
+                    - generic [ref=e7679]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7680]':
+                  - generic [ref=e7684]:
+                    - generic [ref=e7685]:
+                      - generic [ref=e7686]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e7687]:
+                      - generic [ref=e7688]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e7689]':
+                  - generic [ref=e7693]:
+                    - generic [ref=e7694]: "F: Weekly"
+                    - generic [ref=e7695]:
+                      - text: "U:"
+                      - generic [ref=e7696]: Hour
+                - cell "8" [ref=e7697]:
+                  - generic [ref=e7701]: "8"
+                - cell "$15" [ref=e7702]:
+                  - generic [ref=e7706]: $15
+                - 'cell "T: 416 A: $6945.12" [ref=e7707]':
+                  - generic [ref=e7711]:
+                    - generic [ref=e7712]: "T: 416"
+                    - generic [ref=e7713]: "A: $6945.12"
+                - cell "Mapping Error Payer Not Mapped" [ref=e7714]:
+                  - generic [ref=e7719]:
+                    - paragraph [ref=e7720]: Mapping Error
+                    - list [ref=e7721]:
+                      - listitem [ref=e7722]: Payer Not Mapped
+                - cell [ref=e7723]:
+                  - generic [ref=e7727]:
+                    - textbox "mm/dd/yyyy" [ref=e7728]
+                    - img [ref=e7730] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e7733]:
+                  - paragraph [ref=e7735]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e7736] [cursor=pointer]:
+                      - img [ref=e7737]
+                - cell [ref=e7739]:
+                  - button [ref=e7740] [cursor=pointer]:
+                    - img [ref=e7741]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 55690001 S: 05/08/2024 E: 07/13/2024 E: MANATA, JACOB PHW#: 356025079 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e7745]':
+                - cell [ref=e7746]:
+                  - button [ref=e7747] [cursor=pointer]:
+                    - img [ref=e7748]
+                - cell [ref=e7749]:
+                  - checkbox [ref=e7752] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7753]':
+                  - generic [ref=e7756]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7759] [cursor=pointer]:
+                      - generic [ref=e7760]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7761]: "MCI#: 7429833071"
+                    - generic [ref=e7762]: "CC: Not Mapped"
+                - 'cell "55690001 S: 05/08/2024 E: 07/13/2024" [ref=e7763]':
+                  - generic [ref=e7766]:
+                    - generic [ref=e7767]: "55690001"
+                    - generic [ref=e7768]: "S: 05/08/2024"
+                    - generic [ref=e7769]: "E: 07/13/2024"
+                - 'cell "E: MANATA, JACOB PHW#: 356025079" [ref=e7770]':
+                  - generic [ref=e7774]:
+                    - generic [ref=e7775]: "E: MANATA, JACOB"
+                    - generic [ref=e7776]: "PHW#: 356025079"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7777]':
+                  - generic [ref=e7781]:
+                    - generic [ref=e7782]:
+                      - text: "P:"
+                      - generic [ref=e7783]: Not Mapped
+                    - generic [ref=e7784]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7785]':
+                  - generic [ref=e7789]:
+                    - generic [ref=e7790]:
+                      - generic [ref=e7791]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e7792]:
+                      - generic [ref=e7793]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e7794]':
+                  - generic [ref=e7798]:
+                    - generic [ref=e7799]: "F: Weekly"
+                    - generic [ref=e7800]:
+                      - text: "U:"
+                      - generic [ref=e7801]: Hour
+                - cell "21" [ref=e7802]:
+                  - generic [ref=e7806]: "21"
+                - cell "$10" [ref=e7807]:
+                  - generic [ref=e7811]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e7812]':
+                  - generic [ref=e7816]:
+                    - generic [ref=e7817]: "T: 210"
+                    - generic [ref=e7818]: "A: $2337.3"
+                - cell "Mapping Error Payer Not Mapped" [ref=e7819]:
+                  - generic [ref=e7824]:
+                    - paragraph [ref=e7825]: Mapping Error
+                    - list [ref=e7826]:
+                      - listitem [ref=e7827]: Payer Not Mapped
+                - cell [ref=e7828]:
+                  - generic [ref=e7832]:
+                    - textbox "mm/dd/yyyy" [ref=e7833]
+                    - img [ref=e7835] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e7838]:
+                  - paragraph [ref=e7840]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e7841] [cursor=pointer]:
+                      - img [ref=e7842]
+                - cell [ref=e7844]:
+                  - button [ref=e7845] [cursor=pointer]:
+                    - img [ref=e7846]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 55690006 S: 05/08/2024 E: 07/13/2024 E: Not Mapped PHW#: 389254187 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e7850]':
+                - cell [ref=e7851]:
+                  - button [ref=e7852] [cursor=pointer]:
+                    - img [ref=e7853]
+                - cell [ref=e7854]:
+                  - checkbox [ref=e7857] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7858]':
+                  - generic [ref=e7861]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7864] [cursor=pointer]:
+                      - generic [ref=e7865]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7866]: "MCI#: 7429833071"
+                    - generic [ref=e7867]: "CC: Not Mapped"
+                - 'cell "55690006 S: 05/08/2024 E: 07/13/2024" [ref=e7868]':
+                  - generic [ref=e7871]:
+                    - generic [ref=e7872]: "55690006"
+                    - generic [ref=e7873]: "S: 05/08/2024"
+                    - generic [ref=e7874]: "E: 07/13/2024"
+                - 'cell "E: Not Mapped PHW#: 389254187" [ref=e7875]':
+                  - generic [ref=e7879]:
+                    - generic [ref=e7880]:
+                      - text: "E:"
+                      - generic [ref=e7881]: Not Mapped
+                    - generic [ref=e7882]: "PHW#: 389254187"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7883]':
+                  - generic [ref=e7887]:
+                    - generic [ref=e7888]:
+                      - text: "P:"
+                      - generic [ref=e7889]: Not Mapped
+                    - generic [ref=e7890]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7891]':
+                  - generic [ref=e7895]:
+                    - generic [ref=e7896]:
+                      - generic [ref=e7897]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e7898]:
+                      - generic [ref=e7899]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e7900]':
+                  - generic [ref=e7904]:
+                    - generic [ref=e7905]: "F: Weekly"
+                    - generic [ref=e7906]:
+                      - text: "U:"
+                      - generic [ref=e7907]: Hour
+                - cell "21" [ref=e7908]:
+                  - generic [ref=e7912]: "21"
+                - cell "$10" [ref=e7913]:
+                  - generic [ref=e7917]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e7918]':
+                  - generic [ref=e7922]:
+                    - generic [ref=e7923]: "T: 210"
+                    - generic [ref=e7924]: "A: $2337.3"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e7925]:
+                  - generic [ref=e7930]:
+                    - paragraph [ref=e7931]: Mapping Error
+                    - list [ref=e7932]:
+                      - listitem [ref=e7933]: Employee Not Mapped
+                      - listitem [ref=e7934]: Payer Not Mapped
+                - cell [ref=e7935]:
+                  - generic [ref=e7939]:
+                    - textbox "mm/dd/yyyy" [ref=e7940]
+                    - img [ref=e7942] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e7945]:
+                  - paragraph [ref=e7947]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e7948] [cursor=pointer]:
+                      - img [ref=e7949]
+                - cell [ref=e7951]:
+                  - button [ref=e7952] [cursor=pointer]:
+                    - img [ref=e7953]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 55690011 S: 05/08/2024 E: 07/13/2024 E: FALKNER, EVAN PHW#: 391250744 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e7957]':
+                - cell [ref=e7958]:
+                  - button [ref=e7959] [cursor=pointer]:
+                    - img [ref=e7960]
+                - cell [ref=e7961]:
+                  - checkbox [ref=e7964] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e7965]':
+                  - generic [ref=e7968]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e7971] [cursor=pointer]:
+                      - generic [ref=e7972]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e7973]: "MCI#: 7429833071"
+                    - generic [ref=e7974]: "CC: Not Mapped"
+                - 'cell "55690011 S: 05/08/2024 E: 07/13/2024" [ref=e7975]':
+                  - generic [ref=e7978]:
+                    - generic [ref=e7979]: "55690011"
+                    - generic [ref=e7980]: "S: 05/08/2024"
+                    - generic [ref=e7981]: "E: 07/13/2024"
+                - 'cell "E: FALKNER, EVAN PHW#: 391250744" [ref=e7982]':
+                  - generic [ref=e7986]:
+                    - generic [ref=e7987]: "E: FALKNER, EVAN"
+                    - generic [ref=e7988]: "PHW#: 391250744"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e7989]':
+                  - generic [ref=e7993]:
+                    - generic [ref=e7994]:
+                      - text: "P:"
+                      - generic [ref=e7995]: Not Mapped
+                    - generic [ref=e7996]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e7997]':
+                  - generic [ref=e8001]:
+                    - generic [ref=e8002]:
+                      - generic [ref=e8003]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e8004]:
+                      - generic [ref=e8005]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e8006]':
+                  - generic [ref=e8010]:
+                    - generic [ref=e8011]: "F: Weekly"
+                    - generic [ref=e8012]:
+                      - text: "U:"
+                      - generic [ref=e8013]: Hour
+                - cell "21" [ref=e8014]:
+                  - generic [ref=e8018]: "21"
+                - cell "$10" [ref=e8019]:
+                  - generic [ref=e8023]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e8024]':
+                  - generic [ref=e8028]:
+                    - generic [ref=e8029]: "T: 210"
+                    - generic [ref=e8030]: "A: $2337.3"
+                - cell "Mapping Error Payer Not Mapped" [ref=e8031]:
+                  - generic [ref=e8036]:
+                    - paragraph [ref=e8037]: Mapping Error
+                    - list [ref=e8038]:
+                      - listitem [ref=e8039]: Payer Not Mapped
+                - cell [ref=e8040]:
+                  - generic [ref=e8044]:
+                    - textbox "mm/dd/yyyy" [ref=e8045]
+                    - img [ref=e8047] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8050]:
+                  - paragraph [ref=e8052]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e8053] [cursor=pointer]:
+                      - img [ref=e8054]
+                - cell [ref=e8056]:
+                  - button [ref=e8057] [cursor=pointer]:
+                    - img [ref=e8058]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 55690016 S: 05/08/2024 E: 04/30/2025 E: SOIK, LISA PHW#: 388809798 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 8 $15 T: 416 A: $6945.12 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e8062]':
+                - cell [ref=e8063]:
+                  - button [ref=e8064] [cursor=pointer]:
+                    - img [ref=e8065]
+                - cell [ref=e8066]:
+                  - checkbox [ref=e8069] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e8070]':
+                  - generic [ref=e8073]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e8076] [cursor=pointer]:
+                      - generic [ref=e8077]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e8078]: "MCI#: 7429833071"
+                    - generic [ref=e8079]: "CC: Not Mapped"
+                - 'cell "55690016 S: 05/08/2024 E: 04/30/2025" [ref=e8080]':
+                  - generic [ref=e8083]:
+                    - generic [ref=e8084]: "55690016"
+                    - generic [ref=e8085]: "S: 05/08/2024"
+                    - generic [ref=e8086]: "E: 04/30/2025"
+                - 'cell "E: SOIK, LISA PHW#: 388809798" [ref=e8087]':
+                  - generic [ref=e8091]:
+                    - generic [ref=e8092]: "E: SOIK, LISA"
+                    - generic [ref=e8093]: "PHW#: 388809798"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e8094]':
+                  - generic [ref=e8098]:
+                    - generic [ref=e8099]:
+                      - text: "P:"
+                      - generic [ref=e8100]: Not Mapped
+                    - generic [ref=e8101]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e8102]':
+                  - generic [ref=e8106]:
+                    - generic [ref=e8107]:
+                      - generic [ref=e8108]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e8109]:
+                      - generic [ref=e8110]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e8111]':
+                  - generic [ref=e8115]:
+                    - generic [ref=e8116]: "F: Weekly"
+                    - generic [ref=e8117]:
+                      - text: "U:"
+                      - generic [ref=e8118]: Hour
+                - cell "8" [ref=e8119]:
+                  - generic [ref=e8123]: "8"
+                - cell "$15" [ref=e8124]:
+                  - generic [ref=e8128]: $15
+                - 'cell "T: 416 A: $6945.12" [ref=e8129]':
+                  - generic [ref=e8133]:
+                    - generic [ref=e8134]: "T: 416"
+                    - generic [ref=e8135]: "A: $6945.12"
+                - cell "Mapping Error Payer Not Mapped" [ref=e8136]:
+                  - generic [ref=e8141]:
+                    - paragraph [ref=e8142]: Mapping Error
+                    - list [ref=e8143]:
+                      - listitem [ref=e8144]: Payer Not Mapped
+                - cell [ref=e8145]:
+                  - generic [ref=e8149]:
+                    - textbox "mm/dd/yyyy" [ref=e8150]
+                    - img [ref=e8152] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8155]:
+                  - paragraph [ref=e8157]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e8158] [cursor=pointer]:
+                      - img [ref=e8159]
+                - cell [ref=e8161]:
+                  - button [ref=e8162] [cursor=pointer]:
+                    - img [ref=e8163]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 90027439 S: 05/08/2024 E: 07/13/2024 E: MANATA, JACOB PHW#: 356025079 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e8167]':
+                - cell [ref=e8168]:
+                  - button [ref=e8169] [cursor=pointer]:
+                    - img [ref=e8170]
+                - cell [ref=e8171]:
+                  - checkbox [ref=e8174] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e8175]':
+                  - generic [ref=e8178]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e8181] [cursor=pointer]:
+                      - generic [ref=e8182]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e8183]: "MCI#: 7429833071"
+                    - generic [ref=e8184]: "CC: Not Mapped"
+                - 'cell "90027439 S: 05/08/2024 E: 07/13/2024" [ref=e8185]':
+                  - generic [ref=e8188]:
+                    - generic [ref=e8189]: "90027439"
+                    - generic [ref=e8190]: "S: 05/08/2024"
+                    - generic [ref=e8191]: "E: 07/13/2024"
+                - 'cell "E: MANATA, JACOB PHW#: 356025079" [ref=e8192]':
+                  - generic [ref=e8196]:
+                    - generic [ref=e8197]: "E: MANATA, JACOB"
+                    - generic [ref=e8198]: "PHW#: 356025079"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e8199]':
+                  - generic [ref=e8203]:
+                    - generic [ref=e8204]:
+                      - text: "P:"
+                      - generic [ref=e8205]: Not Mapped
+                    - generic [ref=e8206]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e8207]':
+                  - generic [ref=e8211]:
+                    - generic [ref=e8212]:
+                      - generic [ref=e8213]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e8214]:
+                      - generic [ref=e8215]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e8216]':
+                  - generic [ref=e8220]:
+                    - generic [ref=e8221]: "F: Weekly"
+                    - generic [ref=e8222]:
+                      - text: "U:"
+                      - generic [ref=e8223]: Hour
+                - cell "21" [ref=e8224]:
+                  - generic [ref=e8228]: "21"
+                - cell "$10" [ref=e8229]:
+                  - generic [ref=e8233]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e8234]':
+                  - generic [ref=e8238]:
+                    - generic [ref=e8239]: "T: 210"
+                    - generic [ref=e8240]: "A: $2337.3"
+                - cell "Mapping Error Payer Not Mapped" [ref=e8241]:
+                  - generic [ref=e8246]:
+                    - paragraph [ref=e8247]: Mapping Error
+                    - list [ref=e8248]:
+                      - listitem [ref=e8249]: Payer Not Mapped
+                - cell [ref=e8250]:
+                  - generic [ref=e8254]:
+                    - textbox "mm/dd/yyyy" [ref=e8255]
+                    - img [ref=e8257] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8260]:
+                  - paragraph [ref=e8262]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e8263] [cursor=pointer]:
+                      - img [ref=e8264]
+                - cell [ref=e8266]:
+                  - button [ref=e8267] [cursor=pointer]:
+                    - img [ref=e8268]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 90027444 S: 05/08/2024 E: 07/13/2024 E: Not Mapped PHW#: 389254187 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e8272]':
+                - cell [ref=e8273]:
+                  - button [ref=e8274] [cursor=pointer]:
+                    - img [ref=e8275]
+                - cell [ref=e8276]:
+                  - checkbox [ref=e8279] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e8280]':
+                  - generic [ref=e8283]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e8286] [cursor=pointer]:
+                      - generic [ref=e8287]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e8288]: "MCI#: 7429833071"
+                    - generic [ref=e8289]: "CC: Not Mapped"
+                - 'cell "90027444 S: 05/08/2024 E: 07/13/2024" [ref=e8290]':
+                  - generic [ref=e8293]:
+                    - generic [ref=e8294]: "90027444"
+                    - generic [ref=e8295]: "S: 05/08/2024"
+                    - generic [ref=e8296]: "E: 07/13/2024"
+                - 'cell "E: Not Mapped PHW#: 389254187" [ref=e8297]':
+                  - generic [ref=e8301]:
+                    - generic [ref=e8302]:
+                      - text: "E:"
+                      - generic [ref=e8303]: Not Mapped
+                    - generic [ref=e8304]: "PHW#: 389254187"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e8305]':
+                  - generic [ref=e8309]:
+                    - generic [ref=e8310]:
+                      - text: "P:"
+                      - generic [ref=e8311]: Not Mapped
+                    - generic [ref=e8312]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e8313]':
+                  - generic [ref=e8317]:
+                    - generic [ref=e8318]:
+                      - generic [ref=e8319]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e8320]:
+                      - generic [ref=e8321]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e8322]':
+                  - generic [ref=e8326]:
+                    - generic [ref=e8327]: "F: Weekly"
+                    - generic [ref=e8328]:
+                      - text: "U:"
+                      - generic [ref=e8329]: Hour
+                - cell "21" [ref=e8330]:
+                  - generic [ref=e8334]: "21"
+                - cell "$10" [ref=e8335]:
+                  - generic [ref=e8339]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e8340]':
+                  - generic [ref=e8344]:
+                    - generic [ref=e8345]: "T: 210"
+                    - generic [ref=e8346]: "A: $2337.3"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e8347]:
+                  - generic [ref=e8352]:
+                    - paragraph [ref=e8353]: Mapping Error
+                    - list [ref=e8354]:
+                      - listitem [ref=e8355]: Employee Not Mapped
+                      - listitem [ref=e8356]: Payer Not Mapped
+                - cell [ref=e8357]:
+                  - generic [ref=e8361]:
+                    - textbox "mm/dd/yyyy" [ref=e8362]
+                    - img [ref=e8364] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8367]:
+                  - paragraph [ref=e8369]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e8370] [cursor=pointer]:
+                      - img [ref=e8371]
+                - cell [ref=e8373]:
+                  - button [ref=e8374] [cursor=pointer]:
+                    - img [ref=e8375]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 90027449 S: 05/08/2024 E: 07/13/2024 E: FALKNER, EVAN PHW#: 391250744 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 21 $10 T: 210 A: $2337.3 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e8379]':
+                - cell [ref=e8380]:
+                  - button [ref=e8381] [cursor=pointer]:
+                    - img [ref=e8382]
+                - cell [ref=e8383]:
+                  - checkbox [ref=e8386] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e8387]':
+                  - generic [ref=e8390]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e8393] [cursor=pointer]:
+                      - generic [ref=e8394]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e8395]: "MCI#: 7429833071"
+                    - generic [ref=e8396]: "CC: Not Mapped"
+                - 'cell "90027449 S: 05/08/2024 E: 07/13/2024" [ref=e8397]':
+                  - generic [ref=e8400]:
+                    - generic [ref=e8401]: "90027449"
+                    - generic [ref=e8402]: "S: 05/08/2024"
+                    - generic [ref=e8403]: "E: 07/13/2024"
+                - 'cell "E: FALKNER, EVAN PHW#: 391250744" [ref=e8404]':
+                  - generic [ref=e8408]:
+                    - generic [ref=e8409]: "E: FALKNER, EVAN"
+                    - generic [ref=e8410]: "PHW#: 391250744"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e8411]':
+                  - generic [ref=e8415]:
+                    - generic [ref=e8416]:
+                      - text: "P:"
+                      - generic [ref=e8417]: Not Mapped
+                    - generic [ref=e8418]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e8419]':
+                  - generic [ref=e8423]:
+                    - generic [ref=e8424]:
+                      - generic [ref=e8425]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e8426]:
+                      - generic [ref=e8427]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e8428]':
+                  - generic [ref=e8432]:
+                    - generic [ref=e8433]: "F: Weekly"
+                    - generic [ref=e8434]:
+                      - text: "U:"
+                      - generic [ref=e8435]: Hour
+                - cell "21" [ref=e8436]:
+                  - generic [ref=e8440]: "21"
+                - cell "$10" [ref=e8441]:
+                  - generic [ref=e8445]: $10
+                - 'cell "T: 210 A: $2337.3" [ref=e8446]':
+                  - generic [ref=e8450]:
+                    - generic [ref=e8451]: "T: 210"
+                    - generic [ref=e8452]: "A: $2337.3"
+                - cell "Mapping Error Payer Not Mapped" [ref=e8453]:
+                  - generic [ref=e8458]:
+                    - paragraph [ref=e8459]: Mapping Error
+                    - list [ref=e8460]:
+                      - listitem [ref=e8461]: Payer Not Mapped
+                - cell [ref=e8462]:
+                  - generic [ref=e8466]:
+                    - textbox "mm/dd/yyyy" [ref=e8467]
+                    - img [ref=e8469] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8472]:
+                  - paragraph [ref=e8474]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e8475] [cursor=pointer]:
+                      - img [ref=e8476]
+                - cell [ref=e8478]:
+                  - button [ref=e8479] [cursor=pointer]:
+                    - img [ref=e8480]
+              - 'row "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped 90027454 S: 05/08/2024 E: 04/30/2025 E: SOIK, LISA PHW#: 388809798 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 8 $15 T: 416 A: $6945.12 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e8484]':
+                - cell [ref=e8485]:
+                  - button [ref=e8486] [cursor=pointer]:
+                    - img [ref=e8487]
+                - cell [ref=e8488]:
+                  - checkbox [ref=e8491] [cursor=pointer]
+                - 'cell "KIMMINAU, EDWARD (WIE103028) MCI#: 7429833071 CC: Not Mapped" [ref=e8492]':
+                  - generic [ref=e8495]:
+                    - button "KIMMINAU, EDWARD (WIE103028)" [ref=e8498] [cursor=pointer]:
+                      - generic [ref=e8499]: KIMMINAU, EDWARD (WIE103028)
+                    - generic [ref=e8500]: "MCI#: 7429833071"
+                    - generic [ref=e8501]: "CC: Not Mapped"
+                - 'cell "90027454 S: 05/08/2024 E: 04/30/2025" [ref=e8502]':
+                  - generic [ref=e8505]:
+                    - generic [ref=e8506]: "90027454"
+                    - generic [ref=e8507]: "S: 05/08/2024"
+                    - generic [ref=e8508]: "E: 04/30/2025"
+                - 'cell "E: SOIK, LISA PHW#: 388809798" [ref=e8509]':
+                  - generic [ref=e8513]:
+                    - generic [ref=e8514]: "E: SOIK, LISA"
+                    - generic [ref=e8515]: "PHW#: 388809798"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e8516]':
+                  - generic [ref=e8520]:
+                    - generic [ref=e8521]:
+                      - text: "P:"
+                      - generic [ref=e8522]: Not Mapped
+                    - generic [ref=e8523]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e8524]':
+                  - generic [ref=e8528]:
+                    - generic [ref=e8529]:
+                      - generic [ref=e8530]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e8531]:
+                      - generic [ref=e8532]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e8533]':
+                  - generic [ref=e8537]:
+                    - generic [ref=e8538]: "F: Weekly"
+                    - generic [ref=e8539]:
+                      - text: "U:"
+                      - generic [ref=e8540]: Hour
+                - cell "8" [ref=e8541]:
+                  - generic [ref=e8545]: "8"
+                - cell "$15" [ref=e8546]:
+                  - generic [ref=e8550]: $15
+                - 'cell "T: 416 A: $6945.12" [ref=e8551]':
+                  - generic [ref=e8555]:
+                    - generic [ref=e8556]: "T: 416"
+                    - generic [ref=e8557]: "A: $6945.12"
+                - cell "Mapping Error Payer Not Mapped" [ref=e8558]:
+                  - generic [ref=e8563]:
+                    - paragraph [ref=e8564]: Mapping Error
+                    - list [ref=e8565]:
+                      - listitem [ref=e8566]: Payer Not Mapped
+                - cell [ref=e8567]:
+                  - generic [ref=e8571]:
+                    - textbox "mm/dd/yyyy" [ref=e8572]
+                    - img [ref=e8574] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8577]:
+                  - paragraph [ref=e8579]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e8580] [cursor=pointer]:
+                      - img [ref=e8581]
+                - cell [ref=e8583]:
+                  - button [ref=e8584] [cursor=pointer]:
+                    - img [ref=e8585]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35300688 S: 04/22/2024 E: 01/31/2025 V: AUTISM SOCIETY OF WISCONSIN INC - MENASHA Provider#: 391353925 P: Not Mapped F: IRIS Waiver SPC: 113 Code & Mod.: S9446 F: Each U: Each 1 $225 T: 1 A: $225 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e8589]':
+                - cell [ref=e8590]:
+                  - button [ref=e8591] [cursor=pointer]:
+                    - img [ref=e8592]
+                - cell [ref=e8593]:
+                  - checkbox [ref=e8596] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e8597]':
+                  - generic [ref=e8600]:
+                    - button "1, test (WIE004029)" [ref=e8603] [cursor=pointer]:
+                      - generic [ref=e8604]: 1, test (WIE004029)
+                    - generic [ref=e8605]: "MCI#: 4424670546"
+                    - generic [ref=e8606]: "CC: Not Mapped"
+                - 'cell "35300688 S: 04/22/2024 E: 01/31/2025" [ref=e8607]':
+                  - generic [ref=e8610]:
+                    - generic [ref=e8611]: "35300688"
+                    - generic [ref=e8612]: "S: 04/22/2024"
+                    - generic [ref=e8613]: "E: 01/31/2025"
+                - 'cell "V: AUTISM SOCIETY OF WISCONSIN INC - MENASHA Provider#: 391353925" [ref=e8614]':
+                  - generic [ref=e8618]:
+                    - generic [ref=e8619]: "V: AUTISM SOCIETY OF WISCONSIN INC - MENASHA"
+                    - generic [ref=e8620]: "Provider#: 391353925"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e8621]':
+                  - generic [ref=e8625]:
+                    - generic [ref=e8626]:
+                      - text: "P:"
+                      - generic [ref=e8627]: Not Mapped
+                    - generic [ref=e8628]: "F: IRIS Waiver"
+                - 'cell "SPC: 113 Code & Mod.: S9446" [ref=e8629]':
+                  - generic [ref=e8633]:
+                    - generic [ref=e8634]:
+                      - generic [ref=e8635]: "SPC:"
+                      - text: "113"
+                    - generic [ref=e8636]:
+                      - generic [ref=e8637]: "Code & Mod.:"
+                      - text: S9446
+                - 'cell "F: Each U: Each" [ref=e8638]':
+                  - generic [ref=e8642]:
+                    - generic [ref=e8643]: "F: Each"
+                    - generic [ref=e8644]:
+                      - text: "U:"
+                      - generic [ref=e8645]: Each
+                - cell "1" [ref=e8646]:
+                  - generic [ref=e8650]: "1"
+                - cell "$225" [ref=e8651]:
+                  - generic [ref=e8655]: $225
+                - 'cell "T: 1 A: $225" [ref=e8656]':
+                  - generic [ref=e8660]:
+                    - generic [ref=e8661]: "T: 1"
+                    - generic [ref=e8662]: "A: $225"
+                - cell "Mapping Error Payer Not Mapped" [ref=e8663]:
+                  - generic [ref=e8668]:
+                    - paragraph [ref=e8669]: Mapping Error
+                    - list [ref=e8670]:
+                      - listitem [ref=e8671]: Payer Not Mapped
+                - cell [ref=e8672]:
+                  - generic [ref=e8676]:
+                    - textbox "mm/dd/yyyy" [ref=e8677]
+                    - img [ref=e8679] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8682]:
+                  - paragraph [ref=e8684]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e8685] [cursor=pointer]:
+                      - img [ref=e8686]
+                - cell [ref=e8688]:
+                  - button [ref=e8689] [cursor=pointer]:
+                    - img [ref=e8690]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35300464 S: 04/19/2024 E: 01/31/2025 V: AUTISM SOCIETY OF SOUTHEASTERN WISCONSIN Provider#: 391708201 P: Not Mapped F: IRIS Waiver SPC: 113 Code & Mod.: S9446 F: Each U: Each 1 $225 T: 1 A: $225 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e8694]':
+                - cell [ref=e8695]:
+                  - button [ref=e8696] [cursor=pointer]:
+                    - img [ref=e8697]
+                - cell [ref=e8698]:
+                  - checkbox [ref=e8701] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e8702]':
+                  - generic [ref=e8705]:
+                    - button "1, test (WIE004029)" [ref=e8708] [cursor=pointer]:
+                      - generic [ref=e8709]: 1, test (WIE004029)
+                    - generic [ref=e8710]: "MCI#: 4424670546"
+                    - generic [ref=e8711]: "CC: Not Mapped"
+                - 'cell "35300464 S: 04/19/2024 E: 01/31/2025" [ref=e8712]':
+                  - generic [ref=e8715]:
+                    - generic [ref=e8716]: "35300464"
+                    - generic [ref=e8717]: "S: 04/19/2024"
+                    - generic [ref=e8718]: "E: 01/31/2025"
+                - 'cell "V: AUTISM SOCIETY OF SOUTHEASTERN WISCONSIN Provider#: 391708201" [ref=e8719]':
+                  - generic [ref=e8723]:
+                    - generic [ref=e8724]: "V: AUTISM SOCIETY OF SOUTHEASTERN WISCONSIN"
+                    - generic [ref=e8725]: "Provider#: 391708201"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e8726]':
+                  - generic [ref=e8730]:
+                    - generic [ref=e8731]:
+                      - text: "P:"
+                      - generic [ref=e8732]: Not Mapped
+                    - generic [ref=e8733]: "F: IRIS Waiver"
+                - 'cell "SPC: 113 Code & Mod.: S9446" [ref=e8734]':
+                  - generic [ref=e8738]:
+                    - generic [ref=e8739]:
+                      - generic [ref=e8740]: "SPC:"
+                      - text: "113"
+                    - generic [ref=e8741]:
+                      - generic [ref=e8742]: "Code & Mod.:"
+                      - text: S9446
+                - 'cell "F: Each U: Each" [ref=e8743]':
+                  - generic [ref=e8747]:
+                    - generic [ref=e8748]: "F: Each"
+                    - generic [ref=e8749]:
+                      - text: "U:"
+                      - generic [ref=e8750]: Each
+                - cell "1" [ref=e8751]:
+                  - generic [ref=e8755]: "1"
+                - cell "$225" [ref=e8756]:
+                  - generic [ref=e8760]: $225
+                - 'cell "T: 1 A: $225" [ref=e8761]':
+                  - generic [ref=e8765]:
+                    - generic [ref=e8766]: "T: 1"
+                    - generic [ref=e8767]: "A: $225"
+                - cell "Mapping Error Payer Not Mapped" [ref=e8768]:
+                  - generic [ref=e8773]:
+                    - paragraph [ref=e8774]: Mapping Error
+                    - list [ref=e8775]:
+                      - listitem [ref=e8776]: Payer Not Mapped
+                - cell [ref=e8777]:
+                  - generic [ref=e8781]:
+                    - textbox "mm/dd/yyyy" [ref=e8782]
+                    - img [ref=e8784] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8787]:
+                  - paragraph [ref=e8789]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e8790] [cursor=pointer]:
+                      - img [ref=e8791]
+                - cell [ref=e8793]:
+                  - button [ref=e8794] [cursor=pointer]:
+                    - img [ref=e8795]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35299896 S: 04/14/2024 E: 01/31/2025 E: MORAREND, LUKE PHW#: 395980340 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 40 $15 T: 1680 A: $25200 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e8799]':
+                - cell [ref=e8800]:
+                  - button [ref=e8801] [cursor=pointer]:
+                    - img [ref=e8802]
+                - cell [ref=e8803]:
+                  - checkbox [ref=e8806] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e8807]':
+                  - generic [ref=e8810]:
+                    - button "1, test (WIE004029)" [ref=e8813] [cursor=pointer]:
+                      - generic [ref=e8814]: 1, test (WIE004029)
+                    - generic [ref=e8815]: "MCI#: 4424670546"
+                    - generic [ref=e8816]: "CC: Not Mapped"
+                - 'cell "35299896 S: 04/14/2024 E: 01/31/2025" [ref=e8817]':
+                  - generic [ref=e8820]:
+                    - generic [ref=e8821]: "35299896"
+                    - generic [ref=e8822]: "S: 04/14/2024"
+                    - generic [ref=e8823]: "E: 01/31/2025"
+                - 'cell "E: MORAREND, LUKE PHW#: 395980340" [ref=e8824]':
+                  - generic [ref=e8828]:
+                    - generic [ref=e8829]: "E: MORAREND, LUKE"
+                    - generic [ref=e8830]: "PHW#: 395980340"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e8831]':
+                  - generic [ref=e8835]:
+                    - generic [ref=e8836]:
+                      - text: "P:"
+                      - generic [ref=e8837]: Not Mapped
+                    - generic [ref=e8838]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e8839]':
+                  - generic [ref=e8843]:
+                    - generic [ref=e8844]:
+                      - generic [ref=e8845]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e8846]:
+                      - generic [ref=e8847]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e8848]':
+                  - generic [ref=e8852]:
+                    - generic [ref=e8853]: "F: Weekly"
+                    - generic [ref=e8854]:
+                      - text: "U:"
+                      - generic [ref=e8855]: Hour
+                - cell "40" [ref=e8856]:
+                  - generic [ref=e8860]: "40"
+                - cell "$15" [ref=e8861]:
+                  - generic [ref=e8865]: $15
+                - 'cell "T: 1680 A: $25200" [ref=e8866]':
+                  - generic [ref=e8870]:
+                    - generic [ref=e8871]: "T: 1680"
+                    - generic [ref=e8872]: "A: $25200"
+                - cell "Mapping Error Payer Not Mapped" [ref=e8873]:
+                  - generic [ref=e8878]:
+                    - paragraph [ref=e8879]: Mapping Error
+                    - list [ref=e8880]:
+                      - listitem [ref=e8881]: Payer Not Mapped
+                - cell [ref=e8882]:
+                  - generic [ref=e8886]:
+                    - textbox "mm/dd/yyyy" [ref=e8887]
+                    - img [ref=e8889] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8892]:
+                  - paragraph [ref=e8894]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e8895] [cursor=pointer]:
+                      - img [ref=e8896]
+                - cell [ref=e8898]:
+                  - button [ref=e8899] [cursor=pointer]:
+                    - img [ref=e8900]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35301616 S: 03/29/2024 E: 04/30/2024 CV: Not Mapped PIR#: 397921900 P: Not Mapped F: IRIS Waiver SPC: 104.14 Code & Mod.: S5121: UN F: Each U: Each 1 $179 T: 1 A: $179 Mapping Error Client Vendor Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e8904]':
+                - cell [ref=e8905]:
+                  - button [ref=e8906] [cursor=pointer]:
+                    - img [ref=e8907]
+                - cell [ref=e8908]:
+                  - checkbox [ref=e8911] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e8912]':
+                  - generic [ref=e8915]:
+                    - button "1, test (WIE004029)" [ref=e8918] [cursor=pointer]:
+                      - generic [ref=e8919]: 1, test (WIE004029)
+                    - generic [ref=e8920]: "MCI#: 4424670546"
+                    - generic [ref=e8921]: "CC: Not Mapped"
+                - 'cell "35301616 S: 03/29/2024 E: 04/30/2024" [ref=e8922]':
+                  - generic [ref=e8925]:
+                    - generic [ref=e8926]: "35301616"
+                    - generic [ref=e8927]: "S: 03/29/2024"
+                    - generic [ref=e8928]: "E: 04/30/2024"
+                - 'cell "CV: Not Mapped PIR#: 397921900" [ref=e8929]':
+                  - generic [ref=e8933]:
+                    - generic [ref=e8934]:
+                      - text: "CV:"
+                      - generic [ref=e8935]: Not Mapped
+                    - generic [ref=e8936]: "PIR#: 397921900"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e8937]':
+                  - generic [ref=e8941]:
+                    - generic [ref=e8942]:
+                      - text: "P:"
+                      - generic [ref=e8943]: Not Mapped
+                    - generic [ref=e8944]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.14 Code & Mod.: S5121: UN" [ref=e8945]':
+                  - generic [ref=e8949]:
+                    - generic [ref=e8950]:
+                      - generic [ref=e8951]: "SPC:"
+                      - text: "104.14"
+                    - generic [ref=e8952]:
+                      - generic [ref=e8953]: "Code & Mod.:"
+                      - text: "S5121: UN"
+                - 'cell "F: Each U: Each" [ref=e8954]':
+                  - generic [ref=e8958]:
+                    - generic [ref=e8959]: "F: Each"
+                    - generic [ref=e8960]:
+                      - text: "U:"
+                      - generic [ref=e8961]: Each
+                - cell "1" [ref=e8962]:
+                  - generic [ref=e8966]: "1"
+                - cell "$179" [ref=e8967]:
+                  - generic [ref=e8971]: $179
+                - 'cell "T: 1 A: $179" [ref=e8972]':
+                  - generic [ref=e8976]:
+                    - generic [ref=e8977]: "T: 1"
+                    - generic [ref=e8978]: "A: $179"
+                - cell "Mapping Error Client Vendor Not Mapped Payer Not Mapped" [ref=e8979]:
+                  - generic [ref=e8984]:
+                    - paragraph [ref=e8985]: Mapping Error
+                    - list [ref=e8986]:
+                      - listitem [ref=e8987]: Client Vendor Not Mapped
+                      - listitem [ref=e8988]: Payer Not Mapped
+                - cell [ref=e8989]:
+                  - generic [ref=e8993]:
+                    - textbox "mm/dd/yyyy" [ref=e8994]
+                    - img [ref=e8996] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e8999]:
+                  - paragraph [ref=e9001]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9002] [cursor=pointer]:
+                      - img [ref=e9003]
+                - cell [ref=e9005]:
+                  - button [ref=e9006] [cursor=pointer]:
+                    - img [ref=e9007]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35298432 S: 03/22/2024 E: 04/13/2024 E: MORAREND, LUKE PHW#: 395980340 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 20 $15 T: 80 A: $1200 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9011]':
+                - cell [ref=e9012]:
+                  - button [ref=e9013] [cursor=pointer]:
+                    - img [ref=e9014]
+                - cell [ref=e9015]:
+                  - checkbox [ref=e9018] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e9019]':
+                  - generic [ref=e9022]:
+                    - button "1, test (WIE004029)" [ref=e9025] [cursor=pointer]:
+                      - generic [ref=e9026]: 1, test (WIE004029)
+                    - generic [ref=e9027]: "MCI#: 4424670546"
+                    - generic [ref=e9028]: "CC: Not Mapped"
+                - 'cell "35298432 S: 03/22/2024 E: 04/13/2024" [ref=e9029]':
+                  - generic [ref=e9032]:
+                    - generic [ref=e9033]: "35298432"
+                    - generic [ref=e9034]: "S: 03/22/2024"
+                    - generic [ref=e9035]: "E: 04/13/2024"
+                - 'cell "E: MORAREND, LUKE PHW#: 395980340" [ref=e9036]':
+                  - generic [ref=e9040]:
+                    - generic [ref=e9041]: "E: MORAREND, LUKE"
+                    - generic [ref=e9042]: "PHW#: 395980340"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e9043]':
+                  - generic [ref=e9047]:
+                    - generic [ref=e9048]:
+                      - text: "P:"
+                      - generic [ref=e9049]: Not Mapped
+                    - generic [ref=e9050]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e9051]':
+                  - generic [ref=e9055]:
+                    - generic [ref=e9056]:
+                      - generic [ref=e9057]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e9058]:
+                      - generic [ref=e9059]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e9060]':
+                  - generic [ref=e9064]:
+                    - generic [ref=e9065]: "F: Weekly"
+                    - generic [ref=e9066]:
+                      - text: "U:"
+                      - generic [ref=e9067]: Hour
+                - cell "20" [ref=e9068]:
+                  - generic [ref=e9072]: "20"
+                - cell "$15" [ref=e9073]:
+                  - generic [ref=e9077]: $15
+                - 'cell "T: 80 A: $1200" [ref=e9078]':
+                  - generic [ref=e9082]:
+                    - generic [ref=e9083]: "T: 80"
+                    - generic [ref=e9084]: "A: $1200"
+                - cell "Mapping Error Payer Not Mapped" [ref=e9085]:
+                  - generic [ref=e9090]:
+                    - paragraph [ref=e9091]: Mapping Error
+                    - list [ref=e9092]:
+                      - listitem [ref=e9093]: Payer Not Mapped
+                - cell [ref=e9094]:
+                  - generic [ref=e9098]:
+                    - textbox "mm/dd/yyyy" [ref=e9099]
+                    - img [ref=e9101] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e9104]:
+                  - paragraph [ref=e9106]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9107] [cursor=pointer]:
+                      - img [ref=e9108]
+                - cell [ref=e9110]:
+                  - button [ref=e9111] [cursor=pointer]:
+                    - img [ref=e9112]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35295672 S: 03/10/2024 E: 01/31/2025 E: MORAREND, STEPHANIE PHW#: 397921900 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 10.25 $15 T: 481.75 A: $7226.25 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9116]':
+                - cell [ref=e9117]:
+                  - button [ref=e9118] [cursor=pointer]:
+                    - img [ref=e9119]
+                - cell [ref=e9120]:
+                  - checkbox [ref=e9123] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e9124]':
+                  - generic [ref=e9127]:
+                    - button "1, test (WIE004029)" [ref=e9130] [cursor=pointer]:
+                      - generic [ref=e9131]: 1, test (WIE004029)
+                    - generic [ref=e9132]: "MCI#: 4424670546"
+                    - generic [ref=e9133]: "CC: Not Mapped"
+                - 'cell "35295672 S: 03/10/2024 E: 01/31/2025" [ref=e9134]':
+                  - generic [ref=e9137]:
+                    - generic [ref=e9138]: "35295672"
+                    - generic [ref=e9139]: "S: 03/10/2024"
+                    - generic [ref=e9140]: "E: 01/31/2025"
+                - 'cell "E: MORAREND, STEPHANIE PHW#: 397921900" [ref=e9141]':
+                  - generic [ref=e9145]:
+                    - generic [ref=e9146]: "E: MORAREND, STEPHANIE"
+                    - generic [ref=e9147]: "PHW#: 397921900"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e9148]':
+                  - generic [ref=e9152]:
+                    - generic [ref=e9153]:
+                      - text: "P:"
+                      - generic [ref=e9154]: Not Mapped
+                    - generic [ref=e9155]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e9156]':
+                  - generic [ref=e9160]:
+                    - generic [ref=e9161]:
+                      - generic [ref=e9162]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e9163]:
+                      - generic [ref=e9164]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e9165]':
+                  - generic [ref=e9169]:
+                    - generic [ref=e9170]: "F: Weekly"
+                    - generic [ref=e9171]:
+                      - text: "U:"
+                      - generic [ref=e9172]: Hour
+                - cell "10.25" [ref=e9173]:
+                  - generic [ref=e9177]: "10.25"
+                - cell "$15" [ref=e9178]:
+                  - generic [ref=e9182]: $15
+                - 'cell "T: 481.75 A: $7226.25" [ref=e9183]':
+                  - generic [ref=e9187]:
+                    - generic [ref=e9188]: "T: 481.75"
+                    - generic [ref=e9189]: "A: $7226.25"
+                - cell "Mapping Error Payer Not Mapped" [ref=e9190]:
+                  - generic [ref=e9195]:
+                    - paragraph [ref=e9196]: Mapping Error
+                    - list [ref=e9197]:
+                      - listitem [ref=e9198]: Payer Not Mapped
+                - cell [ref=e9199]:
+                  - generic [ref=e9203]:
+                    - textbox "mm/dd/yyyy" [ref=e9204]
+                    - img [ref=e9206] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e9209]:
+                  - paragraph [ref=e9211]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9212] [cursor=pointer]:
+                      - img [ref=e9213]
+                - cell [ref=e9215]:
+                  - button [ref=e9216] [cursor=pointer]:
+                    - img [ref=e9217]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35295664 S: 03/05/2024 E: 01/31/2025 E: MORAREND, STEPHANIE PHW#: 397921900 P: Not Mapped F: IRIS SDPC SPC: 105.32 Code & Mod.: T1019: KX F: Weekly U: Hour 29.75 $18.83 T: 1428 A: $29927.72 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9221]':
+                - cell [ref=e9222]:
+                  - button [ref=e9223] [cursor=pointer]:
+                    - img [ref=e9224]
+                - cell [ref=e9225]:
+                  - checkbox [ref=e9228] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e9229]':
+                  - generic [ref=e9232]:
+                    - button "1, test (WIE004029)" [ref=e9235] [cursor=pointer]:
+                      - generic [ref=e9236]: 1, test (WIE004029)
+                    - generic [ref=e9237]: "MCI#: 4424670546"
+                    - generic [ref=e9238]: "CC: Not Mapped"
+                - 'cell "35295664 S: 03/05/2024 E: 01/31/2025" [ref=e9239]':
+                  - generic [ref=e9242]:
+                    - generic [ref=e9243]: "35295664"
+                    - generic [ref=e9244]: "S: 03/05/2024"
+                    - generic [ref=e9245]: "E: 01/31/2025"
+                - 'cell "E: MORAREND, STEPHANIE PHW#: 397921900" [ref=e9246]':
+                  - generic [ref=e9250]:
+                    - generic [ref=e9251]: "E: MORAREND, STEPHANIE"
+                    - generic [ref=e9252]: "PHW#: 397921900"
+                - 'cell "P: Not Mapped F: IRIS SDPC" [ref=e9253]':
+                  - generic [ref=e9257]:
+                    - generic [ref=e9258]:
+                      - text: "P:"
+                      - generic [ref=e9259]: Not Mapped
+                    - generic [ref=e9260]: "F: IRIS SDPC"
+                - 'cell "SPC: 105.32 Code & Mod.: T1019: KX" [ref=e9261]':
+                  - generic [ref=e9265]:
+                    - generic [ref=e9266]:
+                      - generic [ref=e9267]: "SPC:"
+                      - text: "105.32"
+                    - generic [ref=e9268]:
+                      - generic [ref=e9269]: "Code & Mod.:"
+                      - text: "T1019: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e9270]':
+                  - generic [ref=e9274]:
+                    - generic [ref=e9275]: "F: Weekly"
+                    - generic [ref=e9276]:
+                      - text: "U:"
+                      - generic [ref=e9277]: Hour
+                - cell "29.75" [ref=e9278]:
+                  - generic [ref=e9282]: "29.75"
+                - cell "$18.83" [ref=e9283]:
+                  - generic [ref=e9287]: $18.83
+                - 'cell "T: 1428 A: $29927.72" [ref=e9288]':
+                  - generic [ref=e9292]:
+                    - generic [ref=e9293]: "T: 1428"
+                    - generic [ref=e9294]: "A: $29927.72"
+                - cell "Mapping Error Payer Not Mapped" [ref=e9295]:
+                  - generic [ref=e9300]:
+                    - paragraph [ref=e9301]: Mapping Error
+                    - list [ref=e9302]:
+                      - listitem [ref=e9303]: Payer Not Mapped
+                - cell [ref=e9304]:
+                  - generic [ref=e9308]:
+                    - textbox "mm/dd/yyyy" [ref=e9309]
+                    - img [ref=e9311] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e9314]:
+                  - paragraph [ref=e9316]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9317] [cursor=pointer]:
+                      - img [ref=e9318]
+                - cell [ref=e9320]:
+                  - button [ref=e9321] [cursor=pointer]:
+                    - img [ref=e9322]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35289456 S: 02/12/2024 E: 03/09/2024 E: MORAREND, STEPHANIE PHW#: 397921900 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 20 $15 T: 80 A: $1200 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9326]':
+                - cell [ref=e9327]:
+                  - button [ref=e9328] [cursor=pointer]:
+                    - img [ref=e9329]
+                - cell [ref=e9330]:
+                  - checkbox [ref=e9333] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e9334]':
+                  - generic [ref=e9337]:
+                    - button "1, test (WIE004029)" [ref=e9340] [cursor=pointer]:
+                      - generic [ref=e9341]: 1, test (WIE004029)
+                    - generic [ref=e9342]: "MCI#: 4424670546"
+                    - generic [ref=e9343]: "CC: Not Mapped"
+                - 'cell "35289456 S: 02/12/2024 E: 03/09/2024" [ref=e9344]':
+                  - generic [ref=e9347]:
+                    - generic [ref=e9348]: "35289456"
+                    - generic [ref=e9349]: "S: 02/12/2024"
+                    - generic [ref=e9350]: "E: 03/09/2024"
+                - 'cell "E: MORAREND, STEPHANIE PHW#: 397921900" [ref=e9351]':
+                  - generic [ref=e9355]:
+                    - generic [ref=e9356]: "E: MORAREND, STEPHANIE"
+                    - generic [ref=e9357]: "PHW#: 397921900"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e9358]':
+                  - generic [ref=e9362]:
+                    - generic [ref=e9363]:
+                      - text: "P:"
+                      - generic [ref=e9364]: Not Mapped
+                    - generic [ref=e9365]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e9366]':
+                  - generic [ref=e9370]:
+                    - generic [ref=e9371]:
+                      - generic [ref=e9372]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e9373]:
+                      - generic [ref=e9374]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e9375]':
+                  - generic [ref=e9379]:
+                    - generic [ref=e9380]: "F: Weekly"
+                    - generic [ref=e9381]:
+                      - text: "U:"
+                      - generic [ref=e9382]: Hour
+                - cell "20" [ref=e9383]:
+                  - generic [ref=e9387]: "20"
+                - cell "$15" [ref=e9388]:
+                  - generic [ref=e9392]: $15
+                - 'cell "T: 80 A: $1200" [ref=e9393]':
+                  - generic [ref=e9397]:
+                    - generic [ref=e9398]: "T: 80"
+                    - generic [ref=e9399]: "A: $1200"
+                - cell "Mapping Error Payer Not Mapped" [ref=e9400]:
+                  - generic [ref=e9405]:
+                    - paragraph [ref=e9406]: Mapping Error
+                    - list [ref=e9407]:
+                      - listitem [ref=e9408]: Payer Not Mapped
+                - cell [ref=e9409]:
+                  - generic [ref=e9413]:
+                    - textbox "mm/dd/yyyy" [ref=e9414]
+                    - img [ref=e9416] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e9419]:
+                  - paragraph [ref=e9421]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9422] [cursor=pointer]:
+                      - img [ref=e9423]
+                - cell [ref=e9425]:
+                  - button [ref=e9426] [cursor=pointer]:
+                    - img [ref=e9427]
+              - 'row "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped 35266720 S: 02/01/2024 E: 01/31/2025 E: HARLSON, AMY PHW#: 395905807 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 16 $18 T: 848 A: $16988.83 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9431]':
+                - cell [ref=e9432]:
+                  - button [ref=e9433] [cursor=pointer]:
+                    - img [ref=e9434]
+                - cell [ref=e9435]:
+                  - checkbox [ref=e9438] [cursor=pointer]
+                - 'cell "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped" [ref=e9439]':
+                  - generic [ref=e9442]:
+                    - button "HARLSON, HALEY (WIE120487)" [ref=e9445] [cursor=pointer]:
+                      - generic [ref=e9446]: HARLSON, HALEY (WIE120487)
+                    - generic [ref=e9447]: "MCI#: 4423100746"
+                    - generic [ref=e9448]: "CC: Not Mapped"
+                - 'cell "35266720 S: 02/01/2024 E: 01/31/2025" [ref=e9449]':
+                  - generic [ref=e9452]:
+                    - generic [ref=e9453]: "35266720"
+                    - generic [ref=e9454]: "S: 02/01/2024"
+                    - generic [ref=e9455]: "E: 01/31/2025"
+                - 'cell "E: HARLSON, AMY PHW#: 395905807" [ref=e9456]':
+                  - generic [ref=e9460]:
+                    - generic [ref=e9461]: "E: HARLSON, AMY"
+                    - generic [ref=e9462]: "PHW#: 395905807"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e9463]':
+                  - generic [ref=e9467]:
+                    - generic [ref=e9468]:
+                      - text: "P:"
+                      - generic [ref=e9469]: Not Mapped
+                    - generic [ref=e9470]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e9471]':
+                  - generic [ref=e9475]:
+                    - generic [ref=e9476]:
+                      - generic [ref=e9477]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e9478]:
+                      - generic [ref=e9479]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e9480]':
+                  - generic [ref=e9484]:
+                    - generic [ref=e9485]: "F: Weekly"
+                    - generic [ref=e9486]:
+                      - text: "U:"
+                      - generic [ref=e9487]: Hour
+                - cell "16" [ref=e9488]:
+                  - generic [ref=e9492]: "16"
+                - cell "$18" [ref=e9493]:
+                  - generic [ref=e9497]: $18
+                - 'cell "T: 848 A: $16988.83" [ref=e9498]':
+                  - generic [ref=e9502]:
+                    - generic [ref=e9503]: "T: 848"
+                    - generic [ref=e9504]: "A: $16988.83"
+                - cell "Mapping Error Payer Not Mapped" [ref=e9505]:
+                  - generic [ref=e9510]:
+                    - paragraph [ref=e9511]: Mapping Error
+                    - list [ref=e9512]:
+                      - listitem [ref=e9513]: Payer Not Mapped
+                - cell [ref=e9514]:
+                  - generic [ref=e9518]:
+                    - textbox "mm/dd/yyyy" [ref=e9519]
+                    - img [ref=e9521] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e9524]:
+                  - paragraph [ref=e9526]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9527] [cursor=pointer]:
+                      - img [ref=e9528]
+                - cell [ref=e9530]:
+                  - button [ref=e9531] [cursor=pointer]:
+                    - img [ref=e9532]
+              - 'row "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped 35266728 S: 02/01/2024 E: 01/15/2025 E: PARKER, LISA PHW#: 393889409 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: U1 F: Weekly U: Hour 4 $16 T: 200 A: $3561.6 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9536]':
+                - cell [ref=e9537]:
+                  - button [ref=e9538] [cursor=pointer]:
+                    - img [ref=e9539]
+                - cell [ref=e9540]:
+                  - checkbox [ref=e9543] [cursor=pointer]
+                - 'cell "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped" [ref=e9544]':
+                  - generic [ref=e9547]:
+                    - button "HARLSON, HALEY (WIE120487)" [ref=e9550] [cursor=pointer]:
+                      - generic [ref=e9551]: HARLSON, HALEY (WIE120487)
+                    - generic [ref=e9552]: "MCI#: 4423100746"
+                    - generic [ref=e9553]: "CC: Not Mapped"
+                - 'cell "35266728 S: 02/01/2024 E: 01/15/2025" [ref=e9554]':
+                  - generic [ref=e9557]:
+                    - generic [ref=e9558]: "35266728"
+                    - generic [ref=e9559]: "S: 02/01/2024"
+                    - generic [ref=e9560]: "E: 01/15/2025"
+                - 'cell "E: PARKER, LISA PHW#: 393889409" [ref=e9561]':
+                  - generic [ref=e9565]:
+                    - generic [ref=e9566]: "E: PARKER, LISA"
+                    - generic [ref=e9567]: "PHW#: 393889409"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e9568]':
+                  - generic [ref=e9572]:
+                    - generic [ref=e9573]:
+                      - text: "P:"
+                      - generic [ref=e9574]: Not Mapped
+                    - generic [ref=e9575]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: U1" [ref=e9576]':
+                  - generic [ref=e9580]:
+                    - generic [ref=e9581]:
+                      - generic [ref=e9582]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e9583]:
+                      - generic [ref=e9584]: "Code & Mod.:"
+                      - text: "S5125: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e9585]':
+                  - generic [ref=e9589]:
+                    - generic [ref=e9590]: "F: Weekly"
+                    - generic [ref=e9591]:
+                      - text: "U:"
+                      - generic [ref=e9592]: Hour
+                - cell "4" [ref=e9593]:
+                  - generic [ref=e9597]: "4"
+                - cell "$16" [ref=e9598]:
+                  - generic [ref=e9602]: $16
+                - 'cell "T: 200 A: $3561.6" [ref=e9603]':
+                  - generic [ref=e9607]:
+                    - generic [ref=e9608]: "T: 200"
+                    - generic [ref=e9609]: "A: $3561.6"
+                - cell "Mapping Error Payer Not Mapped" [ref=e9610]:
+                  - generic [ref=e9615]:
+                    - paragraph [ref=e9616]: Mapping Error
+                    - list [ref=e9617]:
+                      - listitem [ref=e9618]: Payer Not Mapped
+                - cell [ref=e9619]:
+                  - generic [ref=e9623]:
+                    - textbox "mm/dd/yyyy" [ref=e9624]
+                    - img [ref=e9626] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e9629]:
+                  - paragraph [ref=e9631]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9632] [cursor=pointer]:
+                      - img [ref=e9633]
+                - cell [ref=e9635]:
+                  - button [ref=e9636] [cursor=pointer]:
+                    - img [ref=e9637]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35278544 S: 02/01/2024 E: 01/31/2025 E: KESSEL, DEBORAH PHW#: 395842282 P: Not Mapped F: IRIS Waiver SPC: 103.26 Code & Mod.: T1005: U1 F: Weekly U: Hour 20 $17 T: 1060 A: $20056.26 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9641]':
+                - cell [ref=e9642]:
+                  - button [ref=e9643] [cursor=pointer]:
+                    - img [ref=e9644]
+                - cell [ref=e9645]:
+                  - checkbox [ref=e9648] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e9649]':
+                  - generic [ref=e9652]:
+                    - button "1, test (WIE004029)" [ref=e9655] [cursor=pointer]:
+                      - generic [ref=e9656]: 1, test (WIE004029)
+                    - generic [ref=e9657]: "MCI#: 4424670546"
+                    - generic [ref=e9658]: "CC: Not Mapped"
+                - 'cell "35278544 S: 02/01/2024 E: 01/31/2025" [ref=e9659]':
+                  - generic [ref=e9662]:
+                    - generic [ref=e9663]: "35278544"
+                    - generic [ref=e9664]: "S: 02/01/2024"
+                    - generic [ref=e9665]: "E: 01/31/2025"
+                - 'cell "E: KESSEL, DEBORAH PHW#: 395842282" [ref=e9666]':
+                  - generic [ref=e9670]:
+                    - generic [ref=e9671]: "E: KESSEL, DEBORAH"
+                    - generic [ref=e9672]: "PHW#: 395842282"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e9673]':
+                  - generic [ref=e9677]:
+                    - generic [ref=e9678]:
+                      - text: "P:"
+                      - generic [ref=e9679]: Not Mapped
+                    - generic [ref=e9680]: "F: IRIS Waiver"
+                - 'cell "SPC: 103.26 Code & Mod.: T1005: U1" [ref=e9681]':
+                  - generic [ref=e9685]:
+                    - generic [ref=e9686]:
+                      - generic [ref=e9687]: "SPC:"
+                      - text: "103.26"
+                    - generic [ref=e9688]:
+                      - generic [ref=e9689]: "Code & Mod.:"
+                      - text: "T1005: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e9690]':
+                  - generic [ref=e9694]:
+                    - generic [ref=e9695]: "F: Weekly"
+                    - generic [ref=e9696]:
+                      - text: "U:"
+                      - generic [ref=e9697]: Hour
+                - cell "20" [ref=e9698]:
+                  - generic [ref=e9702]: "20"
+                - cell "$17" [ref=e9703]:
+                  - generic [ref=e9707]: $17
+                - 'cell "T: 1060 A: $20056.26" [ref=e9708]':
+                  - generic [ref=e9712]:
+                    - generic [ref=e9713]: "T: 1060"
+                    - generic [ref=e9714]: "A: $20056.26"
+                - cell "Mapping Error Payer Not Mapped" [ref=e9715]:
+                  - generic [ref=e9720]:
+                    - paragraph [ref=e9721]: Mapping Error
+                    - list [ref=e9722]:
+                      - listitem [ref=e9723]: Payer Not Mapped
+                - cell [ref=e9724]:
+                  - generic [ref=e9728]:
+                    - textbox "mm/dd/yyyy" [ref=e9729]
+                    - img [ref=e9731] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e9734]:
+                  - paragraph [ref=e9736]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9737] [cursor=pointer]:
+                      - img [ref=e9738]
+                - cell [ref=e9740]:
+                  - button [ref=e9741] [cursor=pointer]:
+                    - img [ref=e9742]
+              - 'row "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped 35287216 S: 02/01/2024 E: 01/31/2025 V: YMCA OF DODGE COUNTY INC Provider#: 390975426 P: Not Mapped F: IRIS Waiver SPC: 403.03 Code & Mod.: S9970: U1 F: Monthly U: Month 1 $9 T: 12 A: $108 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9746]':
+                - cell [ref=e9747]:
+                  - button [ref=e9748] [cursor=pointer]:
+                    - img [ref=e9749]
+                - cell [ref=e9750]:
+                  - checkbox [ref=e9753] [cursor=pointer]
+                - 'cell "HARLSON, HALEY (WIE120487) MCI#: 4423100746 CC: Not Mapped" [ref=e9754]':
+                  - generic [ref=e9757]:
+                    - button "HARLSON, HALEY (WIE120487)" [ref=e9760] [cursor=pointer]:
+                      - generic [ref=e9761]: HARLSON, HALEY (WIE120487)
+                    - generic [ref=e9762]: "MCI#: 4423100746"
+                    - generic [ref=e9763]: "CC: Not Mapped"
+                - 'cell "35287216 S: 02/01/2024 E: 01/31/2025" [ref=e9764]':
+                  - generic [ref=e9767]:
+                    - generic [ref=e9768]: "35287216"
+                    - generic [ref=e9769]: "S: 02/01/2024"
+                    - generic [ref=e9770]: "E: 01/31/2025"
+                - 'cell "V: YMCA OF DODGE COUNTY INC Provider#: 390975426" [ref=e9771]':
+                  - generic [ref=e9775]:
+                    - generic [ref=e9776]: "V: YMCA OF DODGE COUNTY INC"
+                    - generic [ref=e9777]: "Provider#: 390975426"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e9778]':
+                  - generic [ref=e9782]:
+                    - generic [ref=e9783]:
+                      - text: "P:"
+                      - generic [ref=e9784]: Not Mapped
+                    - generic [ref=e9785]: "F: IRIS Waiver"
+                - 'cell "SPC: 403.03 Code & Mod.: S9970: U1" [ref=e9786]':
+                  - generic [ref=e9790]:
+                    - generic [ref=e9791]:
+                      - generic [ref=e9792]: "SPC:"
+                      - text: "403.03"
+                    - generic [ref=e9793]:
+                      - generic [ref=e9794]: "Code & Mod.:"
+                      - text: "S9970: U1"
+                - 'cell "F: Monthly U: Month" [ref=e9795]':
+                  - generic [ref=e9799]:
+                    - generic [ref=e9800]: "F: Monthly"
+                    - generic [ref=e9801]:
+                      - text: "U:"
+                      - generic [ref=e9802]: Month
+                - cell "1" [ref=e9803]:
+                  - generic [ref=e9807]: "1"
+                - cell "$9" [ref=e9808]:
+                  - generic [ref=e9812]: $9
+                - 'cell "T: 12 A: $108" [ref=e9813]':
+                  - generic [ref=e9817]:
+                    - generic [ref=e9818]: "T: 12"
+                    - generic [ref=e9819]: "A: $108"
+                - cell "Mapping Error Payer Not Mapped" [ref=e9820]:
+                  - generic [ref=e9825]:
+                    - paragraph [ref=e9826]: Mapping Error
+                    - list [ref=e9827]:
+                      - listitem [ref=e9828]: Payer Not Mapped
+                - cell [ref=e9829]:
+                  - generic [ref=e9833]:
+                    - textbox "mm/dd/yyyy" [ref=e9834]
+                    - img [ref=e9836] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e9839]:
+                  - paragraph [ref=e9841]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9842] [cursor=pointer]:
+                      - img [ref=e9843]
+                - cell [ref=e9845]:
+                  - button [ref=e9846] [cursor=pointer]:
+                    - img [ref=e9847]
+              - 'row "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped 35315152 S: 02/01/2024 E: 01/31/2025 V: AUTISM SOCIETY OF SOUTHEASTERN WISCONSIN Provider#: 391708201 P: Not Mapped F: IRIS Waiver SPC: 113 Code & Mod.: S9445 F: Annually U: Each 1 $40 T: 1 A: $40 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9851]':
+                - cell [ref=e9852]:
+                  - button [ref=e9853] [cursor=pointer]:
+                    - img [ref=e9854]
+                - cell [ref=e9855]:
+                  - checkbox [ref=e9858] [cursor=pointer]
+                - 'cell "1, test (WIE004029) MCI#: 4424670546 CC: Not Mapped" [ref=e9859]':
+                  - generic [ref=e9862]:
+                    - button "1, test (WIE004029)" [ref=e9865] [cursor=pointer]:
+                      - generic [ref=e9866]: 1, test (WIE004029)
+                    - generic [ref=e9867]: "MCI#: 4424670546"
+                    - generic [ref=e9868]: "CC: Not Mapped"
+                - 'cell "35315152 S: 02/01/2024 E: 01/31/2025" [ref=e9869]':
+                  - generic [ref=e9872]:
+                    - generic [ref=e9873]: "35315152"
+                    - generic [ref=e9874]: "S: 02/01/2024"
+                    - generic [ref=e9875]: "E: 01/31/2025"
+                - 'cell "V: AUTISM SOCIETY OF SOUTHEASTERN WISCONSIN Provider#: 391708201" [ref=e9876]':
+                  - generic [ref=e9880]:
+                    - generic [ref=e9881]: "V: AUTISM SOCIETY OF SOUTHEASTERN WISCONSIN"
+                    - generic [ref=e9882]: "Provider#: 391708201"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e9883]':
+                  - generic [ref=e9887]:
+                    - generic [ref=e9888]:
+                      - text: "P:"
+                      - generic [ref=e9889]: Not Mapped
+                    - generic [ref=e9890]: "F: IRIS Waiver"
+                - 'cell "SPC: 113 Code & Mod.: S9445" [ref=e9891]':
+                  - generic [ref=e9895]:
+                    - generic [ref=e9896]:
+                      - generic [ref=e9897]: "SPC:"
+                      - text: "113"
+                    - generic [ref=e9898]:
+                      - generic [ref=e9899]: "Code & Mod.:"
+                      - text: S9445
+                - 'cell "F: Annually U: Each" [ref=e9900]':
+                  - generic [ref=e9904]:
+                    - generic [ref=e9905]: "F: Annually"
+                    - generic [ref=e9906]:
+                      - text: "U:"
+                      - generic [ref=e9907]: Each
+                - cell "1" [ref=e9908]:
+                  - generic [ref=e9912]: "1"
+                - cell "$40" [ref=e9913]:
+                  - generic [ref=e9917]: $40
+                - 'cell "T: 1 A: $40" [ref=e9918]':
+                  - generic [ref=e9922]:
+                    - generic [ref=e9923]: "T: 1"
+                    - generic [ref=e9924]: "A: $40"
+                - cell "Mapping Error Payer Not Mapped" [ref=e9925]:
+                  - generic [ref=e9930]:
+                    - paragraph [ref=e9931]: Mapping Error
+                    - list [ref=e9932]:
+                      - listitem [ref=e9933]: Payer Not Mapped
+                - cell [ref=e9934]:
+                  - generic [ref=e9938]:
+                    - textbox "mm/dd/yyyy" [ref=e9939]
+                    - img [ref=e9941] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e9944]:
+                  - paragraph [ref=e9946]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e9947] [cursor=pointer]:
+                      - img [ref=e9948]
+                - cell [ref=e9950]:
+                  - button [ref=e9951] [cursor=pointer]:
+                    - img [ref=e9952]
+              - 'row "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped 42156947 S: 01/01/2024 E: 01/01/2024 V: MAYO CLINIC HEALTH SYSTEM - MCHS PHARMACY & HOME MEDICAL Provider#: 391528920 P: Not Mapped F: RIS SDPC SPC: 112.99 Code & Mod.: T2028 F: Monthly U: Each 1 $60 T: 0 A: $0 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e9956]':
+                - cell [ref=e9957]:
+                  - button [ref=e9958] [cursor=pointer]:
+                    - img [ref=e9959]
+                - cell [ref=e9960]:
+                  - checkbox [ref=e9963] [cursor=pointer]
+                - 'cell "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped" [ref=e9964]':
+                  - generic [ref=e9967]:
+                    - button "Sandler, Adam (1468TEST)" [ref=e9970] [cursor=pointer]:
+                      - generic [ref=e9971]: Sandler, Adam (1468TEST)
+                    - generic [ref=e9972]: "MCI#: 1446223418"
+                    - generic [ref=e9973]: "CC: Not Mapped"
+                - 'cell "42156947 S: 01/01/2024 E: 01/01/2024" [ref=e9974]':
+                  - generic [ref=e9977]:
+                    - generic [ref=e9978]: "42156947"
+                    - generic [ref=e9979]: "S: 01/01/2024"
+                    - generic [ref=e9980]: "E: 01/01/2024"
+                - 'cell "V: MAYO CLINIC HEALTH SYSTEM - MCHS PHARMACY & HOME MEDICAL Provider#: 391528920" [ref=e9981]':
+                  - generic [ref=e9985]:
+                    - generic [ref=e9986]: "V: MAYO CLINIC HEALTH SYSTEM - MCHS PHARMACY & HOME MEDICAL"
+                    - generic [ref=e9987]: "Provider#: 391528920"
+                - 'cell "P: Not Mapped F: RIS SDPC" [ref=e9988]':
+                  - generic [ref=e9992]:
+                    - generic [ref=e9993]:
+                      - text: "P:"
+                      - generic [ref=e9994]: Not Mapped
+                    - generic [ref=e9995]: "F: RIS SDPC"
+                - 'cell "SPC: 112.99 Code & Mod.: T2028" [ref=e9996]':
+                  - generic [ref=e10000]:
+                    - generic [ref=e10001]:
+                      - generic [ref=e10002]: "SPC:"
+                      - text: "112.99"
+                    - generic [ref=e10003]:
+                      - generic [ref=e10004]: "Code & Mod.:"
+                      - text: T2028
+                - 'cell "F: Monthly U: Each" [ref=e10005]':
+                  - generic [ref=e10009]:
+                    - generic [ref=e10010]: "F: Monthly"
+                    - generic [ref=e10011]:
+                      - text: "U:"
+                      - generic [ref=e10012]: Each
+                - cell "1" [ref=e10013]:
+                  - generic [ref=e10017]: "1"
+                - cell "$60" [ref=e10018]:
+                  - generic [ref=e10022]: $60
+                - 'cell "T: 0 A: $0" [ref=e10023]':
+                  - generic [ref=e10027]:
+                    - generic [ref=e10028]: "T: 0"
+                    - generic [ref=e10029]: "A: $0"
+                - cell "Mapping Error Payer Not Mapped" [ref=e10030]:
+                  - generic [ref=e10035]:
+                    - paragraph [ref=e10036]: Mapping Error
+                    - list [ref=e10037]:
+                      - listitem [ref=e10038]: Payer Not Mapped
+                - cell [ref=e10039]:
+                  - generic [ref=e10043]:
+                    - textbox "mm/dd/yyyy" [ref=e10044]
+                    - img [ref=e10046] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e10049]:
+                  - paragraph [ref=e10051]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e10052] [cursor=pointer]:
+                      - img [ref=e10053]
+                - cell [ref=e10055]:
+                  - button [ref=e10056] [cursor=pointer]:
+                    - img [ref=e10057]
+              - 'row "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped 42176947 S: 01/01/2024 E: 01/01/2024 V: MAYO CLINIC HEALTH SYSTEM - MCHS PHARMACY & HOME MEDICAL Provider#: 391528920 P: Not Mapped F: RIS SDPC SPC: 112.99 Code & Mod.: T2028 F: Monthly U: Each 1 $60 T: 0 A: $0 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e10061]':
+                - cell [ref=e10062]:
+                  - button [ref=e10063] [cursor=pointer]:
+                    - img [ref=e10064]
+                - cell [ref=e10065]:
+                  - checkbox [ref=e10068] [cursor=pointer]
+                - 'cell "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped" [ref=e10069]':
+                  - generic [ref=e10072]:
+                    - button "Sandler, Adam (1468TEST)" [ref=e10075] [cursor=pointer]:
+                      - generic [ref=e10076]: Sandler, Adam (1468TEST)
+                    - generic [ref=e10077]: "MCI#: 1446223418"
+                    - generic [ref=e10078]: "CC: Not Mapped"
+                - 'cell "42176947 S: 01/01/2024 E: 01/01/2024" [ref=e10079]':
+                  - generic [ref=e10082]:
+                    - generic [ref=e10083]: "42176947"
+                    - generic [ref=e10084]: "S: 01/01/2024"
+                    - generic [ref=e10085]: "E: 01/01/2024"
+                - 'cell "V: MAYO CLINIC HEALTH SYSTEM - MCHS PHARMACY & HOME MEDICAL Provider#: 391528920" [ref=e10086]':
+                  - generic [ref=e10090]:
+                    - generic [ref=e10091]: "V: MAYO CLINIC HEALTH SYSTEM - MCHS PHARMACY & HOME MEDICAL"
+                    - generic [ref=e10092]: "Provider#: 391528920"
+                - 'cell "P: Not Mapped F: RIS SDPC" [ref=e10093]':
+                  - generic [ref=e10097]:
+                    - generic [ref=e10098]:
+                      - text: "P:"
+                      - generic [ref=e10099]: Not Mapped
+                    - generic [ref=e10100]: "F: RIS SDPC"
+                - 'cell "SPC: 112.99 Code & Mod.: T2028" [ref=e10101]':
+                  - generic [ref=e10105]:
+                    - generic [ref=e10106]:
+                      - generic [ref=e10107]: "SPC:"
+                      - text: "112.99"
+                    - generic [ref=e10108]:
+                      - generic [ref=e10109]: "Code & Mod.:"
+                      - text: T2028
+                - 'cell "F: Monthly U: Each" [ref=e10110]':
+                  - generic [ref=e10114]:
+                    - generic [ref=e10115]: "F: Monthly"
+                    - generic [ref=e10116]:
+                      - text: "U:"
+                      - generic [ref=e10117]: Each
+                - cell "1" [ref=e10118]:
+                  - generic [ref=e10122]: "1"
+                - cell "$60" [ref=e10123]:
+                  - generic [ref=e10127]: $60
+                - 'cell "T: 0 A: $0" [ref=e10128]':
+                  - generic [ref=e10132]:
+                    - generic [ref=e10133]: "T: 0"
+                    - generic [ref=e10134]: "A: $0"
+                - cell "Mapping Error Payer Not Mapped" [ref=e10135]:
+                  - generic [ref=e10140]:
+                    - paragraph [ref=e10141]: Mapping Error
+                    - list [ref=e10142]:
+                      - listitem [ref=e10143]: Payer Not Mapped
+                - cell [ref=e10144]:
+                  - generic [ref=e10148]:
+                    - textbox "mm/dd/yyyy" [ref=e10149]
+                    - img [ref=e10151] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e10154]:
+                  - paragraph [ref=e10156]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e10157] [cursor=pointer]:
+                      - img [ref=e10158]
+                - cell [ref=e10160]:
+                  - button [ref=e10161] [cursor=pointer]:
+                    - img [ref=e10162]
+              - 'row "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped 42176948 S: 01/01/2024 E: 12/31/2024 V: MOBILE HELP LLC Provider#: 113787480 P: Not Mapped F: IRIS Waiver SPC: 112.46 Code & Mod.: S5161 F: Monthly U: Month 1 $36.7 T: 12 A: $440.4 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e10166]':
+                - cell [ref=e10167]:
+                  - button [ref=e10168] [cursor=pointer]:
+                    - img [ref=e10169]
+                - cell [ref=e10170]:
+                  - checkbox [ref=e10173] [cursor=pointer]
+                - 'cell "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped" [ref=e10174]':
+                  - generic [ref=e10177]:
+                    - button "Sandler, Adam (1468TEST)" [ref=e10180] [cursor=pointer]:
+                      - generic [ref=e10181]: Sandler, Adam (1468TEST)
+                    - generic [ref=e10182]: "MCI#: 1446223418"
+                    - generic [ref=e10183]: "CC: Not Mapped"
+                - 'cell "42176948 S: 01/01/2024 E: 12/31/2024" [ref=e10184]':
+                  - generic [ref=e10187]:
+                    - generic [ref=e10188]: "42176948"
+                    - generic [ref=e10189]: "S: 01/01/2024"
+                    - generic [ref=e10190]: "E: 12/31/2024"
+                - 'cell "V: MOBILE HELP LLC Provider#: 113787480" [ref=e10191]':
+                  - generic [ref=e10195]:
+                    - generic [ref=e10196]: "V: MOBILE HELP LLC"
+                    - generic [ref=e10197]: "Provider#: 113787480"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e10198]':
+                  - generic [ref=e10202]:
+                    - generic [ref=e10203]:
+                      - text: "P:"
+                      - generic [ref=e10204]: Not Mapped
+                    - generic [ref=e10205]: "F: IRIS Waiver"
+                - 'cell "SPC: 112.46 Code & Mod.: S5161" [ref=e10206]':
+                  - generic [ref=e10210]:
+                    - generic [ref=e10211]:
+                      - generic [ref=e10212]: "SPC:"
+                      - text: "112.46"
+                    - generic [ref=e10213]:
+                      - generic [ref=e10214]: "Code & Mod.:"
+                      - text: S5161
+                - 'cell "F: Monthly U: Month" [ref=e10215]':
+                  - generic [ref=e10219]:
+                    - generic [ref=e10220]: "F: Monthly"
+                    - generic [ref=e10221]:
+                      - text: "U:"
+                      - generic [ref=e10222]: Month
+                - cell "1" [ref=e10223]:
+                  - generic [ref=e10227]: "1"
+                - cell "$36.7" [ref=e10228]:
+                  - generic [ref=e10232]: $36.7
+                - 'cell "T: 12 A: $440.4" [ref=e10233]':
+                  - generic [ref=e10237]:
+                    - generic [ref=e10238]: "T: 12"
+                    - generic [ref=e10239]: "A: $440.4"
+                - cell "Mapping Error Payer Not Mapped" [ref=e10240]:
+                  - generic [ref=e10245]:
+                    - paragraph [ref=e10246]: Mapping Error
+                    - list [ref=e10247]:
+                      - listitem [ref=e10248]: Payer Not Mapped
+                - cell [ref=e10249]:
+                  - generic [ref=e10253]:
+                    - textbox "mm/dd/yyyy" [ref=e10254]
+                    - img [ref=e10256] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e10259]:
+                  - paragraph [ref=e10261]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e10262] [cursor=pointer]:
+                      - img [ref=e10263]
+                - cell [ref=e10265]:
+                  - button [ref=e10266] [cursor=pointer]:
+                    - img [ref=e10267]
+              - 'row "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped 42186950 S: 01/01/2024 E: 01/01/2024 E: , PHW#: --- P: Not Mapped F: IRIS Waiver SPC: 104.24 Code & Mod.: S5120: U1 F: Weekly U: Hour 2 $26.25 T: 2 A: $58.43 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e10271]':
+                - cell [ref=e10272]:
+                  - button [ref=e10273] [cursor=pointer]:
+                    - img [ref=e10274]
+                - cell [ref=e10275]:
+                  - checkbox [ref=e10278] [cursor=pointer]
+                - 'cell "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped" [ref=e10279]':
+                  - generic [ref=e10282]:
+                    - button "Sandler, Adam (1468TEST)" [ref=e10285] [cursor=pointer]:
+                      - generic [ref=e10286]: Sandler, Adam (1468TEST)
+                    - generic [ref=e10287]: "MCI#: 1446223418"
+                    - generic [ref=e10288]: "CC: Not Mapped"
+                - 'cell "42186950 S: 01/01/2024 E: 01/01/2024" [ref=e10289]':
+                  - generic [ref=e10292]:
+                    - generic [ref=e10293]: "42186950"
+                    - generic [ref=e10294]: "S: 01/01/2024"
+                    - generic [ref=e10295]: "E: 01/01/2024"
+                - 'cell "E: , PHW#: ---" [ref=e10296]':
+                  - generic [ref=e10300]:
+                    - generic [ref=e10301]: "E: ,"
+                    - generic [ref=e10302]: "PHW#: ---"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e10303]':
+                  - generic [ref=e10307]:
+                    - generic [ref=e10308]:
+                      - text: "P:"
+                      - generic [ref=e10309]: Not Mapped
+                    - generic [ref=e10310]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.24 Code & Mod.: S5120: U1" [ref=e10311]':
+                  - generic [ref=e10315]:
+                    - generic [ref=e10316]:
+                      - generic [ref=e10317]: "SPC:"
+                      - text: "104.24"
+                    - generic [ref=e10318]:
+                      - generic [ref=e10319]: "Code & Mod.:"
+                      - text: "S5120: U1"
+                - 'cell "F: Weekly U: Hour" [ref=e10320]':
+                  - generic [ref=e10324]:
+                    - generic [ref=e10325]: "F: Weekly"
+                    - generic [ref=e10326]:
+                      - text: "U:"
+                      - generic [ref=e10327]: Hour
+                - cell "2" [ref=e10328]:
+                  - generic [ref=e10332]: "2"
+                - cell "$26.25" [ref=e10333]:
+                  - generic [ref=e10337]: $26.25
+                - 'cell "T: 2 A: $58.43" [ref=e10338]':
+                  - generic [ref=e10342]:
+                    - generic [ref=e10343]: "T: 2"
+                    - generic [ref=e10344]: "A: $58.43"
+                - cell "Mapping Error Payer Not Mapped" [ref=e10345]:
+                  - generic [ref=e10350]:
+                    - paragraph [ref=e10351]: Mapping Error
+                    - list [ref=e10352]:
+                      - listitem [ref=e10353]: Payer Not Mapped
+                - cell [ref=e10354]:
+                  - generic [ref=e10358]:
+                    - textbox "mm/dd/yyyy" [ref=e10359]
+                    - img [ref=e10361] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e10364]:
+                  - paragraph [ref=e10366]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e10367] [cursor=pointer]:
+                      - img [ref=e10368]
+                - cell [ref=e10370]:
+                  - button [ref=e10371] [cursor=pointer]:
+                    - img [ref=e10372]
+              - 'row "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped 82156947 S: 01/01/2024 E: 01/01/2024 V: MAYO CLINIC HEALTH SYSTEM - MCHS PHARMACY & HOME MEDICAL Provider#: 391528920 P: Not Mapped F: RIS SDPC SPC: 112.99 Code & Mod.: T2028 F: Monthly U: Each 1 $60 T: 0 A: $0 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e10376]':
+                - cell [ref=e10377]:
+                  - button [ref=e10378] [cursor=pointer]:
+                    - img [ref=e10379]
+                - cell [ref=e10380]:
+                  - checkbox [ref=e10383] [cursor=pointer]
+                - 'cell "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped" [ref=e10384]':
+                  - generic [ref=e10387]:
+                    - button "Sandler, Adam (1468TEST)" [ref=e10390] [cursor=pointer]:
+                      - generic [ref=e10391]: Sandler, Adam (1468TEST)
+                    - generic [ref=e10392]: "MCI#: 1446223418"
+                    - generic [ref=e10393]: "CC: Not Mapped"
+                - 'cell "82156947 S: 01/01/2024 E: 01/01/2024" [ref=e10394]':
+                  - generic [ref=e10397]:
+                    - generic [ref=e10398]: "82156947"
+                    - generic [ref=e10399]: "S: 01/01/2024"
+                    - generic [ref=e10400]: "E: 01/01/2024"
+                - 'cell "V: MAYO CLINIC HEALTH SYSTEM - MCHS PHARMACY & HOME MEDICAL Provider#: 391528920" [ref=e10401]':
+                  - generic [ref=e10405]:
+                    - generic [ref=e10406]: "V: MAYO CLINIC HEALTH SYSTEM - MCHS PHARMACY & HOME MEDICAL"
+                    - generic [ref=e10407]: "Provider#: 391528920"
+                - 'cell "P: Not Mapped F: RIS SDPC" [ref=e10408]':
+                  - generic [ref=e10412]:
+                    - generic [ref=e10413]:
+                      - text: "P:"
+                      - generic [ref=e10414]: Not Mapped
+                    - generic [ref=e10415]: "F: RIS SDPC"
+                - 'cell "SPC: 112.99 Code & Mod.: T2028" [ref=e10416]':
+                  - generic [ref=e10420]:
+                    - generic [ref=e10421]:
+                      - generic [ref=e10422]: "SPC:"
+                      - text: "112.99"
+                    - generic [ref=e10423]:
+                      - generic [ref=e10424]: "Code & Mod.:"
+                      - text: T2028
+                - 'cell "F: Monthly U: Each" [ref=e10425]':
+                  - generic [ref=e10429]:
+                    - generic [ref=e10430]: "F: Monthly"
+                    - generic [ref=e10431]:
+                      - text: "U:"
+                      - generic [ref=e10432]: Each
+                - cell "1" [ref=e10433]:
+                  - generic [ref=e10437]: "1"
+                - cell "$60" [ref=e10438]:
+                  - generic [ref=e10442]: $60
+                - 'cell "T: 0 A: $0" [ref=e10443]':
+                  - generic [ref=e10447]:
+                    - generic [ref=e10448]: "T: 0"
+                    - generic [ref=e10449]: "A: $0"
+                - cell "Mapping Error Payer Not Mapped" [ref=e10450]:
+                  - generic [ref=e10455]:
+                    - paragraph [ref=e10456]: Mapping Error
+                    - list [ref=e10457]:
+                      - listitem [ref=e10458]: Payer Not Mapped
+                - cell [ref=e10459]:
+                  - generic [ref=e10463]:
+                    - textbox "mm/dd/yyyy" [ref=e10464]
+                    - img [ref=e10466] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e10469]:
+                  - paragraph [ref=e10471]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e10472] [cursor=pointer]:
+                      - img [ref=e10473]
+                - cell [ref=e10475]:
+                  - button [ref=e10476] [cursor=pointer]:
+                    - img [ref=e10477]
+              - 'row "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped 5345346345 S: 07/07/2022 E: 11/30/2022 E: Not Mapped PHW#: 340905398 P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 15 $11.5 T: 315 A: $4031.84 Mapping Error Employee Not Mapped Payer Not Mapped No notes available Edit Note" [ref=e10481]':
+                - cell [ref=e10482]:
+                  - button [ref=e10483] [cursor=pointer]:
+                    - img [ref=e10484]
+                - cell [ref=e10485]:
+                  - checkbox [ref=e10488] [cursor=pointer]
+                - 'cell "Sandler, Adam (1468TEST) MCI#: 1446223418 CC: Not Mapped" [ref=e10489]':
+                  - generic [ref=e10492]:
+                    - button "Sandler, Adam (1468TEST)" [ref=e10495] [cursor=pointer]:
+                      - generic [ref=e10496]: Sandler, Adam (1468TEST)
+                    - generic [ref=e10497]: "MCI#: 1446223418"
+                    - generic [ref=e10498]: "CC: Not Mapped"
+                - 'cell "5345346345 S: 07/07/2022 E: 11/30/2022" [ref=e10499]':
+                  - generic [ref=e10502]:
+                    - generic [ref=e10503]: "5345346345"
+                    - generic [ref=e10504]: "S: 07/07/2022"
+                    - generic [ref=e10505]: "E: 11/30/2022"
+                - 'cell "E: Not Mapped PHW#: 340905398" [ref=e10506]':
+                  - generic [ref=e10510]:
+                    - generic [ref=e10511]:
+                      - text: "E:"
+                      - generic [ref=e10512]: Not Mapped
+                    - generic [ref=e10513]: "PHW#: 340905398"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e10514]':
+                  - generic [ref=e10518]:
+                    - generic [ref=e10519]:
+                      - text: "P:"
+                      - generic [ref=e10520]: Not Mapped
+                    - generic [ref=e10521]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e10522]':
+                  - generic [ref=e10526]:
+                    - generic [ref=e10527]:
+                      - generic [ref=e10528]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e10529]:
+                      - generic [ref=e10530]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e10531]':
+                  - generic [ref=e10535]:
+                    - generic [ref=e10536]: "F: Weekly"
+                    - generic [ref=e10537]:
+                      - text: "U:"
+                      - generic [ref=e10538]: Hour
+                - cell "15" [ref=e10539]:
+                  - generic [ref=e10543]: "15"
+                - cell "$11.5" [ref=e10544]:
+                  - generic [ref=e10548]: $11.5
+                - 'cell "T: 315 A: $4031.84" [ref=e10549]':
+                  - generic [ref=e10553]:
+                    - generic [ref=e10554]: "T: 315"
+                    - generic [ref=e10555]: "A: $4031.84"
+                - cell "Mapping Error Employee Not Mapped Payer Not Mapped" [ref=e10556]:
+                  - generic [ref=e10561]:
+                    - paragraph [ref=e10562]: Mapping Error
+                    - list [ref=e10563]:
+                      - listitem [ref=e10564]: Employee Not Mapped
+                      - listitem [ref=e10565]: Payer Not Mapped
+                - cell [ref=e10566]:
+                  - generic [ref=e10570]:
+                    - textbox "mm/dd/yyyy" [ref=e10571]
+                    - img [ref=e10573] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e10576]:
+                  - paragraph [ref=e10578]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e10579] [cursor=pointer]:
+                      - img [ref=e10580]
+                - cell [ref=e10582]:
+                  - button [ref=e10583] [cursor=pointer]:
+                    - img [ref=e10584]
+              - 'row "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped 434343345 S: 06/16/2017 E: 07/16/2017 V: GARTH POINT GROUP INC Provider#: 473613891 P: Not Mapped F: IRIS SDPC SPC: 112.99 Code & Mod.: T2028: UN F: Annually U: Each 1 $200 T: 1 A: $200 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e10588]':
+                - cell [ref=e10589]:
+                  - button [ref=e10590] [cursor=pointer]:
+                    - img [ref=e10591]
+                - cell [ref=e10592]:
+                  - checkbox [ref=e10595] [cursor=pointer]
+                - 'cell "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped" [ref=e10596]':
+                  - generic [ref=e10599]:
+                    - button "Acevedo, Alanis (WIE148440)" [ref=e10602] [cursor=pointer]:
+                      - generic [ref=e10603]: Acevedo, Alanis (WIE148440)
+                    - generic [ref=e10604]: "MCI#: 9418431491"
+                    - generic [ref=e10605]: "CC: Not Mapped"
+                - 'cell "434343345 S: 06/16/2017 E: 07/16/2017" [ref=e10606]':
+                  - generic [ref=e10609]:
+                    - generic [ref=e10610]: "434343345"
+                    - generic [ref=e10611]: "S: 06/16/2017"
+                    - generic [ref=e10612]: "E: 07/16/2017"
+                - 'cell "V: GARTH POINT GROUP INC Provider#: 473613891" [ref=e10613]':
+                  - generic [ref=e10617]:
+                    - generic [ref=e10618]: "V: GARTH POINT GROUP INC"
+                    - generic [ref=e10619]: "Provider#: 473613891"
+                - 'cell "P: Not Mapped F: IRIS SDPC" [ref=e10620]':
+                  - generic [ref=e10624]:
+                    - generic [ref=e10625]:
+                      - text: "P:"
+                      - generic [ref=e10626]: Not Mapped
+                    - generic [ref=e10627]: "F: IRIS SDPC"
+                - 'cell "SPC: 112.99 Code & Mod.: T2028: UN" [ref=e10628]':
+                  - generic [ref=e10632]:
+                    - generic [ref=e10633]:
+                      - generic [ref=e10634]: "SPC:"
+                      - text: "112.99"
+                    - generic [ref=e10635]:
+                      - generic [ref=e10636]: "Code & Mod.:"
+                      - text: "T2028: UN"
+                - 'cell "F: Annually U: Each" [ref=e10637]':
+                  - generic [ref=e10641]:
+                    - generic [ref=e10642]: "F: Annually"
+                    - generic [ref=e10643]:
+                      - text: "U:"
+                      - generic [ref=e10644]: Each
+                - cell "1" [ref=e10645]:
+                  - generic [ref=e10649]: "1"
+                - cell "$200" [ref=e10650]:
+                  - generic [ref=e10654]: $200
+                - 'cell "T: 1 A: $200" [ref=e10655]':
+                  - generic [ref=e10659]:
+                    - generic [ref=e10660]: "T: 1"
+                    - generic [ref=e10661]: "A: $200"
+                - cell "Mapping Error Payer Not Mapped" [ref=e10662]:
+                  - generic [ref=e10667]:
+                    - paragraph [ref=e10668]: Mapping Error
+                    - list [ref=e10669]:
+                      - listitem [ref=e10670]: Payer Not Mapped
+                - cell [ref=e10671]:
+                  - generic [ref=e10675]:
+                    - textbox "mm/dd/yyyy" [ref=e10676]
+                    - img [ref=e10678] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e10681]:
+                  - paragraph [ref=e10683]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e10684] [cursor=pointer]:
+                      - img [ref=e10685]
+                - cell [ref=e10687]:
+                  - button [ref=e10688] [cursor=pointer]:
+                    - img [ref=e10689]
+              - 'row "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped 344354545 S: 01/01/2017 E: 12/31/2017 --- P: Not Mapped F: IRIS Waiver SPC: 104.23 Code & Mod.: S5125: KX F: Weekly U: Hour 1.25 $15 T: 66.25 A: $1111.54 Mapping Error Payer Not Mapped No notes available Edit Note" [ref=e10693]':
+                - cell [ref=e10694]:
+                  - button [ref=e10695] [cursor=pointer]:
+                    - img [ref=e10696]
+                - cell [ref=e10697]:
+                  - checkbox [ref=e10700] [cursor=pointer]
+                - 'cell "Acevedo, Alanis (WIE148440) MCI#: 9418431491 CC: Not Mapped" [ref=e10701]':
+                  - generic [ref=e10704]:
+                    - button "Acevedo, Alanis (WIE148440)" [ref=e10707] [cursor=pointer]:
+                      - generic [ref=e10708]: Acevedo, Alanis (WIE148440)
+                    - generic [ref=e10709]: "MCI#: 9418431491"
+                    - generic [ref=e10710]: "CC: Not Mapped"
+                - 'cell "344354545 S: 01/01/2017 E: 12/31/2017" [ref=e10711]':
+                  - generic [ref=e10714]:
+                    - generic [ref=e10715]: "344354545"
+                    - generic [ref=e10716]: "S: 01/01/2017"
+                    - generic [ref=e10717]: "E: 12/31/2017"
+                - cell "---" [ref=e10718]:
+                  - generic [ref=e10722]: "---"
+                - 'cell "P: Not Mapped F: IRIS Waiver" [ref=e10723]':
+                  - generic [ref=e10727]:
+                    - generic [ref=e10728]:
+                      - text: "P:"
+                      - generic [ref=e10729]: Not Mapped
+                    - generic [ref=e10730]: "F: IRIS Waiver"
+                - 'cell "SPC: 104.23 Code & Mod.: S5125: KX" [ref=e10731]':
+                  - generic [ref=e10735]:
+                    - generic [ref=e10736]:
+                      - generic [ref=e10737]: "SPC:"
+                      - text: "104.23"
+                    - generic [ref=e10738]:
+                      - generic [ref=e10739]: "Code & Mod.:"
+                      - text: "S5125: KX"
+                - 'cell "F: Weekly U: Hour" [ref=e10740]':
+                  - generic [ref=e10744]:
+                    - generic [ref=e10745]: "F: Weekly"
+                    - generic [ref=e10746]:
+                      - text: "U:"
+                      - generic [ref=e10747]: Hour
+                - cell "1.25" [ref=e10748]:
+                  - generic [ref=e10752]: "1.25"
+                - cell "$15" [ref=e10753]:
+                  - generic [ref=e10757]: $15
+                - 'cell "T: 66.25 A: $1111.54" [ref=e10758]':
+                  - generic [ref=e10762]:
+                    - generic [ref=e10763]: "T: 66.25"
+                    - generic [ref=e10764]: "A: $1111.54"
+                - cell "Mapping Error Payer Not Mapped" [ref=e10765]:
+                  - generic [ref=e10770]:
+                    - paragraph [ref=e10771]: Mapping Error
+                    - list [ref=e10772]:
+                      - listitem [ref=e10773]: Payer Not Mapped
+                - cell [ref=e10774]:
+                  - generic [ref=e10778]:
+                    - textbox "mm/dd/yyyy" [ref=e10779]
+                    - img [ref=e10781] [cursor=pointer]
+                - cell "No notes available Edit Note" [ref=e10784]:
+                  - paragraph [ref=e10786]:
+                    - text: No notes available
+                    - button "Edit Note" [ref=e10787] [cursor=pointer]:
+                      - img [ref=e10788]
+                - cell [ref=e10790]:
+                  - button [ref=e10791] [cursor=pointer]:
+                    - img [ref=e10792]
+          - generic [ref=e10797]:
+            - navigation "pagination" [ref=e10798]:
+              - list [ref=e10799]:
+                - listitem [ref=e10800] [cursor=pointer]:
+                  - img [ref=e10802]
+                - listitem [ref=e10804] [cursor=pointer]:
+                  - button "1" [ref=e10805]
+                - listitem [ref=e10806] [cursor=pointer]:
+                  - button "2" [ref=e10807]
+                - img [ref=e10809]
+                - listitem [ref=e10813] [cursor=pointer]:
+                  - button "91" [ref=e10814]
+                - listitem [ref=e10815] [cursor=pointer]:
+                  - button "Go to next page" [ref=e10816]:
+                    - img [ref=e10817]
+            - generic [ref=e10819]: Showing 1 - 100 of 9097 Records, Page 1 of 91
+  - alert [ref=e10820]
+```
