@@ -79,9 +79,21 @@ export class map {
                         break; // stop after first match
                     }
                   }
+                  try {
+                    expect( payerpopup.locator(`//button[@type='submit']`)).toBeVisible();
+                      console.log('✅ Map button available');
+                  } catch (error) {
+                    console.log('❌ Map button not available');
+                    await payerpopup.close();
+                  }
                 await payerpopup.locator(`//button[@type='submit']`).click();
                 console.log(`Payer mapped for Auth Number: ${authnumberlist[i]}\n---------`);
                 await payerpopup.waitForTimeout(3000);
                 }
     }
+ async mapvendor(){
+
+ }
+
+
 }
