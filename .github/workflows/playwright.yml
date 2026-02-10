@@ -3,10 +3,6 @@ on:
  # schedule:  
    # - cron: "30 22 * * *" # Runs at 22:30  # Runs daily 4AM IST
   workflow_dispatch: 
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
 jobs:
   test:
     timeout-minutes: 60 
