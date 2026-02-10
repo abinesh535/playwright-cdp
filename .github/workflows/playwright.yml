@@ -8,7 +8,7 @@ jobs:
     timeout-minutes: 60 
     runs-on: ubuntu-latest
 
-env:
+    env:
       BASE_URL: ${{ secrets.BASE_URL }}
       PRODUCT_URL: ${{ secrets.PRODUCT_URL }}
       LOGINUSERNAME: ${{ secrets.LOGINUSERNAME }}
