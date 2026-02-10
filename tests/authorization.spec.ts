@@ -154,7 +154,7 @@ test('@addfromimport Import auth for client', async ({ page }) => {
 })
 
 
-test.only('@mappayer Map payer for auth', async ({ page }) => {
+test('@mappayer Map payer for auth', async ({ page }) => {
   test.slow();
   test.setTimeout(10 * 60 * 1000);
   await page.goto('https://staging.kantimehealth.net/HH/Z1/UI/Common/NewCustomUser.aspx');
