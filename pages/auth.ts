@@ -65,7 +65,7 @@ export class createauth {
         this.authrule = page.locator(`//span[normalize-space()='Hard Stop']/ancestor::label//button[@role='checkbox']`);
         this.clicksave = page.getByText('Save as Active');
         this.savemessage = page.locator(`//*[@class='Toastify__toast-body']`);
-        this.authpagess = page.locator(`//*[@class='bg-body font-lato text-[#333]']`);
+        this.authpagess = page.locator(`(//*[@class='bg-body font-lato text-[#333]'])[1]`);
         this.summary = page.locator(`//div[@class='pt-2']`);
         this.sameauthnumber = page.locator(`//*[@role='dialog']`);
         this.getvalidation = page.locator(`//td[@class='text-sm py-1 px-4 w-full false']`);
