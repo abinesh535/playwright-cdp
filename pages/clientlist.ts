@@ -23,7 +23,7 @@ export class clientreport {
       await this.clientmenu.hover();
       await this.clientsubmenu.click();
       await this.page.waitForTimeout(5000);
-      await this.clicksearch.fill('WIE4375');
+      await this.clicksearch.pressSequentially('WIE4375');
       await this.page.keyboard.press('Enter');
       await this.selectclient.click();
       await this.clickclienthyperlink.click();
