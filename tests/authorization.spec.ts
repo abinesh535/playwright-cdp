@@ -9,6 +9,8 @@ import { faker } from '@faker-js/faker';
 import { importauthactivities } from '../pages/importauth';
 import { map } from '../pages/mapping';
 
+test.describe.configure({ mode: 'serial' });
+
 const fakerauth = faker.word.words(1);
 const enterauth = `auth${faker.number.int({ min: 100, max: 999 })}`;
 
